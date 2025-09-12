@@ -1,4 +1,6 @@
 (fp_lib_table
   (version 7)
   (lib (name "Project_Footprints")(type "KiCad")(uri "${KIPRJMOD}/lib/Project_Footprints.pretty")(options "")(descr ""))
+  (lib (name "TPS54325PWPR")(type "Legacy")(uri "${KIPRJMOD}/lib/Project_Footprints_Legacy/TPS54325PWPR.mod")(options "")(descr "")(disabled))
+  (lib (name "TPS54294PWPR")(type "Legacy")(uri "${KIPRJMOD}/lib/Project_Footprints_Legacy/TPS54294PWPR.mod")(options "")(descr "")(disabled))
 )
