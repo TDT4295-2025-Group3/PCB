@@ -90,8 +90,8 @@
 		)
 	)
 	(sheet
-		(at 27.94 22.86)
-		(size 41.91 30.48)
+		(at 25.4 22.86)
+		(size 44.45 30.48)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -106,7 +106,7 @@
 		)
 		(uuid "bcd5db72-7a86-4b09-8b04-57c7659cbae7")
 		(property "Sheetname" "VGA"
-			(at 27.94 22.1484 0)
+			(at 25.4 22.1484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -115,12 +115,202 @@
 			)
 		)
 		(property "Sheetfile" "VGA.kicad_sch"
-			(at 27.94 53.9246 0)
+			(at 25.4 53.9246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "B0" input
+			(at 60.96 53.34 270)
+			(uuid "d45ab06c-8dbf-4efd-9bb5-e1dc31abf694")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "B2" input
+			(at 55.88 53.34 270)
+			(uuid "e5c3c982-ae84-40bf-8598-913ff3706dce")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ID2" output
+			(at 69.85 33.02 0)
+			(uuid "9431632b-0ebd-48ab-9ce5-4ef16bffdbff")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "HSYNC" input
+			(at 69.85 45.72 0)
+			(uuid "baea851f-ba58-4892-a6eb-990025d2b52a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ID3" output
+			(at 69.85 30.48 0)
+			(uuid "47b6526c-ccd2-4941-8e5a-0da2c9d485bb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ID1" output
+			(at 69.85 35.56 0)
+			(uuid "7af6c793-c11f-464a-8a47-8fca70b20687")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "R3" input
+			(at 27.94 53.34 270)
+			(uuid "0036cf96-8fa4-40d2-bd4f-4256095e607b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "R0" input
+			(at 35.56 53.34 270)
+			(uuid "5379e505-a65a-4610-bda0-e743147f4c75")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "B3" input
+			(at 53.34 53.34 270)
+			(uuid "127cd5c1-f45e-4ce2-bfaf-70ba2c650be2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SGND" input
+			(at 69.85 41.91 0)
+			(uuid "b2bf5038-87b1-4c36-b258-4cdfd4d535b4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "G3" input
+			(at 40.64 53.34 270)
+			(uuid "30df7d15-baa9-4544-9101-74364a96eb6b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "G1" input
+			(at 45.72 53.34 270)
+			(uuid "3c4cd50c-2f6a-4e85-8f17-64d0e0a147ad")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "G2" input
+			(at 43.18 53.34 270)
+			(uuid "facf8338-5693-4465-bb4a-5d2b20853163")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ID0" output
+			(at 69.85 38.1 0)
+			(uuid "f3571465-bdf5-48e1-b45a-ff804a467196")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "R1" input
+			(at 33.02 53.34 270)
+			(uuid "998038cd-d927-481a-8cbe-eaed81771bd8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "R2" input
+			(at 30.48 53.34 270)
+			(uuid "6eea917a-e35e-4258-93c2-3a7f43098688")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "G0" input
+			(at 48.26 53.34 270)
+			(uuid "c87867ee-04fb-4944-b8e0-df6fa4448abc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VSYNC" input
+			(at 69.85 48.26 0)
+			(uuid "f1e2d3de-417a-4014-997d-e8d8ddb69e29")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "B1" input
+			(at 58.42 53.34 270)
+			(uuid "17058dc2-4651-4a9a-a4ec-f3ffcff503f2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
