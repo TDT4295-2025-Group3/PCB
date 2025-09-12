@@ -207,6 +207,76 @@
 				(justify left top)
 			)
 		)
+		(pin "SDMMC_CLK" input
+			(at 240.03 124.46 180)
+			(uuid "2fc7aa9e-178a-4622-aa03-b3ddc06a5932")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SDMMC_CMD" input
+			(at 240.03 127 180)
+			(uuid "ea90cb14-cabd-490d-9075-7b8d40daae7e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SDMMC_DAT0" input
+			(at 240.03 133.35 180)
+			(uuid "391447ad-24a6-4745-b410-160ede9be79f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SDMMC_DAT1" input
+			(at 240.03 135.89 180)
+			(uuid "4f5375d3-86b1-420c-af88-d5202870410f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SDMMC_DAT2" input
+			(at 240.03 138.43 180)
+			(uuid "1b2da93b-b9e4-4d0b-ae2a-f4c0d29f1b7d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SDMMC_DAT3" input
+			(at 240.03 140.97 180)
+			(uuid "eae99488-cdaa-4716-876a-f55557e5101b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SD_CD" input
+			(at 240.03 147.32 180)
+			(uuid "258f1569-ba9d-4e5e-ba04-a8a5272b3ff7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "pcb_project"
 				(path "/98f80f66-4595-4d0f-90ca-59b2db6f447b"
