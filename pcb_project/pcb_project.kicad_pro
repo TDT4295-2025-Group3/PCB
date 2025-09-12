@@ -420,6 +420,18 @@
     [
       "1a3eaa4f-d49c-486a-8882-cdef72ae86f4",
       "MCU"
+    ],
+    [
+      "bcd5db72-7a86-4b09-8b04-57c7659cbae7",
+      "VGA"
+    ],
+    [
+      "ce445763-774c-4caf-b911-9c6f9b75d87a",
+      "Power"
+    ],
+    [
+      "dc6b7bff-d1d4-46df-9320-1308e1eae973",
+      "SD"
     ]
   ],
   "text_variables": {}
