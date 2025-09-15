@@ -364,6 +364,118 @@
 		)
 	)
 	(sheet
+		(at 162.56 26.67)
+		(size 29.21 17.78)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d8354ada-74b3-4c6a-8679-c8f4ff1d8cd0")
+		(property "Sheetname" "USB"
+			(at 162.56 25.9584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "USB.kicad_sch"
+			(at 162.56 45.0346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "PSU_+5V" input
+			(at 191.77 33.02 0)
+			(uuid "59835a69-ff6d-464b-9473-a4efa46a1763")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USB_ID" input
+			(at 186.69 44.45 270)
+			(uuid "ef6fb908-3b08-4436-ada6-b0e7796215a2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PSU_+3.3V" input
+			(at 191.77 29.21 0)
+			(uuid "c348b7ac-82f4-41cc-aa6e-b83be7b0394f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "D+" input
+			(at 179.07 44.45 270)
+			(uuid "d60267a0-be0e-4318-979f-5f3acb37470e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USB_MCU_EN" input
+			(at 171.45 44.45 270)
+			(uuid "a7b1efd6-b896-483f-936d-46a71d272b8a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MCU_USB_OC" input
+			(at 167.64 44.45 270)
+			(uuid "e3945b2d-3745-4426-81d6-d45a2a9aea8b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "D-" input
+			(at 182.88 44.45 270)
+			(uuid "517ed827-517d-4609-96bf-d57564b405aa")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "pcb_project"
+				(path "/98f80f66-4595-4d0f-90ca-59b2db6f447b"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 240.03 120.65)
 		(size 36.83 29.21)
 		(exclude_from_sim no)
