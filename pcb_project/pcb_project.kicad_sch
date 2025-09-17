@@ -90,6 +90,48 @@
 		)
 	)
 	(sheet
+		(at 125.73 144.78)
+		(size 36.83 27.94)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "8d37cb1b-68e3-4c4f-bec3-1efbc6c7e4dc")
+		(property "Sheetname" "Controller"
+			(at 125.73 144.0684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "controller.kicad_sch"
+			(at 125.73 173.3046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "pcb_project"
+				(path "/98f80f66-4595-4d0f-90ca-59b2db6f447b"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 25.4 22.86)
 		(size 44.45 30.48)
 		(exclude_from_sim no)

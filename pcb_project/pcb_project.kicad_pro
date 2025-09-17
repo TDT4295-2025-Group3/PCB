@@ -637,6 +637,10 @@
     [
       "d8354ada-74b3-4c6a-8679-c8f4ff1d8cd0",
       "USB"
+    ],
+    [
+      "8d37cb1b-68e3-4c4f-bec3-1efbc6c7e4dc",
+      "Controller"
     ]
   ],
   "text_variables": {}
