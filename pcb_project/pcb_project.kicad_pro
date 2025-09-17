@@ -641,6 +641,10 @@
     [
       "8d37cb1b-68e3-4c4f-bec3-1efbc6c7e4dc",
       "Controller"
+    ],
+    [
+      "35305def-b224-49b9-b18d-edcf9292ca07",
+      "7_segment_led+IC"
     ]
   ],
   "text_variables": {}

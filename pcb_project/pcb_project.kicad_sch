@@ -48,6 +48,48 @@
 		)
 	)
 	(sheet
+		(at 99.06 26.67)
+		(size 40.64 21.59)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "35305def-b224-49b9-b18d-edcf9292ca07")
+		(property "Sheetname" "7_segment_led+IC"
+			(at 99.06 25.9584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "7_segment_LED.kicad_sch"
+			(at 99.06 48.8446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "pcb_project"
+				(path "/98f80f66-4595-4d0f-90ca-59b2db6f447b"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 72.39 92.71)
 		(size 30.48 27.94)
 		(exclude_from_sim no)
