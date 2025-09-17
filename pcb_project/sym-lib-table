@@ -3,4 +3,5 @@
   (lib (name "MEM2052-00-195-00-A")(type "KiCad")(uri "${KIPRJMOD}/lib/Project_Symbols/MEM2052-00-195-00-A.kicad_sym")(options "")(descr ""))
   (lib (name "TPS54325PWPR")(type "KiCad")(uri "${KIPRJMOD}/lib/Project_Symbols/TPS54325PWPR.kicad_sym")(options "")(descr ""))
   (lib (name "TPS54294PWPR")(type "KiCad")(uri "${KIPRJMOD}/lib/Project_Symbols/TPS54294PWPR.kicad_sym")(options "")(descr ""))
+  (lib (name "COM-09032")(type "KiCad")(uri "${KIPRJMOD}/lib/Project_Symbols/COM-09032.kicad_sym")(options "")(descr ""))
 )
