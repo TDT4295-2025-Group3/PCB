@@ -645,6 +645,14 @@
     [
       "35305def-b224-49b9-b18d-edcf9292ca07",
       "7_segment_led+IC"
+    ],
+    [
+      "6eb3ac2c-fa04-4536-9a86-3231e0211a3c",
+      "A_Bank14&15"
+    ],
+    [
+      "1311c77a-2e60-4e70-8492-84cf53095df7",
+      "B_Bank34&35"
     ]
   ],
   "text_variables": {}
