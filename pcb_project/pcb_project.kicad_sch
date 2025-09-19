@@ -81,6 +81,56 @@
 				(justify left top)
 			)
 		)
+		(pin "LED_MOSI" input
+			(at 99.06 30.48 180)
+			(uuid "7d4f943d-a1b5-4495-b75d-1527f6e8f6cb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "LED_CS" input
+			(at 99.06 44.45 180)
+			(uuid "8f93dd4c-de1e-4172-9151-0496b45f84b3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "LED_CLK" input
+			(at 99.06 41.91 180)
+			(uuid "799e0166-96fc-4e17-8917-9185ed4dc252")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "+5V" input
+			(at 139.7 30.48 0)
+			(uuid "9794bc1a-492d-4ba4-88b4-48091cb6a37d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "LED_MISO" input
+			(at 99.06 33.02 180)
+			(uuid "a2f687e3-2904-4571-bd82-2e5f7a675756")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "pcb_project"
 				(path "/98f80f66-4595-4d0f-90ca-59b2db6f447b"
@@ -163,6 +213,86 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "B1" output
+			(at 162.56 148.59 0)
+			(uuid "8c68d78f-6035-467a-82fa-7afd9f842c70")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "V1" output
+			(at 125.73 148.59 180)
+			(uuid "1bbf2a66-7094-4407-8b74-9f27b7857897")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SEL2" output
+			(at 125.73 168.91 180)
+			(uuid "618e4f74-cf05-4df6-9b9a-d122ec3e756a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SEL1" output
+			(at 125.73 153.67 180)
+			(uuid "d8e25d41-3169-4308-becc-085369b2c97a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "H1" output
+			(at 125.73 151.13 180)
+			(uuid "e272ae0a-2473-4eea-ba44-b43e8c3badcc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "H2" output
+			(at 125.73 166.37 180)
+			(uuid "71492b65-f3ad-431b-be2e-5a24e358fe72")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "B2" output
+			(at 162.56 151.13 0)
+			(uuid "3784a22e-cf4f-4768-9408-b6e42a8acfae")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "V2" output
+			(at 125.73 163.83 180)
+			(uuid "aa116d8e-cc98-4015-94f1-7628812c45a3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
@@ -437,6 +567,56 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "POWER_IN" input
+			(at 276.86 26.67 0)
+			(uuid "b514201e-c800-4168-8603-324f76072816")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "3V3" output
+			(at 223.52 31.75 180)
+			(uuid "27e46673-b5fa-46b6-bc24-b1f16343f5c8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1V0" output
+			(at 223.52 36.83 180)
+			(uuid "3ac233a4-197b-4500-ac13-2368a68b8b8f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "3.3VA" output
+			(at 223.52 29.21 180)
+			(uuid "09e3dbe8-f898-4063-ae56-46e4235c9700")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "1V8" output
+			(at 223.52 34.29 180)
+			(uuid "0a642e25-cfdc-4788-92f2-32726dbcb1c9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
