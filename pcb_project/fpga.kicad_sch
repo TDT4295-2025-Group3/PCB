@@ -5978,6 +5978,17 @@
 		)
 		(uuid "e8560fc5-9616-4d02-ba0e-2d4b5d0a126c")
 	)
+	(hierarchical_label "CLK"
+		(shape output)
+		(at 167.64 134.62 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ff1bd21a-d681-4ef9-8563-5c4990fff711")
+	)
 	(symbol
 		(lib_id "Device:C")
 		(at 107.95 80.01 0)
@@ -10250,6 +10261,16 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "CLK" input
+			(at 66.04 64.77 270)
+			(uuid "fa232098-1421-4a0b-8fe9-050c2265a4e2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
