@@ -536,8 +536,8 @@
 		)
 	)
 	(sheet
-		(at 223.52 21.59)
-		(size 53.34 33.02)
+		(at 240.03 26.67)
+		(size 30.48 19.05)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -552,7 +552,7 @@
 		)
 		(uuid "ce445763-774c-4caf-b911-9c6f9b75d87a")
 		(property "Sheetname" "Power"
-			(at 223.52 20.8784 0)
+			(at 240.03 25.9584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -561,7 +561,7 @@
 			)
 		)
 		(property "Sheetfile" "Power.kicad_sch"
-			(at 223.52 55.1946 0)
+			(at 240.03 46.3046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -569,18 +569,8 @@
 				(justify left top)
 			)
 		)
-		(pin "POWER_IN" input
-			(at 276.86 26.67 0)
-			(uuid "b514201e-c800-4168-8603-324f76072816")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "3V3" output
-			(at 223.52 31.75 180)
+			(at 240.03 36.83 180)
 			(uuid "27e46673-b5fa-46b6-bc24-b1f16343f5c8")
 			(effects
 				(font
@@ -590,7 +580,7 @@
 			)
 		)
 		(pin "1V0" output
-			(at 223.52 36.83 180)
+			(at 240.03 41.91 180)
 			(uuid "3ac233a4-197b-4500-ac13-2368a68b8b8f")
 			(effects
 				(font
@@ -600,7 +590,7 @@
 			)
 		)
 		(pin "3.3VA" output
-			(at 223.52 29.21 180)
+			(at 240.03 34.29 180)
 			(uuid "09e3dbe8-f898-4063-ae56-46e4235c9700")
 			(effects
 				(font
@@ -610,8 +600,18 @@
 			)
 		)
 		(pin "1V8" output
-			(at 223.52 34.29 180)
+			(at 240.03 39.37 180)
 			(uuid "0a642e25-cfdc-4788-92f2-32726dbcb1c9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USB_5V0" output
+			(at 240.03 31.75 180)
+			(uuid "b072a75d-3b58-41bb-ac54-4ed0de2fa96d")
 			(effects
 				(font
 					(size 1.27 1.27)
