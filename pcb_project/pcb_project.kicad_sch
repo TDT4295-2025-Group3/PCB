@@ -2955,8 +2955,8 @@
 		)
 	)
 	(sheet
-		(at 161.29 49.53)
-		(size 49.53 85.09)
+		(at 161.29 64.77)
+		(size 49.53 69.85)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2971,7 +2971,7 @@
 		)
 		(uuid "1a3eaa4f-d49c-486a-8882-cdef72ae86f4")
 		(property "Sheetname" "MCU"
-			(at 161.29 48.8184 0)
+			(at 161.29 64.0584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3036,56 +3036,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-			)
-		)
-		(pin "PD2_SDMMC_CMD" output
-			(at 210.82 130.81 0)
-			(uuid "f6f5e273-4cd4-4acd-8dfe-f88fd0c9a80d")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "PC3_ADC1_IN4" input
-			(at 161.29 132.08 180)
-			(uuid "ee3b15b2-aa21-4804-87a2-22bbf5989310")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "PC2_ADC1_IN3" input
-			(at 161.29 129.54 180)
-			(uuid "8d1a7c9d-e04f-4b35-af3f-d56b2b6b4228")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "PC1_ADC1_IN2" input
-			(at 161.29 127 180)
-			(uuid "32ae25aa-863b-4f77-ac45-b36acfc550e5")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "PC0_ADC1_IN1" input
-			(at 161.29 124.46 180)
-			(uuid "892df22b-b839-44c5-b4c8-97e0f16efec5")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 			)
 		)
 		(pin "PB10_LPGPIO1_P4" input
@@ -3178,46 +3128,6 @@
 				(justify right)
 			)
 		)
-		(pin "PA4_SPI1_NSS" input
-			(at 161.29 59.69 180)
-			(uuid "5c386869-a634-4b4b-93ff-d79b1cad00ed")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "PA5_SPI1_SCK" input
-			(at 161.29 62.23 180)
-			(uuid "dda3018d-9abb-4220-a55e-7a146a5985f8")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "PA6_SPI1_MISO" input
-			(at 161.29 64.77 180)
-			(uuid "fec379e2-78c6-4131-995c-1240e9e2dc4d")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "PA7_SPI1_MOSI" input
-			(at 161.29 67.31 180)
-			(uuid "88121dfd-3a40-4c4d-b3c3-4105c171100e")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "PE0_LPGPIO1_P13" input
 			(at 161.29 116.84 180)
 			(uuid "f819e65b-d9fc-4f14-94f2-98b186aea013")
@@ -3228,9 +3138,159 @@
 				(justify left)
 			)
 		)
+		(pin "PA2_OCTOSPIM_P1_NCS" input
+			(at 161.29 69.85 180)
+			(uuid "2959689d-ec7f-4f33-a917-181bab6e3e21")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PA3_OCTOSPIM_P1_CLK" input
+			(at 161.29 72.39 180)
+			(uuid "0c76797b-7067-4eaf-a019-77d766f5ad26")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PB0_OCTOSPIM_P1_IO1" input
+			(at 161.29 80.01 180)
+			(uuid "c453227a-9e90-4c5d-b756-a4e855debd6a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PB1_OCTOSPIM_P1_IO0" input
+			(at 161.29 77.47 180)
+			(uuid "126296b4-3f8c-4cfa-b451-71ca7de99dfb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PA6_OCTOSPIM_P1_IO3" input
+			(at 161.29 85.09 180)
+			(uuid "13cfdab2-6aa4-44b0-a7b6-7ab792e376c9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PA7_OCTOSPIM_P1_IO2" input
+			(at 161.29 82.55 180)
+			(uuid "33e7018d-c480-47be-907c-80dc11b754f3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PA5_ADC1_IN10" input
+			(at 161.29 132.08 180)
+			(uuid "9134876b-6c11-4eac-ad74-a232fcf9adbb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PA4_ADC1_IN9" input
+			(at 161.29 129.54 180)
+			(uuid "4fe0a2fe-9799-415d-9ca5-efaa507fe44e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PA1_ADC1_IN6" input
+			(at 161.29 127 180)
+			(uuid "d72cb0ec-6959-4f69-b8df-cb3065e27a3e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PA0_ADC1_IN5" input
+			(at 161.29 124.46 180)
+			(uuid "0dd73fe3-703b-4d0a-b908-cc31d217c52a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PC2_OCTOSPIM_P1_IO5" input
+			(at 161.29 90.17 180)
+			(uuid "f434b53f-2387-41b3-ad14-1f4d33913204")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PC4_OCTOSPIM_P1_IO7" input
+			(at 161.29 95.25 180)
+			(uuid "bd310afd-e27b-4912-b932-9c6f489348f9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PC3_OCTOSPIM_P1_IO6" input
+			(at 161.29 92.71 180)
+			(uuid "fb0cae4c-7016-4244-8f5c-fff7f3ae9bb1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PC1_OCTOSPIM_P1_IO4" input
+			(at 161.29 87.63 180)
+			(uuid "d1febb2a-3d56-4990-9854-19e5dce7841d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PD13_LPGPIO1_P6" input
+			(at 161.29 114.3 180)
+			(uuid "fc523f70-3556-42dd-a67b-3ca9a68e7a48")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(pin "PE3_LPGPIO1_P15" input
-			(at 161.29 119.38 180)
-			(uuid "8cc702ce-dc18-44fb-b9cf-d1a3fbf41d4f")
+			(at 161.29 121.92 180)
+			(uuid "70efe7a3-67d9-4954-bf45-289dbf21be63")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3239,13 +3299,23 @@
 			)
 		)
 		(pin "PE2_LPGPIO1_P14" input
-			(at 161.29 121.92 180)
-			(uuid "12d18528-2f60-4398-b568-c71410f86179")
+			(at 161.29 119.38 180)
+			(uuid "2b2238de-c60f-4692-b946-00077f1c3b1a")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(pin "PD2_SDMMC1_CMD" output
+			(at 210.82 130.81 0)
+			(uuid "a7f12fe7-93e6-40b0-9bc4-8194cabfac74")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
