@@ -275,20 +275,22 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
-				(at 0 1.27 0)
+			(property "Reference" "U1"
+				(at -33.02 -1.9049 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify right)
 				)
 			)
 			(property "Value" "XC7A100T-FTG256"
-				(at 0 -1.27 0)
+				(at -33.02 -4.4449 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify right)
 				)
 			)
 			(property "Footprint" ""
@@ -3810,6 +3812,42 @@
 						(type background)
 					)
 				)
+				(pin bidirectional line
+					(at 2.54 34.29 270)
+					(length 6.35)
+					(name "CCLK_0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "E8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 22.8599 40.5705 270)
+					(length 6.35)
+					(name "CFGBVS_0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "E7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 				(pin power_in line
 					(at 27.94 40.64 270)
 					(length 6.35)
@@ -3893,24 +3931,6 @@
 						)
 					)
 					(number "L7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 38.1 7.62 180)
-					(length 6.35)
-					(name "CCLK_0"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "E8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4019,24 +4039,6 @@
 						)
 					)
 					(number "L9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 38.1 -15.24 180)
-					(length 6.35)
-					(name "CFGBVS_0"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "E7"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5502,12 +5504,228 @@
 		(uuid "e75c19f5-327c-4304-9cd2-1932e9ba125d")
 	)
 	(no_connect
+		(at 196.85 80.01)
+		(uuid "03b603d3-4925-4de3-b1db-f3b753083cc6")
+	)
+	(no_connect
+		(at 196.85 62.23)
+		(uuid "08539519-15af-4926-9acd-74b967bbf9e3")
+	)
+	(no_connect
+		(at 196.85 59.69)
+		(uuid "17daa93c-135b-459a-97e4-28dae60d7359")
+	)
+	(no_connect
+		(at 95.25 54.61)
+		(uuid "1e1ca3d5-6325-4691-a604-13d5c2f0f758")
+	)
+	(no_connect
+		(at 95.25 39.37)
+		(uuid "1f69e54b-55ca-41df-9933-e049739f8bbb")
+	)
+	(no_connect
+		(at 196.85 36.83)
+		(uuid "2abd5172-1e3e-4ded-ba34-daacd4518a9f")
+	)
+	(no_connect
+		(at 95.25 46.99)
+		(uuid "43d5b76d-7504-4b4c-9612-8157ca1f63a8")
+	)
+	(no_connect
+		(at 95.25 62.23)
+		(uuid "47f2e975-e6a4-4259-821c-1241b56d9033")
+	)
+	(no_connect
+		(at 196.85 39.37)
+		(uuid "49fea261-e91c-43a7-a69b-65d0d353cf79")
+	)
+	(no_connect
+		(at 95.25 57.15)
+		(uuid "4b6415b9-c0f2-40b3-8a57-7a39fbe9c41d")
+	)
+	(no_connect
+		(at 196.85 85.09)
+		(uuid "523527e9-512a-4a7b-af35-f7c2ca4a6941")
+	)
+	(no_connect
+		(at 95.25 82.55)
+		(uuid "54e08389-8034-4aa2-9975-c39af4c550d8")
+	)
+	(no_connect
+		(at 196.85 57.15)
+		(uuid "5af5d97f-35bf-4750-b5d0-db02b16e4372")
+	)
+	(no_connect
+		(at 196.85 74.93)
+		(uuid "5c6af37b-8433-4289-8bd8-e0ffc77ca8b5")
+	)
+	(no_connect
+		(at 196.85 69.85)
+		(uuid "5d97badc-8f49-4730-bc3d-70210dfcf25a")
+	)
+	(no_connect
+		(at 196.85 67.31)
+		(uuid "6172fc8b-4e5e-4d7f-92a2-ff64c95f63c3")
+	)
+	(no_connect
+		(at 196.85 87.63)
+		(uuid "62000375-d44e-4d8f-9553-44b010991f68")
+	)
+	(no_connect
+		(at 196.85 54.61)
+		(uuid "672f1c90-6d51-437c-9ba9-4caf4029825b")
+	)
+	(no_connect
+		(at 107.95 13.97)
+		(uuid "685749e1-9d7b-4115-8270-de642280f613")
+	)
+	(no_connect
+		(at 196.85 90.17)
+		(uuid "6fcaf9b5-ce32-4757-b023-f68891326af7")
+	)
+	(no_connect
+		(at 196.85 44.45)
+		(uuid "7709dd9e-4865-4032-a2d0-57b7d06e6b0f")
+	)
+	(no_connect
+		(at 196.85 52.07)
+		(uuid "78a15263-6e96-4a26-8790-1d23df93a826")
+	)
+	(no_connect
+		(at 196.85 72.39)
+		(uuid "7c7dfd2c-00d2-48d2-acef-2ea93e1011ad")
+	)
+	(no_connect
+		(at 196.85 133.35)
+		(uuid "8180d015-c08f-4c92-ab0d-25ddb9d23f4e")
+	)
+	(no_connect
+		(at 196.85 77.47)
+		(uuid "858938be-4734-42cd-8b53-5418170aac82")
+	)
+	(no_connect
+		(at 95.25 36.83)
+		(uuid "87006664-9308-46a8-af42-e42ccbe51ee9")
+	)
+	(no_connect
+		(at 196.85 46.99)
+		(uuid "93ac0846-10a8-416d-ae21-cb6df6141e4b")
+	)
+	(no_connect
+		(at 196.85 140.97)
+		(uuid "97710e0a-406a-45b0-b5b3-38e9a3f76d6a")
+	)
+	(no_connect
+		(at 196.85 130.81)
+		(uuid "9834609a-6387-45b3-b127-16e06e6718fc")
+	)
+	(no_connect
+		(at 95.25 69.85)
+		(uuid "99b96908-49e5-4932-85ec-233aec6369db")
+	)
+	(no_connect
+		(at 95.25 77.47)
+		(uuid "9bc16689-f44f-41b9-a79a-46adbd47619f")
+	)
+	(no_connect
+		(at 105.41 13.97)
+		(uuid "9cd5055f-affc-46fc-92ab-1a3072e97481")
+	)
+	(no_connect
 		(at 257.81 82.55)
 		(uuid "a1f27a4b-7ff3-43bf-b260-09d4bc151e79")
 	)
 	(no_connect
+		(at 196.85 49.53)
+		(uuid "a8a29d5b-87ec-45d6-a0f7-c8070f62ff51")
+	)
+	(no_connect
+		(at 196.85 128.27)
+		(uuid "ab7edf50-4643-47ff-a54e-df3ced59c088")
+	)
+	(no_connect
+		(at 196.85 34.29)
+		(uuid "b00c9ce4-a577-42a9-9ed5-d9130a207177")
+	)
+	(no_connect
+		(at 196.85 64.77)
+		(uuid "b1f68dfd-2e74-42c3-85dc-616ddf35594e")
+	)
+	(no_connect
+		(at 196.85 135.89)
+		(uuid "b252129f-6fe6-4678-993d-1622b7446922")
+	)
+	(no_connect
+		(at 95.25 72.39)
+		(uuid "b31794e5-5c93-49f2-a35b-6e8fc9289344")
+	)
+	(no_connect
+		(at 95.25 59.69)
+		(uuid "b5cc3088-8bee-4a75-9c61-554ff518c44d")
+	)
+	(no_connect
+		(at 196.85 41.91)
+		(uuid "c6bfc454-13aa-41fa-b6ad-0c62ff8c29eb")
+	)
+	(no_connect
+		(at 95.25 80.01)
+		(uuid "c97b8118-041e-401d-8b14-0321c72aa2d3")
+	)
+	(no_connect
+		(at 196.85 123.19)
+		(uuid "cb7cfd47-0e00-4765-9664-baa9a97b684c")
+	)
+	(no_connect
+		(at 95.25 49.53)
+		(uuid "d43c6f39-a888-4b27-a7e2-441753bee891")
+	)
+	(no_connect
+		(at 196.85 125.73)
+		(uuid "d557d7bc-96ee-49f2-8d3d-55d6f91ecbc8")
+	)
+	(no_connect
+		(at 95.25 34.29)
+		(uuid "d93e86e9-e24d-44de-8d82-56315f92454d")
+	)
+	(no_connect
+		(at 95.25 64.77)
+		(uuid "db763b7c-272e-4e4b-a33f-a16e561da94c")
+	)
+	(no_connect
+		(at 196.85 82.55)
+		(uuid "dd054cad-4527-461c-9c0f-7355a5e1f973")
+	)
+	(no_connect
+		(at 95.25 74.93)
+		(uuid "e46b2667-7853-4e8e-b244-6494067dd153")
+	)
+	(no_connect
+		(at 95.25 67.31)
+		(uuid "e5c13cfc-0f31-42e3-825d-c408b7266d8a")
+	)
+	(no_connect
+		(at 110.49 13.97)
+		(uuid "e991a3b7-0210-40e5-a360-fd9311742fce")
+	)
+	(no_connect
+		(at 196.85 138.43)
+		(uuid "eb223823-656b-4eae-9e58-64d0b28be08d")
+	)
+	(no_connect
+		(at 95.25 44.45)
+		(uuid "ebf5e9cc-ab91-414f-9ea9-994a86828905")
+	)
+	(no_connect
 		(at 224.79 82.55)
 		(uuid "f23eb428-6ceb-4a9f-aa19-736719c0efe9")
+	)
+	(no_connect
+		(at 95.25 41.91)
+		(uuid "f6aa11f3-5452-48a7-9033-c3bfe2740c7e")
+	)
+	(no_connect
+		(at 95.25 52.07)
+		(uuid "ff76337a-7997-4a46-b538-207ff70110ff")
 	)
 	(wire
 		(pts
@@ -6410,19 +6628,21 @@
 		(fields_autoplaced yes)
 		(uuid "9e80c7fc-47b5-4bdf-a200-9e154aa86c48")
 		(property "Reference" "U1"
-			(at 146.05 163.83 0)
+			(at 113.03 89.5349 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Value" "XC7A100T-FTG256"
-			(at 146.05 166.37 0)
+			(at 113.03 92.0749 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
@@ -7220,7 +7440,11 @@
 			(uuid "6b28ef0a-6292-4a80-b5c9-652564195710")
 		)
 		(instances
-			(project "pcb_project"
+			(project ""
+				(path "/98f80f66-4595-4d0f-90ca-59b2db6f447b/8bdc4eb6-105b-4ccb-b86f-5b5221dfef47"
+					(reference "U1")
+					(unit 2)
+				)
 				(path "/98f80f66-4595-4d0f-90ca-59b2db6f447b/8bdc4eb6-105b-4ccb-b86f-5b5221dfef47/1311c77a-2e60-4e70-8492-84cf53095df7"
 					(reference "U1")
 					(unit 2)
@@ -7281,10 +7505,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "1fbaf859-fe13-49dd-80be-56129b34c5ab")
+			(uuid "1fbaf859-fe13-49dd-80be-56129b34c5ac")
 		)
 		(pin "2"
-			(uuid "31220c89-afff-467a-b20e-ff323e587597")
+			(uuid "31220c89-afff-467a-b20e-ff323e587598")
 		)
 		(instances
 			(project ""

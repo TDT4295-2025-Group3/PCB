@@ -2482,7 +2482,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2410a883-fe87-450b-a0c6-32faf9dcb08f")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR0110"
 			(at 171.45 125.73 0)
 			(effects
 				(font
@@ -2532,7 +2532,7 @@
 		(instances
 			(project "pcb_project"
 				(path "/98f80f66-4595-4d0f-90ca-59b2db6f447b/8d37cb1b-68e3-4c4f-bec3-1efbc6c7e4dc"
-					(reference "#PWR024")
+					(reference "#PWR0110")
 					(unit 1)
 				)
 			)
