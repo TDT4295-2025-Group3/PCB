@@ -9,4 +9,5 @@
   (lib (name "MT25QL128ABA1ESE_FPGAFLASH")(type "KiCad")(uri "${KIPRJMOD}/lib/Project_Symbols/MT25QL128ABA1ESE_FPGAFLASH.kicad_sym")(options "")(descr ""))
   (lib (name "IS61WV204816BLL-10TLI")(type "KiCad")(uri "${KIPRJMOD}/lib/Project_Symbols/IS61WV204816BLL-10TLI.kicad_sym")(options "")(descr ""))
   (lib (name "2025-09-21_16-27-56")(type "KiCad")(uri "${KIPRJMOD}/lib/Project_Symbols/2025-09-21_16-27-56.kicad_sym")(options "")(descr ""))
+  (lib (name "XLH736025_175000I")(type "KiCad")(uri "${KIPRJMOD}/lib/Project_Symbols/XLH736025_175000I.kicad_sym")(options "")(descr ""))
 )

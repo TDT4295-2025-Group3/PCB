@@ -12068,7 +12068,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "cbc9ae55-caf1-48eb-a923-02f1a0fae24c")
+			(uuid "cbc9ae55-caf1-48eb-a923-02f1a0fae24d")
 		)
 		(instances
 			(project ""
