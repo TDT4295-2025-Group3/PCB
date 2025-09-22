@@ -4082,16 +4082,6 @@
 				(justify left)
 			)
 		)
-		(pin "CLK" output
-			(at 104.14 105.41 0)
-			(uuid "69e68f29-5715-4e86-af9e-c6fc3464cfa9")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "G0" output
 			(at 73.66 86.36 180)
 			(uuid "06381b09-f6b9-40f0-9798-816b764fcb58")
@@ -4175,26 +4165,6 @@
 		(pin "SGROUND" output
 			(at 92.71 64.77 90)
 			(uuid "d73baa67-ae24-453b-8eb8-36095bacc15d")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "VccAux" input
-			(at 104.14 115.57 0)
-			(uuid "e95df75d-84d9-431a-b824-d94edc94025a")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "Vcco_0" input
-			(at 104.14 113.03 0)
-			(uuid "d3ed4d81-88d3-4093-beb5-13f7c19753a3")
 			(effects
 				(font
 					(size 1.27 1.27)
