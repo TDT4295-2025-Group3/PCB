@@ -14429,7 +14429,7 @@
 		)
 		(uuid "6eb3ac2c-fa04-4536-9a86-3231e0211a3c")
 		(property "Sheetname" "A_Bank14&15"
-			(at 29.21 34.8484 0)
+			(at 28.4984 64.77 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14438,7 +14438,7 @@
 			)
 		)
 		(property "Sheetfile" "FPGA_Bank14&15_.kicad_sch"
-			(at 29.21 65.3546 0)
+			(at 75.5146 64.77 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14449,6 +14449,126 @@
 		(pin "CLK" input
 			(at 66.04 64.77 270)
 			(uuid "fa232098-1421-4a0b-8fe9-050c2265a4e2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "OSPI CLK" input
+			(at 29.21 38.1 180)
+			(uuid "c1ff7e4f-cd3e-4326-a8b3-be1da80521ed")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "OSPI 1" input
+			(at 29.21 43.18 180)
+			(uuid "91abd76b-f79f-4b8e-ad31-190895731ab8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VDD_2" input
+			(at 52.07 64.77 270)
+			(uuid "3449c0a6-0099-4baf-ad41-dd6aedc0636c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VDD_1" input
+			(at 57.15 64.77 270)
+			(uuid "5de7210d-5c29-4927-85b4-41939484662b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "OSPI 6" input
+			(at 29.21 55.88 180)
+			(uuid "37f1e79f-8cd7-403b-afd8-ac52a3b5510c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "OSPI CS" input
+			(at 29.21 60.96 180)
+			(uuid "161d26ef-0a56-46fe-a012-87711cbf25bb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "OSPI 2" input
+			(at 29.21 45.72 180)
+			(uuid "c2440c8c-3d37-47cc-a702-6622171a0c7c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "OSPI 0" input
+			(at 29.21 40.64 180)
+			(uuid "e4d68628-5791-4342-a428-b6a2f07aab67")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "OSPI 5" input
+			(at 29.21 53.34 180)
+			(uuid "a66f3d2e-8aa7-4173-be52-58a63c803cf2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "OSPI 3" input
+			(at 29.21 48.26 180)
+			(uuid "5b072f90-6a0f-40e3-8dfd-3bd9bc20b61e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "OSPI 4" input
+			(at 29.21 50.8 180)
+			(uuid "6c2bc586-3c70-4282-aa7a-d5103f067a15")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "OSPI 7" input
+			(at 29.21 58.42 180)
+			(uuid "ddc85328-112f-408e-a5a9-40d0ec1c0ca1")
 			(effects
 				(font
 					(size 1.27 1.27)
