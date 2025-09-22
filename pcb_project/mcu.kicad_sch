@@ -4306,24 +4306,24 @@
 		(uuid "f5a1fd3a-6495-45ec-9241-bd0fd7361f28")
 	)
 	(no_connect
-		(at 78.74 92.71)
-		(uuid "04f06620-959e-4f55-8105-e4346e08c181")
+		(at 78.74 113.03)
+		(uuid "071ced74-110f-4705-a39b-d7e00856fa23")
 	)
 	(no_connect
 		(at 124.46 135.89)
 		(uuid "078b97d0-f5b7-4616-b16c-006741ffcb83")
 	)
 	(no_connect
-		(at 124.46 113.03)
-		(uuid "174cc454-0c6d-4c2a-a235-415df1308061")
+		(at 124.46 49.53)
+		(uuid "0b6dd9ea-281c-420a-9bef-c415727a10bd")
 	)
 	(no_connect
 		(at 78.74 143.51)
 		(uuid "1a588a1b-c73d-4061-a8b5-588f8bd1fc52")
 	)
 	(no_connect
-		(at 124.46 115.57)
-		(uuid "1bffa6b9-a736-4bea-94a3-3e927d9a4db1")
+		(at 124.46 44.45)
+		(uuid "1a5de412-a605-4f00-bacd-bca69b850393")
 	)
 	(no_connect
 		(at 78.74 64.77)
@@ -4334,8 +4334,12 @@
 		(uuid "1df2a427-4ede-4885-9235-13d983bfed44")
 	)
 	(no_connect
-		(at 78.74 123.19)
-		(uuid "21dc08b1-60ca-4648-a248-1fe0ed0f8fab")
+		(at 124.46 57.15)
+		(uuid "2494685c-1547-4266-8eba-d1ed1a2bb0be")
+	)
+	(no_connect
+		(at 124.46 133.35)
+		(uuid "31d311a0-bc4a-45d7-a305-858b5f8914aa")
 	)
 	(no_connect
 		(at 78.74 135.89)
@@ -4354,12 +4358,8 @@
 		(uuid "3e13d077-8ed5-4b89-b7f5-f5a3f0633e66")
 	)
 	(no_connect
-		(at 78.74 100.33)
-		(uuid "3fc9db27-80f0-4c57-a6c2-2331580d2ec8")
-	)
-	(no_connect
-		(at 78.74 95.25)
-		(uuid "3fd63d41-bc06-4460-8190-8e473124aa92")
+		(at 124.46 41.91)
+		(uuid "431df49c-e3ef-4dd1-9663-69136f2a39f3")
 	)
 	(no_connect
 		(at 124.46 100.33)
@@ -4378,16 +4378,12 @@
 		(uuid "5735ac00-473a-4b98-bb96-5c8bf6ef191f")
 	)
 	(no_connect
-		(at 78.74 87.63)
-		(uuid "612836a5-62e6-4189-89cd-5fdff9f55834")
+		(at 124.46 39.37)
+		(uuid "574eef19-8869-44b6-8dfc-ada85c173769")
 	)
 	(no_connect
 		(at 78.74 74.93)
 		(uuid "62356eed-946b-4e55-aec2-ceb26e2c6e3b")
-	)
-	(no_connect
-		(at 78.74 97.79)
-		(uuid "73a5a0a9-b72d-4446-bdbf-8f69c1d3d6f7")
 	)
 	(no_connect
 		(at 124.46 59.69)
@@ -4414,12 +4410,12 @@
 		(uuid "882a1d57-a92d-47e1-9c98-fefafd718910")
 	)
 	(no_connect
-		(at 78.74 140.97)
-		(uuid "8ec9563a-1b04-4675-bc31-b493feca461f")
+		(at 124.46 105.41)
+		(uuid "891fa082-b199-4d3b-8840-fd2db7b9be5d")
 	)
 	(no_connect
-		(at 124.46 110.49)
-		(uuid "92f4dbd0-c8d8-4253-b80f-61c6d91c268e")
+		(at 78.74 140.97)
+		(uuid "8ec9563a-1b04-4675-bc31-b493feca461f")
 	)
 	(no_connect
 		(at 78.74 72.39)
@@ -4430,10 +4426,6 @@
 		(uuid "9506f711-ff1d-45b4-ba5f-885bc94335c9")
 	)
 	(no_connect
-		(at 124.46 118.11)
-		(uuid "9d8c7ec5-3480-46e0-9fe5-32fa3c6b6df0")
-	)
-	(no_connect
 		(at 179.07 54.61)
 		(uuid "9f09ef7e-7091-4daa-adb0-95bc0d084259")
 	)
@@ -4442,20 +4434,24 @@
 		(uuid "a1c17a9a-3acf-4125-8b6b-1d0e34cee9a1")
 	)
 	(no_connect
+		(at 124.46 46.99)
+		(uuid "a69a1e82-f482-41a5-b165-69f274116048")
+	)
+	(no_connect
+		(at 124.46 52.07)
+		(uuid "b2a5a6d6-ae8f-4014-b695-8a61599fe9e2")
+	)
+	(no_connect
 		(at 124.46 102.87)
 		(uuid "ba64a428-23a8-462f-ac74-1048049b3451")
 	)
 	(no_connect
-		(at 124.46 123.19)
-		(uuid "bba7f928-c61f-4dc7-bd51-eeacb20ae1d0")
+		(at 78.74 107.95)
+		(uuid "cb031d37-a58c-48d6-bb11-afb8334d88d9")
 	)
 	(no_connect
-		(at 78.74 118.11)
-		(uuid "c2d92b37-e270-40b3-b092-62b930724756")
-	)
-	(no_connect
-		(at 78.74 120.65)
-		(uuid "c471fe4e-ec36-4bb9-a15b-5068467959e5")
+		(at 124.46 54.61)
+		(uuid "cfeb21ce-5d19-49be-adb7-73dc666f6011")
 	)
 	(no_connect
 		(at 78.74 77.47)
@@ -4480,10 +4476,6 @@
 	(no_connect
 		(at 124.46 87.63)
 		(uuid "ea8a39fc-aec2-45b2-8553-9d69665dbb59")
-	)
-	(no_connect
-		(at 78.74 90.17)
-		(uuid "f65d1496-7517-43e0-b8b6-bd96351966e7")
 	)
 	(no_connect
 		(at 78.74 125.73)
@@ -5099,17 +5091,6 @@
 		)
 		(uuid "ff467ed8-350a-4e3a-bcee-6532b38fb9da")
 	)
-	(hierarchical_label "PB1_OCTOSPIM_P1_IO0"
-		(shape input)
-		(at 124.46 85.09 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "04b1568d-5c83-40c0-9862-3dab0b7ed3de")
-	)
 	(hierarchical_label "PE3_LPGPIO1_P15"
 		(shape input)
 		(at 78.74 69.85 180)
@@ -5120,6 +5101,17 @@
 			(justify right)
 		)
 		(uuid "073b703e-d307-4729-971e-401a48ef8f93")
+	)
+	(hierarchical_label "PE12_OCTOSPIM_P1_IO0"
+		(shape bidirectional)
+		(at 78.74 92.71 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "09a36903-7a23-45b0-b0d1-787a43d2929d")
 	)
 	(hierarchical_label "PD13_LPGPIO1_P6"
 		(shape input)
@@ -5132,27 +5124,16 @@
 		)
 		(uuid "0d033dc6-868c-47f3-a718-96bb69714b9b")
 	)
-	(hierarchical_label "PC4_OCTOSPIM_P1_IO7"
+	(hierarchical_label "PD5_OCTOSPIM_P1_IO5"
 		(shape bidirectional)
-		(at 124.46 133.35 0)
+		(at 78.74 118.11 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
-		(uuid "0e14bbf3-5129-443d-afd6-3e38d279f389")
-	)
-	(hierarchical_label "PA1_ADC1_IN6"
-		(shape input)
-		(at 124.46 41.91 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "13ceb4ff-c937-4eef-8237-bece6ab1ef6c")
+		(uuid "11250c0b-e6e6-425b-b466-e9609ec9f93b")
 	)
 	(hierarchical_label "PA12_OTG_HS_DP(boot)"
 		(shape input)
@@ -5165,17 +5146,6 @@
 		)
 		(uuid "1ba12c15-2bf0-4fbd-b086-aa1911d68b6c")
 	)
-	(hierarchical_label "PD3_SPI2_MISO"
-		(shape input)
-		(at 78.74 113.03 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "1c937968-3ecd-4b83-88dd-e73ad885ad4f")
-	)
 	(hierarchical_label "PD2_SDMMC1_CMD"
 		(shape output)
 		(at 78.74 110.49 180)
@@ -5187,60 +5157,27 @@
 		)
 		(uuid "1fbdf4de-8e9a-4c4f-8aad-c5acc56a4409")
 	)
-	(hierarchical_label "PA2_OCTOSPIM_P1_NCS"
+	(hierarchical_label "PB12_SPI2_NSS"
 		(shape output)
-		(at 124.46 44.45 0)
+		(at 124.46 110.49 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "22220fc1-ce2f-4014-9bcb-32a009005aef")
+		(uuid "30bbcd30-a4a9-4409-8737-70811cf9850c")
 	)
-	(hierarchical_label "PD1_SPI2_SCK"
-		(shape output)
-		(at 78.74 107.95 180)
+	(hierarchical_label "PE15_OCTOSPIM_P1_IO3"
+		(shape bidirectional)
+		(at 78.74 100.33 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "238fd505-cb49-49c3-82ad-839d94d6ad22")
-	)
-	(hierarchical_label "PA7_OCTOSPIM_P1_IO2"
-		(shape bidirectional)
-		(at 124.46 57.15 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "24bded97-f4b5-48cc-aef2-1579068f8d4b")
-	)
-	(hierarchical_label "PC1_OCTOSPIM_P1_IO4"
-		(shape bidirectional)
-		(at 124.46 125.73 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "2ce0f20b-811f-400d-9c69-2946924e8441")
-	)
-	(hierarchical_label "PA4_ADC1_IN9"
-		(shape input)
-		(at 124.46 49.53 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "301b1cd0-ca02-40f7-bf01-4e089c774c73")
+		(uuid "422d7247-16ba-4ed8-b883-5650f19b929a")
 	)
 	(hierarchical_label "PA11_OTG_HS_DM(boot)"
 		(shape input)
@@ -5253,16 +5190,16 @@
 		)
 		(uuid "4432e04f-45ef-4d84-821a-7aa00b203113")
 	)
-	(hierarchical_label "PD4_SPI2_MOSI"
+	(hierarchical_label "PB1_LPGPIO1_P3"
 		(shape output)
-		(at 78.74 115.57 180)
+		(at 124.46 85.09 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
-		(uuid "471d8328-0350-4125-9b82-d7c07d7688bd")
+		(uuid "45a5659a-db43-4e71-bd95-60b48db63cf5")
 	)
 	(hierarchical_label "PC10_SDMMC1_D2"
 		(shape input)
@@ -5275,28 +5212,6 @@
 		)
 		(uuid "4f73a68a-692b-44ce-99ae-50cf7cc614a6")
 	)
-	(hierarchical_label "PC3_OCTOSPIM_P1_IO6"
-		(shape bidirectional)
-		(at 124.46 130.81 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "6223e68c-4a12-4050-9772-dcf16a9fae21")
-	)
-	(hierarchical_label "PB0_OCTOSPIM_P1_IO1"
-		(shape input)
-		(at 124.46 82.55 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "62a99ac8-eccf-4860-b871-039fd383bb0a")
-	)
 	(hierarchical_label "PC11_SDMMC1_D3"
 		(shape input)
 		(at 124.46 151.13 0)
@@ -5308,27 +5223,16 @@
 		)
 		(uuid "6ac360b7-995a-4bd2-bf23-da8ed5562b25")
 	)
-	(hierarchical_label "PA3_OCTOSPIM_P1_CLK"
-		(shape output)
-		(at 124.46 46.99 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "717aa5cd-a976-40bf-915a-c7152e7add1a")
-	)
-	(hierarchical_label "PA0_ADC1_IN5"
+	(hierarchical_label "PB0_LPGPIO1_P9"
 		(shape input)
-		(at 124.46 39.37 0)
+		(at 124.46 82.55 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "73c96371-96fd-42f0-a3a1-2783698ec854")
+		(uuid "711d0433-9009-4dab-8009-7e52869be38b")
 	)
 	(hierarchical_label "PA10_OTG_HS_ID"
 		(shape input)
@@ -5341,6 +5245,17 @@
 		)
 		(uuid "7c1fea8a-622d-47b8-aa88-36c44a026366")
 	)
+	(hierarchical_label "PC1_ADC1_IN2"
+		(shape input)
+		(at 124.46 125.73 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "86cc8a6f-b8e4-4449-8d65-27da7d7c6254")
+	)
 	(hierarchical_label "PA9_OTG_HS_VBUS"
 		(shape input)
 		(at 124.46 62.23 0)
@@ -5351,6 +5266,17 @@
 			(justify left)
 		)
 		(uuid "92d6eebd-e86d-4aac-915d-32b3bc5ac2b8")
+	)
+	(hierarchical_label "PB13_SP2_SCK"
+		(shape output)
+		(at 124.46 113.03 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "92daf1e4-e7f4-4741-87c2-ae421657e567")
 	)
 	(hierarchical_label "PC9_SDMMC1_D1"
 		(shape input)
@@ -5363,6 +5289,50 @@
 		)
 		(uuid "a3d5966a-21a6-4c75-9a59-a53b65eace91")
 	)
+	(hierarchical_label "PE13_OCTOSPIM_P1_IO1"
+		(shape bidirectional)
+		(at 78.74 95.25 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a4d409b5-456e-4c34-943d-136d9c533ace")
+	)
+	(hierarchical_label "PC0_ADC1_IN1"
+		(shape input)
+		(at 124.46 123.19 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ad174085-69de-45a1-a8a3-457b86530943")
+	)
+	(hierarchical_label "PE10_OCTOSPIM_P1_CLK"
+		(shape output)
+		(at 78.74 87.63 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ad987508-62db-4c40-9d33-d0fbc6f2d60b")
+	)
+	(hierarchical_label "PD6_OCTOSPIM_P1_IO6"
+		(shape bidirectional)
+		(at 78.74 120.65 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ae1337cf-1cfe-4a8c-9af8-9ebbd4af33a9")
+	)
 	(hierarchical_label "PC8_SDMMC1_D0"
 		(shape input)
 		(at 124.46 143.51 0)
@@ -5374,27 +5344,49 @@
 		)
 		(uuid "d5ca1812-6343-4231-bc23-82094a17c863")
 	)
-	(hierarchical_label "PC2_OCTOSPIM_P1_IO5"
-		(shape bidirectional)
-		(at 124.46 128.27 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "dc2067e5-fa03-4d67-8c46-0aa0cd91d09d")
-	)
-	(hierarchical_label "PA5_ADC1_IN10"
+	(hierarchical_label "PC3_ADC1_IN4"
 		(shape input)
-		(at 124.46 52.07 0)
+		(at 124.46 130.81 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "dd8b584a-69e2-4439-85ad-fa328308eb40")
+		(uuid "dbb8ed72-1575-494d-8131-94142ee218a1")
+	)
+	(hierarchical_label "PD4_OCTOSPIM_P1_IO4"
+		(shape bidirectional)
+		(at 78.74 115.57 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "dd122824-0298-43cb-bae0-080e53504616")
+	)
+	(hierarchical_label "PB14_SPI2_MISO"
+		(shape input)
+		(at 124.46 115.57 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e1d283d5-180f-4ade-a245-b590cc57664c")
+	)
+	(hierarchical_label "PD7_OCTOSPIM_P1_IO7"
+		(shape bidirectional)
+		(at 78.74 123.19 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e72c13d9-acfa-44e1-b9e9-3bebfd3b9db0")
 	)
 	(hierarchical_label "PB10_LPGPIO1_P4"
 		(shape input)
@@ -5407,27 +5399,27 @@
 		)
 		(uuid "e90ffabc-36e1-47a8-9dc4-f1fbc754cf0a")
 	)
-	(hierarchical_label "PB9_SPI2_NSS"
-		(shape output)
-		(at 124.46 105.41 0)
+	(hierarchical_label "PC2_ADC1_IN3"
+		(shape input)
+		(at 124.46 128.27 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "eb845199-a419-400b-b10e-dadda9606335")
+		(uuid "ec338a46-d9a5-419d-94bc-bf65dd52d186")
 	)
-	(hierarchical_label "PA6_OCTOSPIM_P1_IO3"
-		(shape bidirectional)
-		(at 124.46 54.61 0)
+	(hierarchical_label "PB15_SPI2_MOSI"
+		(shape output)
+		(at 124.46 118.11 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "edaecf76-cb77-4bdd-bcdb-318b3aa92d39")
+		(uuid "ee40e5ee-2548-472c-9892-632cc53428c1")
 	)
 	(hierarchical_label "PE2_LPGPIO1_P14"
 		(shape input)
@@ -5451,6 +5443,17 @@
 		)
 		(uuid "f2238246-e013-450f-91c4-7094c7ec328b")
 	)
+	(hierarchical_label "PE11_OCTOSPIM_P1_NCS"
+		(shape output)
+		(at 78.74 90.17 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f7c05302-fc4d-4f62-9e94-7dcba263f85b")
+	)
 	(hierarchical_label "PC12_SDMMC1_CK"
 		(shape output)
 		(at 124.46 153.67 0)
@@ -5461,6 +5464,17 @@
 			(justify left)
 		)
 		(uuid "f9330500-6831-4268-9202-3590f90b127f")
+	)
+	(hierarchical_label "PE14_OCTOSPIM_P1_IO2"
+		(shape bidirectional)
+		(at 78.74 97.79 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fb5a1757-ad0e-40a3-bf0d-30d3cb659e7a")
 	)
 	(symbol
 		(lib_id "power:GND")
