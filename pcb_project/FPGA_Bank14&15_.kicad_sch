@@ -7189,6 +7189,16 @@
 	)
 	(wire
 		(pts
+			(xy 96.52 53.34) (xy 99.06 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3dc89bed-be73-437b-92d4-2319083298fb")
+	)
+	(wire
+		(pts
 			(xy 175.26 142.24) (xy 270.51 142.24)
 		)
 		(stroke
@@ -8429,6 +8439,16 @@
 	)
 	(wire
 		(pts
+			(xy 96.52 48.26) (xy 96.52 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0ba29cc-5390-49ef-a65d-99548117765d")
+	)
+	(wire
+		(pts
 			(xy 248.92 115.57) (xy 251.46 115.57)
 		)
 		(stroke
@@ -8546,6 +8566,16 @@
 			(type default)
 		)
 		(uuid "bf4a597c-12b6-4002-998c-57f0bc32e410")
+	)
+	(wire
+		(pts
+			(xy 17.78 48.26) (xy 73.66 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bfe6acef-c658-4173-a8c6-513b36880364")
 	)
 	(wire
 		(pts
@@ -8796,6 +8826,16 @@
 			(type default)
 		)
 		(uuid "dbc92d99-a4e3-4a15-94ab-4d4bce21c186")
+	)
+	(wire
+		(pts
+			(xy 81.28 48.26) (xy 96.52 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ddb2e9da-d634-4a3f-b56f-90219082e196")
 	)
 	(wire
 		(pts
@@ -9139,6 +9179,16 @@
 	)
 	(wire
 		(pts
+			(xy 17.78 58.42) (xy 17.78 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fcc863d6-c6d6-4268-b4ba-cc6e50a4f259")
+	)
+	(wire
+		(pts
 			(xy 191.77 130.81) (xy 256.54 130.81)
 		)
 		(stroke
@@ -9301,17 +9351,6 @@
 			(justify right)
 		)
 		(uuid "5b0981c2-e305-4f05-ac3a-18e9813ea171")
-	)
-	(hierarchical_label "CLK"
-		(shape input)
-		(at 17.78 58.42 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "60057584-581a-411d-8de0-b1575a330105")
 	)
 	(hierarchical_label "OSPI CLK"
 		(shape input)
@@ -9607,6 +9646,74 @@
 			(project ""
 				(path "/98f80f66-4595-4d0f-90ca-59b2db6f447b/8bdc4eb6-105b-4ccb-b86f-5b5221dfef47/6eb3ac2c-fa04-4536-9a86-3231e0211a3c"
 					(reference "#PWR053")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 77.47 48.26 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1c993867-e4c6-4e6a-89c8-2afa78afce63")
+		(property "Reference" "R35 (Reduce ringing)"
+			(at 77.47 41.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "22"
+			(at 77.47 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 77.47 50.038 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 77.47 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 77.47 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "18e08c83-86bc-47bc-a05d-85552f503ed3")
+		)
+		(pin "1"
+			(uuid "e47fab39-bf2a-4420-9a33-415ba71de4c6")
+		)
+		(instances
+			(project ""
+				(path "/98f80f66-4595-4d0f-90ca-59b2db6f447b/8bdc4eb6-105b-4ccb-b86f-5b5221dfef47/6eb3ac2c-fa04-4536-9a86-3231e0211a3c"
+					(reference "R35 (Reduce ringing)")
 					(unit 1)
 				)
 			)
