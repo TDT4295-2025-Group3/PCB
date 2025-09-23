@@ -226,7 +226,28 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      [
+        "pin_not_connected|2006600|1168400|cb688bb6-a75c-43e3-a866-8287cc9b5492|00000000-0000-0000-0000-000000000000|/98f80f66-4595-4d0f-90ca-59b2db6f447b/8bdc4eb6-105b-4ccb-b86f-5b5221dfef47/6eb3ac2c-fa04-4536-9a86-3231e0211a3c|/98f80f66-4595-4d0f-90ca-59b2db6f447b/8bdc4eb6-105b-4ccb-b86f-5b5221dfef47/6eb3ac2c-fa04-4536-9a86-3231e0211a3c|",
+        "Symbol pin markes as bidirectional, but is actually an input according to the datasheet. Editing the symbol, breaks a size edit of bank 14&15"
+      ],
+      [
+        "pin_not_connected|800099|1067495|d8532f65-9b44-4ae6-990f-3025e10d4beb|00000000-0000-0000-0000-000000000000|/98f80f66-4595-4d0f-90ca-59b2db6f447b/8bdc4eb6-105b-4ccb-b86f-5b5221dfef47|/98f80f66-4595-4d0f-90ca-59b2db6f447b/8bdc4eb6-105b-4ccb-b86f-5b5221dfef47|",
+        ""
+      ],
+      [
+        "pin_to_pin|1155700|1536700|bf952215-9fce-4e39-bbb3-b77a11da5b42|ff595cec-c669-4cba-91c2-0188773a5550|/98f80f66-4595-4d0f-90ca-59b2db6f447b|/98f80f66-4595-4d0f-90ca-59b2db6f447b|/98f80f66-4595-4d0f-90ca-59b2db6f447b/8bdc4eb6-105b-4ccb-b86f-5b5221dfef47",
+        ""
+      ],
+      [
+        "power_pin_not_driven|2171700|939800|88ffb4f5-886b-4fd8-8a19-122d8a1c3fdc|00000000-0000-0000-0000-000000000000|/98f80f66-4595-4d0f-90ca-59b2db6f447b/8bdc4eb6-105b-4ccb-b86f-5b5221dfef47|/98f80f66-4595-4d0f-90ca-59b2db6f447b/8bdc4eb6-105b-4ccb-b86f-5b5221dfef47|",
+        ""
+      ],
+      [
+        "power_pin_not_driven|952500|1422400|af5e5440-4309-4a0b-ac9e-982b536d9f83|00000000-0000-0000-0000-000000000000|/98f80f66-4595-4d0f-90ca-59b2db6f447b/8bdc4eb6-105b-4ccb-b86f-5b5221dfef47|/98f80f66-4595-4d0f-90ca-59b2db6f447b/8bdc4eb6-105b-4ccb-b86f-5b5221dfef47|",
+        ""
+      ]
+    ],
     "meta": {
       "version": 0
     },

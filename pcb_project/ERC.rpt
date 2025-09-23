@@ -1,0 +1,295 @@
+ERC report (2025-09-23T12:15:04+0200, Encoding UTF8)
+
+***** Sheet /
+[unconnected_wire_endpoint]: Unconnected wire endpoint
+    ; warning
+    @(5200 mils, 6750 mils): Vertical Wire, length 400 mils
+[unconnected_wire_endpoint]: Unconnected wire endpoint
+    ; warning
+    @(5300 mils, 6750 mils): Vertical Wire, length 400 mils
+[lib_symbol_mismatch]: Symbol 'Conn_01x10_Pin' doesn't match copy in library 'Connector'
+    ; warning
+    @(5400 mils, 6750 mils): Symbol J1 [Conn_01x10_Pin]
+[unconnected_wire_endpoint]: Unconnected wire endpoint
+    ; warning
+    @(5400 mils, 6750 mils): Vertical Wire, length 400 mils
+[unconnected_wire_endpoint]: Unconnected wire endpoint
+    ; warning
+    @(5500 mils, 6750 mils): Vertical Wire, length 400 mils
+[unconnected_wire_endpoint]: Unconnected wire endpoint
+    ; warning
+    @(5600 mils, 6750 mils): Vertical Wire, length 400 mils
+[unconnected_wire_endpoint]: Unconnected wire endpoint
+    ; warning
+    @(5700 mils, 6750 mils): Vertical Wire, length 400 mils
+[unconnected_wire_endpoint]: Unconnected wire endpoint
+    ; warning
+    @(5800 mils, 6750 mils): Vertical Wire, length 400 mils
+[unconnected_wire_endpoint]: Unconnected wire endpoint
+    ; warning
+    @(5900 mils, 6750 mils): Vertical Wire, length 400 mils
+[pin_not_connected]: Pin not connected
+    ; error
+    @(9450 mils, 3450 mils): Hierarchical Sheet Pin MCU_USB_OC
+[pin_not_connected]: Pin not connected
+    ; error
+    @(9450 mils, 3650 mils): Hierarchical Sheet Pin USB_MCU_EN
+[hier_label_mismatch]: Sheet pin USB_ID has no matching hierarchical label inside the sheet
+    ; error
+    @(9450 mils, 4000 mils): Hierarchical Sheet Pin USB_ID
+[lib_symbol_mismatch]: Symbol 'DE15_Socket_HighDensity_MountingHoles' doesn't match copy in library 'Connector'
+    ; warning
+    @(3300 mils, 1800 mils): Symbol J4 [DE15_Socket_HighDensity_MountingHo...]
+[unconnected_wire_endpoint]: Unconnected wire endpoint
+    ; warning
+    @(3150 mils, 4200 mils): Vertical Wire, length 150 mils
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(3150 mils, 4203 mils): Symbol U1 Pin E7 [CFGBVS_0, Bidirectional, Line]
+[footprint_link_issues]: The current configuration does not include the footprint library ''.
+    ; warning
+    @(5150 mils, 3450 mils): Symbol J2 [FTSH-107-01-F-DV-K]
+[lib_symbol_mismatch]: Symbol 'XC7A100T-FTG256' doesn't match copy in library 'FPGA_Xilinx_Artix7'
+    ; warning
+    @(2250 mils, 5800 mils): Symbol U1 [XC7A100T-FTG256]
+[lib_symbol_mismatch]: Symbol 'XC7A100T-FTG256' doesn't match copy in library 'FPGA_Xilinx_Artix7'
+    ; warning
+    @(9550 mils, 4400 mils): Symbol U1 [XC7A100T-FTG256]
+[footprint_link_issues]: The current configuration does not include the footprint library ''.
+    ; warning
+    @(3150 mils, 2500 mils): Symbol U9 [MT25QL128ABA1ESE-0SIT]
+[lib_symbol_mismatch]: Symbol 'MT25QL128ABA1ESE-0SIT' doesn't match copy in library 'MT25QL128ABA1ESE_FPGAFLASH'
+    ; warning
+    @(3150 mils, 2500 mils): Symbol U9 [MT25QL128ABA1ESE-0SIT]
+[unconnected_wire_endpoint]: Unconnected wire endpoint
+    ; warning
+    @(3350 mils, 2800 mils): Vertical Wire, length 50 mils
+[lib_symbol_mismatch]: Symbol 'XC7A100T-FTG256' doesn't match copy in library 'FPGA_Xilinx_Artix7'
+    ; warning
+    @(5900 mils, 3500 mils): Symbol U1 [XC7A100T-FTG256]
+[footprint_link_issues]: The current configuration does not include the footprint library ''.
+    ; warning
+    @(8600 mils, 2350 mils): Symbol IC3 [IS61WV204816BLL-10TLI]
+[lib_symbol_mismatch]: Symbol 'XC7A100T-FTG256' doesn't match copy in library 'FPGA_Xilinx_Artix7'
+    ; warning
+    @(5750 mils, 3450 mils): Symbol U1 [XC7A100T-FTG256]
+[footprint_link_issues]: The current configuration does not include the footprint library ''.
+    ; warning
+    @(8850 mils, 3150 mils): Symbol Y2 [XLH736025.175000I]
+[footprint_link_issues]: The current configuration does not include the footprint library 'D6R90_F1_LFS'.
+    ; warning
+    @(3650 mils, 2500 mils): Symbol S1 [D6R90_F1_LFS]
+[footprint_link_issues]: The current configuration does not include the footprint library 'D6R90_F1_LFS'.
+    ; warning
+    @(3650 mils, 3650 mils): Symbol S2 [D6R90_F1_LFS]
+[footprint_link_issues]: The current configuration does not include the footprint library 'COM-09032'.
+    ; warning
+    @(8250 mils, 2100 mils): Symbol U5 [COM-09032]
+[footprint_link_issues]: The current configuration does not include the footprint library 'COM-09032'.
+    ; warning
+    @(8250 mils, 4450 mils): Symbol U6 [COM-09032]
+[label_dangling]: Label not connected to anything
+    ; error
+    @(4900 mils, 2550 mils): Hierarchical Label 'PA10_OTG_HS_ID'
+[label_dangling]: Label not connected to anything
+    ; error
+    @(4900 mils, 3250 mils): Hierarchical Label 'PB0_LPGPIO1_P9'
+[label_dangling]: Label not connected to anything
+    ; error
+    @(4900 mils, 3350 mils): Hierarchical Label 'PB1_LPGPIO1_P3'
+[lib_symbol_mismatch]: Symbol 'Conn_ST_STDC14' doesn't match copy in library 'Connector'
+    ; warning
+    @(6950 mils, 2850 mils): Symbol J3 [Conn_ST_STDC14]
+[lib_symbol_mismatch]: Symbol 'USB_B_Micro' doesn't match copy in library 'Connector'
+    ; warning
+    @(1550 mils, 1600 mils): Symbol J5 [USB_B_Micro]
+[lib_symbol_mismatch]: Symbol 'TPS54325PWPR' doesn't match copy in library 'TPS54325PWPR'
+    ; warning
+    @(5050 mils, 1400 mils): Symbol IC1 [TPS54325PWPR]
+[lib_symbol_mismatch]: Symbol 'TPS54294PWPR' doesn't match copy in library 'TPS54294PWPR'
+    ; warning
+    @(5050 mils, 4250 mils): Symbol IC2 [TPS54294PWPR]
+[footprint_link_issues]: The current configuration does not include the footprint library ''.
+    ; warning
+    @(6550 mils, 2950 mils): Symbol U8 [COM-11405]
+[lib_symbol_mismatch]: Symbol 'COM-11405' doesn't match copy in library '11405_ATA8041'
+    ; warning
+    @(6550 mils, 2950 mils): Symbol U8 [COM-11405]
+[label_dangling]: Label not connected to anything
+    ; error
+    @(4150 mils, 3150 mils): Hierarchical Label 'USB_MCU_EN'
+
+***** Sheet /FPGA/
+[hier_label_mismatch]: Sheet pin VDD_2 has no matching hierarchical label inside the sheet
+    ; error
+    @(1900 mils, 2550 mils): Hierarchical Sheet Pin VDD_2
+[hier_label_mismatch]: Sheet pin VDD_1 has no matching hierarchical label inside the sheet
+    ; error
+    @(2100 mils, 2550 mils): Hierarchical Sheet Pin VDD_1
+[pin_to_pin]: Pins of type Unspecified and Bidirectional are connected
+    ; warning
+    @(5150 mils, 3450 mils): Symbol J2 Pin 1 [1, Unspecified, Line]
+    @(3750 mils, 5200 mils): Symbol U1 Pin M7 [TMS_0, Bidirectional, Line]
+[pin_to_pin]: Pins of type Unspecified and Power input are connected
+    ; warning
+    @(5150 mils, 3550 mils): Symbol J2 Pin 2 [2, Unspecified, Line]
+    @(5150 mils, 3550 mils): Symbol #PWR021 Pin 1 [Power input, Line]
+[pin_to_pin]: Pins of type Unspecified and Bidirectional are connected
+    ; warning
+    @(5150 mils, 3650 mils): Symbol J2 Pin 3 [3, Unspecified, Line]
+    @(3750 mils, 5300 mils): Symbol U1 Pin L7 [TCK_0, Bidirectional, Line]
+[pin_to_pin]: Pins of type Unspecified and Power input are connected
+    ; warning
+    @(5150 mils, 3750 mils): Symbol J2 Pin 4 [4, Unspecified, Line]
+    @(5150 mils, 3750 mils): Symbol #PWR022 Pin 1 [Power input, Line]
+[pin_to_pin]: Pins of type Unspecified and Bidirectional are connected
+    ; warning
+    @(5150 mils, 3850 mils): Symbol J2 Pin 5 [5, Unspecified, Line]
+    @(3750 mils, 5100 mils): Symbol U1 Pin N8 [TDO_0, Bidirectional, Line]
+[pin_to_pin]: Pins of type Unspecified and Power input are connected
+    ; warning
+    @(5150 mils, 3950 mils): Symbol J2 Pin 6 [6, Unspecified, Line]
+    @(5150 mils, 3950 mils): Symbol #PWR023 Pin 1 [Power input, Line]
+[pin_to_pin]: Pins of type Unspecified and Bidirectional are connected
+    ; warning
+    @(5150 mils, 4050 mils): Symbol J2 Pin 7 [7, Unspecified, Line]
+    @(3750 mils, 5000 mils): Symbol U1 Pin N7 [TDI_0, Bidirectional, Line]
+[pin_to_pin]: Pins of type Unspecified and Power input are connected
+    ; warning
+    @(5150 mils, 4150 mils): Symbol J2 Pin 8 [8, Unspecified, Line]
+    @(5150 mils, 4150 mils): Symbol #PWR024 Pin 1 [Power input, Line]
+[pin_to_pin]: Pins of type Unspecified and Power input are connected
+    ; warning
+    @(5150 mils, 4350 mils): Symbol J2 Pin 10 [10, Unspecified, Line]
+    @(5150 mils, 4350 mils): Symbol #PWR025 Pin 1 [Power input, Line]
+[pin_to_pin]: Pins of type Bidirectional and Power output are connected
+    ; warning
+    @(3750 mils, 5700 mils): Symbol U1 Pin M10 [M1_0, Bidirectional, Line]
+    @(5000 mils, 6550 mils): Symbol J1 Pin GND [Pin_1, Power output, Line]
+[pin_to_pin]: Pins of type Unspecified and Power input are connected
+    ; warning
+    @(5150 mils, 4550 mils): Symbol J2 Pin 12 [12, Unspecified, Line]
+    @(5150 mils, 4550 mils): Symbol #PWR026 Pin 1 [Power input, Line]
+[pin_to_pin]: Pins of type Bidirectional and Power output are connected
+    ; warning
+    @(3750 mils, 5800 mils): Symbol U1 Pin M11 [M2_0, Bidirectional, Line]
+    @(5000 mils, 6550 mils): Symbol J1 Pin GND [Pin_1, Power output, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(5150 mils, 4650 mils): Symbol J2 Pin 13 [13, Unspecified, Line]
+    @(4650 mils, 4650 mils): Symbol C14 Pin 1 [Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Power input are connected
+    ; warning
+    @(5150 mils, 4750 mils): Symbol J2 Pin 14 [14, Unspecified, Line]
+    @(5150 mils, 4750 mils): Symbol #PWR027 Pin 1 [Power input, Line]
+[missing_input_pin]: Symbol Q2 has input pins in units [ Unit B ] that are not placed.
+    ; warning
+    @(6850 mils, 5550 mils): Symbol Q2 [BC847BPN]
+[missing_unit]: Symbol Q2 has unplaced units [ Unit B ]
+    ; warning
+    @(6850 mils, 5550 mils): Symbol Q2 [BC847BPN]
+[missing_input_pin]: Symbol Q1 has input pins in units [ Unit B ] that are not placed.
+    ; warning
+    @(5700 mils, 7000 mils): Symbol Q1 [BC857BS]
+[missing_unit]: Symbol Q1 has unplaced units [ Unit B ]
+    ; warning
+    @(5700 mils, 7000 mils): Symbol Q1 [BC857BS]
+
+***** Sheet /MCU/
+[pin_to_pin]: Pins of type Bidirectional and Power output are connected
+    ; warning
+    @(4900 mils, 2450 mils): Symbol U2 Pin 68 [PA9, Bidirectional, Line]
+    @(5500 mils, 2950 mils): Symbol U3 Pin 1 [OUT, Power output, Line]
+[hier_label_mismatch]: Hierarchical label PB0_LPGPIO1_P9 has no matching sheet pin in the parent sheet
+    ; error
+    @(4900 mils, 3250 mils): Hierarchical Label 'PB0_LPGPIO1_P9'
+[hier_label_mismatch]: Hierarchical label PB1_LPGPIO1_P3 has no matching sheet pin in the parent sheet
+    ; error
+    @(4900 mils, 3350 mils): Hierarchical Label 'PB1_LPGPIO1_P3'
+
+***** Sheet /VGA/
+[multiple_net_names]: Both SYNCGND and SGND are attached to the same items; SYNCGND will be used in the netlist
+    ; warning
+    @(3850 mils, 2650 mils): Label 'SYNCGND'
+    @(5000 mils, 2650 mils): Hierarchical Label 'SGND'
+
+***** Sheet /Power/
+[pin_not_connected]: Pin not connected
+    ; error
+    @(6250 mils, 4350 mils): Symbol IC2 Pin 11 [PG2, Passive, Line]
+
+***** Sheet /SD/
+
+***** Sheet /USB/
+[pin_not_driven]: Input pin not driven by any Output pins
+    ; error
+    @(4500 mils, 3150 mils): Symbol U3 Pin 4 [~{EN}, Input, Line]
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
+    ; error
+    @(5500 mils, 2650 mils): Symbol #PWR083 Pin 1 [Power input, Line]
+
+***** Sheet /Controller/
+
+***** Sheet /7_segment_led+IC/
+[pin_to_pin]: Pins of type Unspecified and Open emitter are connected
+    ; warning
+    @(6550 mils, 2950 mils): Symbol U8 Pin 1 [E, Unspecified, Line]
+    @(4700 mils, 3050 mils): Symbol U7 Pin 21 [SEG_E, Open emitter, Line]
+[pin_to_pin]: Pins of type Unspecified and Open emitter are connected
+    ; warning
+    @(6550 mils, 3050 mils): Symbol U8 Pin 2 [D, Unspecified, Line]
+    @(4700 mils, 2950 mils): Symbol U7 Pin 23 [SEG_D, Open emitter, Line]
+[pin_to_pin]: Pins of type Unspecified and Open emitter are connected
+    ; warning
+    @(6550 mils, 3150 mils): Symbol U8 Pin 3 [DP, Unspecified, Line]
+    @(4700 mils, 3350 mils): Symbol U7 Pin 22 [SEG_DP, Open emitter, Line]
+[pin_to_pin]: Pins of type Unspecified and Open emitter are connected
+    ; warning
+    @(6550 mils, 3250 mils): Symbol U8 Pin 4 [C, Unspecified, Line]
+    @(4700 mils, 2850 mils): Symbol U7 Pin 20 [SEG_C, Open emitter, Line]
+[pin_to_pin]: Pins of type Unspecified and Open emitter are connected
+    ; warning
+    @(6550 mils, 3350 mils): Symbol U8 Pin 5 [G, Unspecified, Line]
+    @(4700 mils, 3250 mils): Symbol U7 Pin 17 [SEG_G, Open emitter, Line]
+[pin_to_pin]: Pins of type Unspecified and Open collector are connected
+    ; warning
+    @(6550 mils, 3450 mils): Symbol U8 Pin 6 [DIG4, Unspecified, Line]
+    @(4700 mils, 3750 mils): Symbol U7 Pin 7 [DIG_3, Open collector, Line]
+[pin_to_pin]: Pins of type Unspecified and Open collector are connected
+    ; warning
+    @(8150 mils, 2950 mils): Symbol U8 Pin 12 [Dig1, Unspecified, Line]
+    @(4700 mils, 3450 mils): Symbol U7 Pin 2 [DIG_0, Open collector, Line]
+[pin_to_pin]: Pins of type Unspecified and Open emitter are connected
+    ; warning
+    @(8150 mils, 3050 mils): Symbol U8 Pin 11 [A, Unspecified, Line]
+    @(4700 mils, 2650 mils): Symbol U7 Pin 14 [SEG_A, Open emitter, Line]
+[pin_to_pin]: Pins of type Unspecified and Open emitter are connected
+    ; warning
+    @(8150 mils, 3150 mils): Symbol U8 Pin 10 [F, Unspecified, Line]
+    @(4700 mils, 3150 mils): Symbol U7 Pin 15 [SEG_F, Open emitter, Line]
+[pin_to_pin]: Pins of type Unspecified and Open collector are connected
+    ; warning
+    @(8150 mils, 3250 mils): Symbol U8 Pin 9 [DIG2, Unspecified, Line]
+    @(4700 mils, 3550 mils): Symbol U7 Pin 11 [DIG_1, Open collector, Line]
+[pin_to_pin]: Pins of type Unspecified and Open collector are connected
+    ; warning
+    @(8150 mils, 3350 mils): Symbol U8 Pin 8 [DIG3, Unspecified, Line]
+    @(4700 mils, 3650 mils): Symbol U7 Pin 6 [DIG_2, Open collector, Line]
+[pin_to_pin]: Pins of type Unspecified and Open emitter are connected
+    ; warning
+    @(8150 mils, 3450 mils): Symbol U8 Pin 7 [B, Unspecified, Line]
+    @(4700 mils, 2750 mils): Symbol U7 Pin 16 [SEG_B, Open emitter, Line]
+
+***** Sheet /FPGA/A_Bank14&15/
+
+***** Sheet /FPGA/B_Bank34&35/
+[multiple_net_names]: Both +3V3 and Enable always on are attached to the same items; +3V3 will be used in the netlist
+    ; warning
+    @(10150 mils, 2450 mils): Symbol #PWR0118 Pin 1 [Power input, Line]
+    @(8750 mils, 2550 mils): Label 'Enable always on'
+[multiple_net_names]: Both GND and SGROUND are attached to the same items; GND will be used in the netlist
+    ; warning
+    @(10400 mils, 2950 mils): Symbol #PWR0119 Pin 1 [Power input, Line]
+    @(9100 mils, 6200 mils): Hierarchical Label 'SGROUND'
+
+ ** ERC messages: 80  Errors 14  Warnings 66
