@@ -1035,6 +1035,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Filter out inhuman frequencies \n(maybe move to pcb instead of on controller)"
+		(exclude_from_sim no)
+		(at 156.464 34.29 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "7eaa3126-ab7d-4f27-a1f5-4ddda3f6de79")
+	)
 	(junction
 		(at 194.31 133.35)
 		(diameter 0)

@@ -4434,6 +4434,10 @@
 		(uuid "a1c17a9a-3acf-4125-8b6b-1d0e34cee9a1")
 	)
 	(no_connect
+		(at 124.46 64.77)
+		(uuid "a1f030fc-2772-420e-8e77-fd89953c7d9f")
+	)
+	(no_connect
 		(at 124.46 46.99)
 		(uuid "a69a1e82-f482-41a5-b165-69f274116048")
 	)
@@ -5233,17 +5237,6 @@
 			(justify left)
 		)
 		(uuid "711d0433-9009-4dab-8009-7e52869be38b")
-	)
-	(hierarchical_label "PA10_OTG_HS_ID"
-		(shape input)
-		(at 124.46 64.77 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "7c1fea8a-622d-47b8-aa88-36c44a026366")
 	)
 	(hierarchical_label "PC1_ADC1_IN2"
 		(shape input)
