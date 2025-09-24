@@ -4362,10 +4362,6 @@
 		(uuid "431df49c-e3ef-4dd1-9663-69136f2a39f3")
 	)
 	(no_connect
-		(at 124.46 100.33)
-		(uuid "4b98ab14-0d7d-47b4-b2f6-7f33623be4d8")
-	)
-	(no_connect
 		(at 124.46 156.21)
 		(uuid "521d5b6f-0f36-4c17-b936-186918c94ea2")
 	)
@@ -4428,10 +4424,6 @@
 	(no_connect
 		(at 179.07 54.61)
 		(uuid "9f09ef7e-7091-4daa-adb0-95bc0d084259")
-	)
-	(no_connect
-		(at 124.46 97.79)
-		(uuid "a1c17a9a-3acf-4125-8b6b-1d0e34cee9a1")
 	)
 	(no_connect
 		(at 124.46 64.77)
@@ -4877,6 +4869,16 @@
 	)
 	(wire
 		(pts
+			(xy 135.89 97.79) (xy 137.16 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "890068f4-4663-48af-a5d3-8dcaf7fc7897")
+	)
+	(wire
+		(pts
 			(xy 73.66 57.15) (xy 78.74 57.15)
 		)
 		(stroke
@@ -4884,6 +4886,16 @@
 			(type default)
 		)
 		(uuid "8e079de6-7599-4b1a-a1ee-305707556754")
+	)
+	(wire
+		(pts
+			(xy 124.46 97.79) (xy 128.27 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92636323-037a-45ad-ae97-af4dd895cc3d")
 	)
 	(wire
 		(pts
@@ -4944,6 +4956,16 @@
 			(type default)
 		)
 		(uuid "a2f5e107-56ee-4e74-9e56-1200b6baefa4")
+	)
+	(wire
+		(pts
+			(xy 124.46 100.33) (xy 128.27 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4abc86d-7f03-4a4d-8e8e-72d794de898a")
 	)
 	(wire
 		(pts
@@ -5087,6 +5109,16 @@
 	)
 	(wire
 		(pts
+			(xy 135.89 100.33) (xy 137.16 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1d74d19-a6c5-4b0e-aa43-73e561d66e44")
+	)
+	(wire
+		(pts
 			(xy 33.02 43.18) (xy 33.02 54.61)
 		)
 		(stroke
@@ -5216,6 +5248,17 @@
 		)
 		(uuid "4f73a68a-692b-44ce-99ae-50cf7cc614a6")
 	)
+	(hierarchical_label "PB6_FPGA_DONE_0"
+		(shape input)
+		(at 137.16 97.79 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6927eedc-20d6-4e92-a270-d5bb7148d470")
+	)
 	(hierarchical_label "PC11_SDMMC1_D3"
 		(shape input)
 		(at 124.46 151.13 0)
@@ -5325,6 +5368,17 @@
 			(justify right)
 		)
 		(uuid "ae1337cf-1cfe-4a8c-9af8-9ebbd4af33a9")
+	)
+	(hierarchical_label "PB7_FPGA_PROGRAM_B"
+		(shape input)
+		(at 137.16 100.33 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b308bd00-a6c7-4b68-94a0-18a023e6bba9")
 	)
 	(hierarchical_label "PC8_SDMMC1_D0"
 		(shape input)
@@ -5871,6 +5925,140 @@
 			(project ""
 				(path "/98f80f66-4595-4d0f-90ca-59b2db6f447b/1a3eaa4f-d49c-486a-8882-cdef72ae86f4"
 					(reference "#PWR051")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 132.08 97.79 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "30adb680-3cf9-41e0-9352-d210966a4e63")
+		(property "Reference" "R90"
+			(at 132.08 92.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100"
+			(at 132.08 95.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 132.08 99.568 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 132.08 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 132.08 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "90ab3cba-d3d7-4a90-aab4-90437a234e2a")
+		)
+		(pin "2"
+			(uuid "4633c4e1-271d-458a-a123-885c9db401ba")
+		)
+		(instances
+			(project ""
+				(path "/98f80f66-4595-4d0f-90ca-59b2db6f447b/1a3eaa4f-d49c-486a-8882-cdef72ae86f4"
+					(reference "R90")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 132.08 100.33 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "34ae4627-ebb3-4950-8563-b333f9e1aa32")
+		(property "Reference" "R91"
+			(at 132.08 103.124 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100"
+			(at 132.08 105.664 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 132.08 102.108 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 132.08 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 132.08 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "90ab3cba-d3d7-4a90-aab4-90437a234e2a")
+		)
+		(pin "2"
+			(uuid "4633c4e1-271d-458a-a123-885c9db401ba")
+		)
+		(instances
+			(project ""
+				(path "/98f80f66-4595-4d0f-90ca-59b2db6f447b/1a3eaa4f-d49c-486a-8882-cdef72ae86f4"
+					(reference "R91")
 					(unit 1)
 				)
 			)

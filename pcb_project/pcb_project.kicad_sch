@@ -2175,6 +2175,16 @@
 	)
 	(wire
 		(pts
+			(xy 104.14 101.6) (xy 161.29 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ce3e47a-1431-4beb-9314-fff972c21f5b")
+	)
+	(wire
+		(pts
 			(xy 34.29 105.41) (xy 34.29 53.34)
 		)
 		(stroke
@@ -2682,6 +2692,16 @@
 			(type default)
 		)
 		(uuid "c9f6b29a-a5fc-4c3a-a969-9b535eb24374")
+	)
+	(wire
+		(pts
+			(xy 104.14 105.41) (xy 161.29 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb6d8590-9e89-4f54-b207-ab60e458790b")
 	)
 	(wire
 		(pts
@@ -4878,6 +4898,26 @@
 				(justify right)
 			)
 		)
+		(pin "PB6_FPGA_DONE_0" input
+			(at 161.29 101.6 180)
+			(uuid "bb6b1c75-5046-4003-a248-43376c4820a9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PB7_FPGA_PROGRAM_B" input
+			(at 161.29 105.41 180)
+			(uuid "76bda0a2-5b47-44dd-852f-c438e9e23f15")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "pcb_project"
 				(path "/98f80f66-4595-4d0f-90ca-59b2db6f447b"
@@ -5290,6 +5330,26 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(pin "FPGA_DONE_0" output
+			(at 104.14 101.6 0)
+			(uuid "6e6d81c7-a43c-4c0f-b8f3-0b466a1a690a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "FPGA_PROGRAM_B" output
+			(at 104.14 105.41 0)
+			(uuid "59b3d2e5-b4bb-4f44-8de0-01dbcfed2513")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
