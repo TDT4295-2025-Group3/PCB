@@ -5009,6 +5009,48 @@
 		)
 	)
 	(sheet
+		(at 134.62 26.67)
+		(size 21.59 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "3846cf6e-272e-4a03-aef5-305ed77092c6")
+		(property "Sheetname" "I2C level shifting"
+			(at 134.62 25.9584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "I2ClevelShifiting.kicad_sch"
+			(at 134.62 39.9546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "pcb_project"
+				(path "/98f80f66-4595-4d0f-90ca-59b2db6f447b"
+					(page "12")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 73.66 64.77)
 		(size 30.48 67.31)
 		(exclude_from_sim no)
