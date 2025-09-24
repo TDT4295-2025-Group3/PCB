@@ -7612,7 +7612,7 @@
 				)
 			)
 		)
-		(property "Footprint" "XLH730003580000I"
+		(property "Footprint" "Project_Footprints:XLH730003580000I"
 			(at 254 174.93 0)
 			(effects
 				(font

@@ -10573,7 +10573,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOP50P2000X120-48N"
+		(property "Footprint" "Project_Footprints:SOP50P2000X120-48N"
 			(at 245.11 154.61 0)
 			(effects
 				(font

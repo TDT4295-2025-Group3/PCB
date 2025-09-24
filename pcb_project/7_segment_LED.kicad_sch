@@ -2978,7 +2978,7 @@
 				)
 			)
 		)
-		(property "Footprint" "COM-11405_SPK"
+		(property "Footprint" "Project_Footprints:COM-11405_SPK"
 			(at 166.37 74.93 0)
 			(effects
 				(font
