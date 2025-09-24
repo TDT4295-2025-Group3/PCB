@@ -7029,7 +7029,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 208.28 157.988 90)
 			(effects
 				(font
@@ -7164,7 +7164,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 265.1252 74.93 0)
 			(effects
 				(font
@@ -7302,7 +7302,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 258.7752 74.93 0)
 			(effects
 				(font
@@ -7372,7 +7372,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_BGA:Xilinx_FTG256"
 			(at 146.05 87.63 0)
 			(effects
 				(font
@@ -8342,7 +8342,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 208.28 160.528 90)
 			(effects
 				(font

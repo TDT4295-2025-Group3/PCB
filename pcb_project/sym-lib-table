@@ -11,4 +11,6 @@
   (lib (name "2025-09-21_16-27-56")(type "KiCad")(uri "${KIPRJMOD}/lib/Project_Symbols/2025-09-21_16-27-56.kicad_sym")(options "")(descr ""))
   (lib (name "XLH736025_175000I")(type "KiCad")(uri "${KIPRJMOD}/lib/Project_Symbols/XLH736025_175000I.kicad_sym")(options "")(descr ""))
   (lib (name "2025-09-24_14-03-19")(type "KiCad")(uri "${KIPRJMOD}/lib/Project_Symbols/2025-09-24_14-03-19.kicad_sym")(options "")(descr ""))
+  (lib (name "2025-09-24_15-19-08")(type "KiCad")(uri "${KIPRJMOD}/lib/Project_Symbols/2025-09-24_15-19-08.kicad_sym")(options "")(descr ""))
+  (lib (name "CX3225SB48000D0FPJC1")(type "KiCad")(uri "${KIPRJMOD}/lib/Project_Symbols/CX3225SB48000D0FPJC1.kicad_sym")(options "")(descr ""))
 )

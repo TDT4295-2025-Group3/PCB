@@ -2431,7 +2431,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 143.51 78.4352 0)
 			(effects
 				(font
@@ -2658,7 +2658,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 112.268 64.77 90)
 			(effects
 				(font
@@ -2726,7 +2726,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_USB:USB_A_Wuerth_614004134726_Horizontal"
 			(at 104.14 105.41 0)
 			(effects
 				(font
@@ -2804,7 +2804,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x7.7"
 			(at 143.51 86.0552 0)
 			(effects
 				(font
@@ -3137,7 +3137,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 151.13 68.8848 0)
 			(effects
 				(font
