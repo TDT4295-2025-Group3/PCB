@@ -6050,10 +6050,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "90ab3cba-d3d7-4a90-aab4-90437a234e2a")
+			(uuid "90ab3cba-d3d7-4a90-aab4-90437a234e2b")
 		)
 		(pin "2"
-			(uuid "4633c4e1-271d-458a-a123-885c9db401ba")
+			(uuid "4633c4e1-271d-458a-a123-885c9db401bb")
 		)
 		(instances
 			(project ""

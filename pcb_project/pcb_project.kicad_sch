@@ -1749,16 +1749,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "Controller will not be on PCB"
-		(exclude_from_sim no)
-		(at 140.716 177.292 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "4186ffa1-8fdf-4fed-827e-4938b412c69b")
-	)
 	(text "Connector for controller"
 		(exclude_from_sim no)
 		(at 164.592 163.576 0)
@@ -1840,38 +1830,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "efe7ff20-1ea3-40d4-bd36-f296e3d0f1b0")
-	)
-	(no_connect
-		(at 149.86 179.07)
-		(uuid "0f01e721-bb7e-449a-af4d-6b95e32fb9b7")
-	)
-	(no_connect
-		(at 139.7 179.07)
-		(uuid "3c097d5f-ad21-463d-a8a7-b3d254160ac6")
-	)
-	(no_connect
-		(at 144.78 179.07)
-		(uuid "6f6ff087-f98f-4a82-991c-ce0496542f69")
-	)
-	(no_connect
-		(at 132.08 179.07)
-		(uuid "8e480af8-3f01-465c-8e3a-5cfcb523c7a7")
-	)
-	(no_connect
-		(at 137.16 179.07)
-		(uuid "964ff6a7-81cc-44ae-a183-2ebc45d7a2f8")
-	)
-	(no_connect
-		(at 142.24 179.07)
-		(uuid "b4ad4afe-703b-4a31-b391-c2b0b1d083b8")
-	)
-	(no_connect
-		(at 134.62 179.07)
-		(uuid "d76f3880-23bf-4dc8-9788-bce034b3a219")
-	)
-	(no_connect
-		(at 147.32 179.07)
-		(uuid "e7a7792f-d158-4ff8-9500-4a86a954b108")
 	)
 	(wire
 		(pts
@@ -5398,127 +5356,6 @@
 			(project "pcb_project"
 				(path "/98f80f66-4595-4d0f-90ca-59b2db6f447b"
 					(page "2")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 129.54 179.07)
-		(size 22.86 12.7)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "8d37cb1b-68e3-4c4f-bec3-1efbc6c7e4dc")
-		(property "Sheetname" "Controller"
-			(at 118.11 179.578 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "controller.kicad_sch"
-			(at 129.286 192.786 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "B1" output
-			(at 132.08 179.07 90)
-			(uuid "8c68d78f-6035-467a-82fa-7afd9f842c70")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "V1" output
-			(at 137.16 179.07 90)
-			(uuid "1bbf2a66-7094-4407-8b74-9f27b7857897")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "SEL2" output
-			(at 149.86 179.07 90)
-			(uuid "618e4f74-cf05-4df6-9b9a-d122ec3e756a")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "SEL1" output
-			(at 142.24 179.07 90)
-			(uuid "d8e25d41-3169-4308-becc-085369b2c97a")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "H1" output
-			(at 139.7 179.07 90)
-			(uuid "e272ae0a-2473-4eea-ba44-b43e8c3badcc")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "H2" output
-			(at 147.32 179.07 90)
-			(uuid "71492b65-f3ad-431b-be2e-5a24e358fe72")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "B2" output
-			(at 134.62 179.07 90)
-			(uuid "3784a22e-cf4f-4768-9408-b6e42a8acfae")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "V2" output
-			(at 144.78 179.07 90)
-			(uuid "aa116d8e-cc98-4015-94f1-7628812c45a3")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(instances
-			(project "pcb_project"
-				(path "/98f80f66-4595-4d0f-90ca-59b2db6f447b"
-					(page "8")
 				)
 			)
 		)
