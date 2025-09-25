@@ -12504,12 +12504,6 @@
 		(uuid "2cf32b46-b86e-4523-a037-b02213f15fc0")
 	)
 	(junction
-		(at 105.41 165.1)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "352ffafd-49b3-4228-bab1-8214a87c8984")
-	)
-	(junction
 		(at 217.17 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -12774,6 +12768,12 @@
 		(uuid "a77f0c46-4dfd-4e47-b81e-fbf854885493")
 	)
 	(junction
+		(at 97.79 165.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a781d733-4569-4936-ae8f-63e39c0f6532")
+	)
+	(junction
 		(at 104.14 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -12970,12 +12970,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fe780ccd-6fe4-4149-befd-9c420345dca8")
-	)
-	(junction
-		(at 139.7 146.05)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fe8d6753-a640-44ca-aab8-056ec2f6d885")
 	)
 	(no_connect
 		(at 95.25 167.64)
@@ -13441,16 +13435,6 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 146.05) (xy 157.48 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "54c24320-dc62-4cad-9dbd-cd7e23830ee6")
-	)
-	(wire
-		(pts
 			(xy 125.73 105.41) (xy 125.73 129.54)
 		)
 		(stroke
@@ -13831,7 +13815,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 165.1) (xy 105.41 165.1)
+			(xy 95.25 165.1) (xy 97.79 165.1)
 		)
 		(stroke
 			(width 0)
@@ -14531,6 +14515,16 @@
 	)
 	(wire
 		(pts
+			(xy 97.79 165.1) (xy 111.76 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1121568-b7e8-4bd7-978f-053be09bad98")
+	)
+	(wire
+		(pts
 			(xy 267.97 139.7) (xy 267.97 142.24)
 		)
 		(stroke
@@ -14881,7 +14875,7 @@
 	)
 	(hierarchical_label "FPGA_PROGRAM_B"
 		(shape output)
-		(at 157.48 146.05 270)
+		(at 107.95 165.1 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17814,7 +17808,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 105.41 172.72 180)
+		(at 97.79 172.72 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17823,7 +17817,7 @@
 		(fields_autoplaced yes)
 		(uuid "56b26541-5c75-4fc2-b318-681f54f11220")
 		(property "Reference" "#PWR016"
-			(at 105.41 168.91 0)
+			(at 97.79 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17832,7 +17826,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 105.41 177.8 0)
+			(at 97.79 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17840,7 +17834,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 105.41 172.72 0)
+			(at 97.79 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17849,7 +17843,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 105.41 172.72 0)
+			(at 97.79 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17858,7 +17852,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 105.41 172.72 0)
+			(at 97.79 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18150,7 +18144,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 105.41 168.91 0)
+		(at 97.79 168.91 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18159,7 +18153,7 @@
 		(fields_autoplaced yes)
 		(uuid "650266ee-a48e-486c-b8c1-db0896a7ddfb")
 		(property "Reference" "R14"
-			(at 107.95 167.6399 0)
+			(at 100.33 167.6399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18168,7 +18162,7 @@
 			)
 		)
 		(property "Value" "4.7k"
-			(at 107.95 170.1799 0)
+			(at 100.33 170.1799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18177,7 +18171,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 103.632 168.91 90)
+			(at 96.012 168.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18186,7 +18180,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 105.41 168.91 0)
+			(at 97.79 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18195,7 +18189,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 105.41 168.91 0)
+			(at 97.79 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18624,7 +18618,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 115.57 165.1 90)
+		(at 121.92 165.1 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18633,7 +18627,7 @@
 		(fields_autoplaced yes)
 		(uuid "89a2830f-9b8a-48a7-811e-19a96fdee8a1")
 		(property "Reference" "#PWR018"
-			(at 121.92 165.1 0)
+			(at 128.27 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18642,7 +18636,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 119.38 165.0999 90)
+			(at 125.73 165.0999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18651,7 +18645,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 115.57 165.1 0)
+			(at 121.92 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18660,7 +18654,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 115.57 165.1 0)
+			(at 121.92 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18669,7 +18663,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 115.57 165.1 0)
+			(at 121.92 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18691,7 +18685,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 110.49 165.1 0)
+		(at 116.84 165.1 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18700,7 +18694,7 @@
 		(fields_autoplaced yes)
 		(uuid "89bb0e96-e9a7-4fb0-aab5-48b225512d28")
 		(property "Reference" "SW1"
-			(at 110.49 157.48 0)
+			(at 116.84 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18708,7 +18702,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 110.49 160.02 0)
+			(at 116.84 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18716,7 +18710,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 110.49 160.02 0)
+			(at 116.84 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18725,7 +18719,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 110.49 160.02 0)
+			(at 116.84 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18734,7 +18728,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 110.49 165.1 0)
+			(at 116.84 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
