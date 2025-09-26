@@ -5573,7 +5573,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_Bourns-SRN4018"
+		(property "Footprint" "Inductor_SMD:L_Bourns_SRP5030T"
 			(at 101.6 118.11 0)
 			(effects
 				(font
@@ -5845,7 +5845,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_Bourns-SRN4018"
 			(at 193.04 118.11 0)
 			(effects
 				(font
@@ -6494,7 +6494,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "M20-9990246:HARWIN_M20-9990246"
+		(property "Footprint" "Project_Footprints:HARWIN_M20-9990246"
 			(at 251.46 125.73 0)
 			(effects
 				(font
@@ -6605,7 +6605,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "M20-9990246:HARWIN_M20-9990246"
+		(property "Footprint" "Project_Footprints:HARWIN_M20-9990246"
 			(at 251.46 97.79 0)
 			(effects
 				(font
@@ -7571,7 +7571,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_Bourns_SRP5030T"
 			(at 177.8 48.26 0)
 			(effects
 				(font
@@ -8191,7 +8191,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "M20-9990246:HARWIN_M20-9990246"
+		(property "Footprint" "Project_Footprints:HARWIN_M20-9990246"
 			(at 251.46 111.76 0)
 			(effects
 				(font
@@ -8371,7 +8371,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "M20-9990246:HARWIN_M20-9990246"
+		(property "Footprint" "Project_Footprints:HARWIN_M20-9990246"
 			(at 251.46 83.82 0)
 			(effects
 				(font
@@ -8761,7 +8761,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "M20-9990246:HARWIN_M20-9990246"
+		(property "Footprint" "Project_Footprints:HARWIN_M20-9990246"
 			(at 251.46 69.85 0)
 			(effects
 				(font
