@@ -5614,10 +5614,6 @@
 		(uuid "e9d9bcd9-f305-4e20-bf52-e33c9440903c")
 	)
 	(no_connect
-		(at 196.85 80.01)
-		(uuid "03b603d3-4925-4de3-b1db-f3b753083cc6")
-	)
-	(no_connect
 		(at 196.85 62.23)
 		(uuid "08539519-15af-4926-9acd-74b967bbf9e3")
 	)
@@ -5654,28 +5650,12 @@
 		(uuid "4b6415b9-c0f2-40b3-8a57-7a39fbe9c41d")
 	)
 	(no_connect
-		(at 196.85 85.09)
-		(uuid "523527e9-512a-4a7b-af35-f7c2ca4a6941")
-	)
-	(no_connect
 		(at 95.25 82.55)
 		(uuid "54e08389-8034-4aa2-9975-c39af4c550d8")
 	)
 	(no_connect
 		(at 196.85 57.15)
 		(uuid "5af5d97f-35bf-4750-b5d0-db02b16e4372")
-	)
-	(no_connect
-		(at 196.85 74.93)
-		(uuid "5c6af37b-8433-4289-8bd8-e0ffc77ca8b5")
-	)
-	(no_connect
-		(at 196.85 69.85)
-		(uuid "5d97badc-8f49-4730-bc3d-70210dfcf25a")
-	)
-	(no_connect
-		(at 196.85 67.31)
-		(uuid "6172fc8b-4e5e-4d7f-92a2-ff64c95f63c3")
 	)
 	(no_connect
 		(at 196.85 87.63)
@@ -5698,16 +5678,8 @@
 		(uuid "78a15263-6e96-4a26-8790-1d23df93a826")
 	)
 	(no_connect
-		(at 196.85 72.39)
-		(uuid "7c7dfd2c-00d2-48d2-acef-2ea93e1011ad")
-	)
-	(no_connect
 		(at 196.85 133.35)
 		(uuid "8180d015-c08f-4c92-ab0d-25ddb9d23f4e")
-	)
-	(no_connect
-		(at 196.85 77.47)
-		(uuid "858938be-4734-42cd-8b53-5418170aac82")
 	)
 	(no_connect
 		(at 95.25 36.83)
@@ -5782,8 +5754,8 @@
 		(uuid "db763b7c-272e-4e4b-a33f-a16e561da94c")
 	)
 	(no_connect
-		(at 196.85 82.55)
-		(uuid "dd054cad-4527-461c-9c0f-7355a5e1f973")
+		(at 196.85 95.25)
+		(uuid "de92e080-8bfd-40c6-a3d6-9350c7a38662")
 	)
 	(no_connect
 		(at 95.25 74.93)
@@ -6216,7 +6188,7 @@
 	)
 	(hierarchical_label "OSPI 2"
 		(shape input)
-		(at 200.66 50.8 0)
+		(at 196.85 85.09 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6238,7 +6210,7 @@
 	)
 	(hierarchical_label "OSPI 0"
 		(shape input)
-		(at 200.66 55.88 0)
+		(at 196.85 80.01 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6249,7 +6221,7 @@
 	)
 	(hierarchical_label "OSPI 6"
 		(shape input)
-		(at 200.66 81.28 0)
+		(at 196.85 82.55 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6260,7 +6232,7 @@
 	)
 	(hierarchical_label "OSPI 3"
 		(shape input)
-		(at 200.66 45.72 0)
+		(at 196.85 74.93 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6370,7 +6342,7 @@
 	)
 	(hierarchical_label "OSPI 5"
 		(shape input)
-		(at 200.66 63.5 0)
+		(at 196.85 69.85 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6425,7 +6397,7 @@
 	)
 	(hierarchical_label "OSPI 7"
 		(shape input)
-		(at 200.66 78.74 0)
+		(at 196.85 67.31 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6480,7 +6452,7 @@
 	)
 	(hierarchical_label "OSPI 4"
 		(shape input)
-		(at 200.66 43.18 0)
+		(at 196.85 72.39 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6502,7 +6474,7 @@
 	)
 	(hierarchical_label "OSPI 1"
 		(shape input)
-		(at 200.66 53.34 0)
+		(at 196.85 77.47 0)
 		(effects
 			(font
 				(size 1.27 1.27)

@@ -36213,7 +36213,7 @@
 	(footprint "Project_Footprints:SOP50P2000X120-48N"
 		(layer "F.Cu")
 		(uuid "805f975e-12af-4f82-bfad-ffcad3574293")
-		(at 114.8 95.325)
+		(at 113.35 95.325)
 		(descr "TSOP 48")
 		(tags "Integrated Circuit")
 		(property "Reference" "IC3"
