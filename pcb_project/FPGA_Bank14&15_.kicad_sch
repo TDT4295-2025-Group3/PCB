@@ -12099,7 +12099,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "b0207fc9-0cbb-4d34-8ff7-3fd2bf12869d")
+			(uuid "b0207fc9-0cbb-4d34-8ff7-3fd2bf12869e")
 		)
 		(instances
 			(project ""
@@ -13011,7 +13011,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 73.66 171.958 90)
 			(effects
 				(font
@@ -13351,7 +13351,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 73.66 166.878 90)
 			(effects
 				(font
@@ -13379,10 +13379,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "df387ecb-00e4-4f13-aaef-17753a1f7426")
+			(uuid "df387ecb-00e4-4f13-aaef-17753a1f7427")
 		)
 		(pin "1"
-			(uuid "9bcd888f-3066-446d-95a4-71912dd38bf0")
+			(uuid "9bcd888f-3066-446d-95a4-71912dd38bf1")
 		)
 		(instances
 			(project ""
@@ -13954,7 +13954,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 73.66 187.198 90)
 			(effects
 				(font
@@ -13982,10 +13982,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "df387ecb-00e4-4f13-aaef-17753a1f7426")
+			(uuid "df387ecb-00e4-4f13-aaef-17753a1f7428")
 		)
 		(pin "1"
-			(uuid "9bcd888f-3066-446d-95a4-71912dd38bf0")
+			(uuid "9bcd888f-3066-446d-95a4-71912dd38bf2")
 		)
 		(instances
 			(project ""
@@ -14257,7 +14257,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "bceffc2a-c61e-44be-9ce6-4fabc40b5067")
+			(uuid "bceffc2a-c61e-44be-9ce6-4fabc40b5068")
 		)
 		(instances
 			(project ""
@@ -15091,7 +15091,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 73.66 177.038 90)
 			(effects
 				(font
@@ -15119,10 +15119,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "df387ecb-00e4-4f13-aaef-17753a1f7426")
+			(uuid "df387ecb-00e4-4f13-aaef-17753a1f7429")
 		)
 		(pin "1"
-			(uuid "9bcd888f-3066-446d-95a4-71912dd38bf0")
+			(uuid "9bcd888f-3066-446d-95a4-71912dd38bf3")
 		)
 		(instances
 			(project ""
@@ -16579,7 +16579,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOP2_8PIN_208MIL_MRN"
+		(property "Footprint" "Project_Footprints:SOP2_8PIN_208MIL_MRNFPGA_FLASH"
 			(at 156.21 109.22 0)
 			(effects
 				(font
@@ -16804,7 +16804,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 73.66 182.118 90)
 			(effects
 				(font
@@ -16832,10 +16832,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "df387ecb-00e4-4f13-aaef-17753a1f7426")
+			(uuid "df387ecb-00e4-4f13-aaef-17753a1f742a")
 		)
 		(pin "1"
-			(uuid "9bcd888f-3066-446d-95a4-71912dd38bf0")
+			(uuid "9bcd888f-3066-446d-95a4-71912dd38bf4")
 		)
 		(instances
 			(project ""
