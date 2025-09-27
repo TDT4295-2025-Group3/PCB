@@ -4383,39 +4383,9 @@
 				(justify right)
 			)
 		)
-		(pin "PB10_LPGPIO1_P4" input
-			(at 210.82 133.35 0)
-			(uuid "2ea56963-14a7-4146-ad73-2cee846285f2")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "PA9_OTG_HS_VBUS" input
 			(at 210.82 101.6 0)
 			(uuid "1bd7b5f7-3cbe-4622-a3a9-f7e90015c902")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "PA11_OTG_HS_DM(boot)" input
-			(at 210.82 104.14 0)
-			(uuid "10f600ac-aa5a-4940-8b3b-0c44efbf60fc")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "PA12_OTG_HS_DP(boot)" input
-			(at 210.82 106.68 0)
-			(uuid "73760137-ce8a-4191-b537-72daa5cd37f2")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4691,6 +4661,36 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(pin "OTG_HS_D+" input
+			(at 210.82 106.68 0)
+			(uuid "250a8f48-4939-4aef-b0d1-538d8f044915")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "OTG_HS_D-" input
+			(at 210.82 104.14 0)
+			(uuid "edd82d1f-ab11-433d-95e6-69fb23c79361")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PB4_LPGPIO1_P12" input
+			(at 210.82 133.35 0)
+			(uuid "2a7f9c61-4cbe-493a-b6a2-229d0e02adfa")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances

@@ -4557,10 +4557,6 @@
 		(uuid "773d5717-7d16-482f-812c-35f592fee6ec")
 	)
 	(no_connect
-		(at 124.46 92.71)
-		(uuid "7c816e12-4684-4e47-9eaf-208ec0d01cf7")
-	)
-	(no_connect
 		(at 78.74 130.81)
 		(uuid "7d406b5c-421a-4c00-9c1a-667540ffd66c")
 	)
@@ -4591,6 +4587,10 @@
 	(no_connect
 		(at 78.74 80.01)
 		(uuid "9506f711-ff1d-45b4-ba5f-885bc94335c9")
+	)
+	(no_connect
+		(at 124.46 107.95)
+		(uuid "96b5188d-a86f-41df-8e82-802284ca051a")
 	)
 	(no_connect
 		(at 179.07 54.61)
@@ -5442,7 +5442,7 @@
 		)
 		(uuid "11250c0b-e6e6-425b-b466-e9609ec9f93b")
 	)
-	(hierarchical_label "PA12_OTG_HS_DP(boot)"
+	(hierarchical_label "OTG_HS_D+"
 		(shape input)
 		(at 124.46 69.85 0)
 		(effects
@@ -5486,7 +5486,7 @@
 		)
 		(uuid "422d7247-16ba-4ed8-b883-5650f19b929a")
 	)
-	(hierarchical_label "PA11_OTG_HS_DM(boot)"
+	(hierarchical_label "OTG_HS_D-"
 		(shape input)
 		(at 124.46 67.31 0)
 		(effects
@@ -5562,6 +5562,17 @@
 			(justify left)
 		)
 		(uuid "86cc8a6f-b8e4-4449-8d65-27da7d7c6254")
+	)
+	(hierarchical_label "PB4_LPGPIO1_P12"
+		(shape input)
+		(at 124.46 92.71 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8d7dccfb-dd4b-4991-bdcc-a159c90a55c6")
 	)
 	(hierarchical_label "PA9_OTG_HS_VBUS"
 		(shape input)
@@ -5705,17 +5716,6 @@
 			(justify right)
 		)
 		(uuid "e72c13d9-acfa-44e1-b9e9-3bebfd3b9db0")
-	)
-	(hierarchical_label "PB10_LPGPIO1_P4"
-		(shape input)
-		(at 124.46 107.95 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "e90ffabc-36e1-47a8-9dc4-f1fbc754cf0a")
 	)
 	(hierarchical_label "PC2_ADC1_IN3"
 		(shape input)
@@ -6278,7 +6278,7 @@
 		(dnp no)
 		(uuid "30adb680-3cf9-41e0-9352-d210966a4e63")
 		(property "Reference" "R90"
-			(at 132.08 92.71 90)
+			(at 132.08 95.504 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6286,7 +6286,7 @@
 			)
 		)
 		(property "Value" "100"
-			(at 132.08 95.25 90)
+			(at 132.08 97.79 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6486,7 +6486,7 @@
 			)
 		)
 		(property "Value" "100"
-			(at 132.08 105.664 90)
+			(at 132.334 100.33 90)
 			(effects
 				(font
 					(size 1.27 1.27)

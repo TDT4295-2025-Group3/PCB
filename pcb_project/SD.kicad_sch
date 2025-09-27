@@ -5,6 +5,172 @@
 	(uuid "ab7f2645-51a9-4a45-91d0-bf5f6e276c03")
 	(paper "A4")
 	(lib_symbols
+		(symbol "2025-09-27_10-20-59:TPD1E1B04DPYT"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 20.32 10.16 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "TPD1E1B04DPYT"
+				(at 20.32 7.62 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" "DPY2_TEX"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.ti.com/lit/gpn/tpd1e1b04"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "TPD1E1B04DPYT"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "DPY2_TEX"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TPD1E1B04DPYT_0_1"
+				(polyline
+					(pts
+						(xy 7.62 5.08) (xy 7.62 -5.08)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -5.08) (xy 33.02 -5.08)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 33.02 5.08) (xy 7.62 5.08)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 33.02 -5.08) (xy 33.02 5.08)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at 0 0 0)
+					(length 7.62)
+					(name "I/O"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 40.64 0 180)
+					(length 7.62)
+					(name "I/O"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -251,168 +417,6 @@
 					(at 0 -3.81 90)
 					(length 1.27)
 					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Diode:ESD9B3.3ST5G"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "ESD9B3.3ST5G"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Diode_SMD:D_SOD-923"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.onsemi.com/pub/Collateral/ESD9B-D.PDF"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "ESD protection diode, 3.3Vrwm, SOD-923"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "diode TVS ESD"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "D*SOD?923*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "ESD9B3.3ST5G_0_1"
-				(polyline
-					(pts
-						(xy -2.54 -1.27) (xy 0 0) (xy -2.54 1.27) (xy -2.54 -1.27)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.508 1.27) (xy 0 1.27) (xy 0 -1.27) (xy -0.508 -1.27)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 1.27) (xy 2.54 -1.27) (xy 0 0) (xy 2.54 1.27)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "ESD9B3.3ST5G_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "A1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1018,6 +1022,12 @@
 		(uuid "250e2cc8-34e0-4a5e-a364-06b5382bf087")
 	)
 	(junction
+		(at 153.67 172.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0787edb4-6877-4111-834b-0f2e481da3d8")
+	)
+	(junction
 		(at 149.86 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1042,16 +1052,16 @@
 		(uuid "1f14e404-eab9-49b7-8f8d-29e674e00a56")
 	)
 	(junction
-		(at 149.86 115.57)
+		(at 142.24 172.72)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "2c03cc15-67db-44ca-b9bc-d9a5cc0181b3")
+		(uuid "35431dbe-aadd-4cbb-8ea8-f7c9f69c8a48")
 	)
 	(junction
-		(at 139.7 115.57)
+		(at 107.95 172.72)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "344d6ba6-7fcf-40b1-bbce-69e9faecbfeb")
+		(uuid "364dd05d-1c56-4ce9-9159-d82c563c82a5")
 	)
 	(junction
 		(at 160.02 92.71)
@@ -1078,28 +1088,22 @@
 		(uuid "55fe9f07-f984-4a68-aac3-f8b321f839a1")
 	)
 	(junction
-		(at 160.02 115.57)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5742ef40-78a4-4dee-ad49-2578bd903eaf")
-	)
-	(junction
 		(at 139.7 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5a50ecaf-43d3-430f-b5bc-53a0799e99e1")
 	)
 	(junction
-		(at 154.94 115.57)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5f7bf100-11d0-40ff-8e2e-bda361d84def")
-	)
-	(junction
 		(at 219.71 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6779ce59-5271-42c3-a941-133f6b49451e")
+	)
+	(junction
+		(at 119.38 172.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "91d44198-f738-4b6f-8c3a-fc4ac2f4ed75")
 	)
 	(junction
 		(at 154.94 57.15)
@@ -1156,6 +1160,12 @@
 		(uuid "cf56f681-a1eb-4b8b-92dd-17240a5a3ae1")
 	)
 	(junction
+		(at 130.81 172.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "da6222d6-d062-438c-956c-b47612381b19")
+	)
+	(junction
 		(at 139.7 57.15)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1172,12 +1182,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ed8bb1a7-63ef-4193-87a9-63ba2b40025e")
-	)
-	(junction
-		(at 144.78 115.57)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f6b98109-a6ca-4166-9670-2997a6313463")
 	)
 	(wire
 		(pts
@@ -1231,6 +1235,16 @@
 	)
 	(wire
 		(pts
+			(xy 130.81 172.72) (xy 142.24 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d7219dc-3a9d-4cad-8289-d13801ed4598")
+	)
+	(wire
+		(pts
 			(xy 121.92 78.74) (xy 119.38 78.74)
 		)
 		(stroke
@@ -1241,7 +1255,17 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 78.74) (xy 139.7 105.41)
+			(xy 107.95 132.08) (xy 107.95 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11677572-641f-4ec2-8c58-ff91a0d6d62e")
+	)
+	(wire
+		(pts
+			(xy 139.7 78.74) (xy 139.7 111.76)
 		)
 		(stroke
 			(width 0)
@@ -1278,16 +1302,6 @@
 			(type default)
 		)
 		(uuid "165c4f56-987f-4be6-aca3-084113130605")
-	)
-	(wire
-		(pts
-			(xy 165.1 115.57) (xy 165.1 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "18f5e7c3-350d-47df-8cb4-5ac346e783fe")
 	)
 	(wire
 		(pts
@@ -1361,17 +1375,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 115.57) (xy 160.02 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2ad1fa60-f6ce-418b-b887-b660493c0df6")
-	)
-	(wire
-		(pts
-			(xy 154.94 87.63) (xy 154.94 105.41)
+			(xy 154.94 87.63) (xy 154.94 127)
 		)
 		(stroke
 			(width 0)
@@ -1391,13 +1395,23 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 113.03) (xy 144.78 115.57)
+			(xy 149.86 121.92) (xy 130.81 121.92)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "367f8d1b-3abc-4831-bb8c-4fd400f42ff9")
+		(uuid "3680200f-de0a-4ef3-9611-0fdc9355e493")
+	)
+	(wire
+		(pts
+			(xy 144.78 116.84) (xy 119.38 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3901bab9-869b-4549-bf58-c737fe3d8e43")
 	)
 	(wire
 		(pts
@@ -1418,6 +1432,16 @@
 			(type default)
 		)
 		(uuid "403ec4ce-56ff-485d-a056-1324487da19d")
+	)
+	(wire
+		(pts
+			(xy 160.02 132.08) (xy 153.67 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40b40c30-113a-4b35-b443-fc9e21c445da")
 	)
 	(wire
 		(pts
@@ -1451,13 +1475,13 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 115.57) (xy 139.7 115.57)
+			(xy 165.1 95.25) (xy 165.1 132.08)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "481e3d5a-85a5-49bb-8b0c-86bebe019bb0")
+		(uuid "48b9cb53-5420-49a9-a5d5-0337dc5d9ddf")
 	)
 	(wire
 		(pts
@@ -1478,16 +1502,6 @@
 			(type default)
 		)
 		(uuid "4a9ce073-d6f8-4e4a-938c-d2b3564953b9")
-	)
-	(wire
-		(pts
-			(xy 154.94 113.03) (xy 154.94 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4c336ebe-4eca-4f79-a4f1-645f65299c3f")
 	)
 	(wire
 		(pts
@@ -1518,16 +1532,6 @@
 			(type default)
 		)
 		(uuid "52f1ce25-5878-4c8d-94e0-8d4be8552797")
-	)
-	(wire
-		(pts
-			(xy 165.1 95.25) (xy 165.1 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "55031974-2055-4009-a8f1-6098ab0d252f")
 	)
 	(wire
 		(pts
@@ -1581,6 +1585,26 @@
 	)
 	(wire
 		(pts
+			(xy 154.94 127) (xy 142.24 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "601ec617-475c-4e3f-b666-ec6681e736a9")
+	)
+	(wire
+		(pts
+			(xy 119.38 172.72) (xy 130.81 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60695201-6631-4931-a5d8-e3e625b6ecb8")
+	)
+	(wire
+		(pts
 			(xy 149.86 57.15) (xy 149.86 59.69)
 		)
 		(stroke
@@ -1588,6 +1612,26 @@
 			(type default)
 		)
 		(uuid "6af3b29b-c28d-4512-a1be-34e597b7ea32")
+	)
+	(wire
+		(pts
+			(xy 142.24 172.72) (xy 153.67 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6fb27fcc-2d77-4668-bf56-78581c8fbc15")
+	)
+	(wire
+		(pts
+			(xy 142.24 127) (xy 142.24 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "742eaf0b-e383-40df-984d-562344de99f7")
 	)
 	(wire
 		(pts
@@ -1618,6 +1662,16 @@
 			(type default)
 		)
 		(uuid "75309152-2c78-4bdb-8f62-a00b6dfe1699")
+	)
+	(wire
+		(pts
+			(xy 160.02 92.71) (xy 160.02 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "804c0939-e05e-412e-9b61-af121e3bbb82")
 	)
 	(wire
 		(pts
@@ -1691,13 +1745,13 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 115.57) (xy 165.1 115.57)
+			(xy 153.67 172.72) (xy 165.1 172.72)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9df30d0d-e8f1-41dc-9ef4-fd480996ea74")
+		(uuid "9dad7ccd-c669-4fb5-9d26-422acf2e5bb9")
 	)
 	(wire
 		(pts
@@ -1731,16 +1785,6 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 92.71) (xy 160.02 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a282f0e5-2dd3-4fe5-9779-f0237e07fdd3")
-	)
-	(wire
-		(pts
 			(xy 198.12 54.61) (xy 198.12 55.88)
 		)
 		(stroke
@@ -1761,23 +1805,13 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 81.28) (xy 144.78 105.41)
+			(xy 144.78 81.28) (xy 144.78 116.84)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "aeb77fae-81a4-4f44-9740-01767f3c006a")
-	)
-	(wire
-		(pts
-			(xy 144.78 115.57) (xy 149.86 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b01e7c5e-1bb0-4858-b503-911c21014fe1")
 	)
 	(wire
 		(pts
@@ -1798,6 +1832,16 @@
 			(type default)
 		)
 		(uuid "b3a2468e-242d-4361-a8b1-57ca0f8aadef")
+	)
+	(wire
+		(pts
+			(xy 130.81 121.92) (xy 130.81 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4dc5a2a-18c4-4dfb-bc8d-4c6d90d2614d")
 	)
 	(wire
 		(pts
@@ -1841,6 +1885,16 @@
 	)
 	(wire
 		(pts
+			(xy 149.86 85.09) (xy 149.86 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3d5e40e-4830-4df8-87db-2e76ed827678")
+	)
+	(wire
+		(pts
 			(xy 215.9 87.63) (xy 219.71 87.63)
 		)
 		(stroke
@@ -1851,26 +1905,6 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 113.03) (xy 160.02 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c72be3db-9d6c-4ad2-9b92-418c5a935984")
-	)
-	(wire
-		(pts
-			(xy 139.7 115.57) (xy 144.78 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c8095f17-1d43-4c97-966c-cc4cb709ce27")
-	)
-	(wire
-		(pts
 			(xy 129.54 95.25) (xy 165.1 95.25)
 		)
 		(stroke
@@ -1878,26 +1912,6 @@
 			(type default)
 		)
 		(uuid "c8b4ecc1-f301-4683-9031-a0e1652a1f48")
-	)
-	(wire
-		(pts
-			(xy 149.86 113.03) (xy 149.86 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ccfb92a7-0232-448f-8b08-ff48f5315532")
-	)
-	(wire
-		(pts
-			(xy 139.7 113.03) (xy 139.7 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d099af23-ee51-442d-bf2a-02bad4b95d1a")
 	)
 	(wire
 		(pts
@@ -1941,6 +1955,26 @@
 	)
 	(wire
 		(pts
+			(xy 107.95 111.76) (xy 139.7 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3549144-8499-44c1-a12f-e9facb119b6a")
+	)
+	(wire
+		(pts
+			(xy 107.95 172.72) (xy 119.38 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e640c5c2-e008-4128-943d-8df382505bab")
+	)
+	(wire
+		(pts
 			(xy 149.86 57.15) (xy 154.94 57.15)
 		)
 		(stroke
@@ -1948,26 +1982,6 @@
 			(type default)
 		)
 		(uuid "eaa588ab-8896-481d-8d4e-11ab0c0dd166")
-	)
-	(wire
-		(pts
-			(xy 149.86 115.57) (xy 154.94 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ee915835-aac4-4fa5-91f7-84afc3e97b26")
-	)
-	(wire
-		(pts
-			(xy 149.86 85.09) (xy 149.86 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f05173fa-2aa2-4b6e-9a7e-ee93936ec361")
 	)
 	(wire
 		(pts
@@ -1988,6 +2002,16 @@
 			(type default)
 		)
 		(uuid "fae63ff5-611a-4a7c-98f3-3ac82f6cab9e")
+	)
+	(wire
+		(pts
+			(xy 119.38 116.84) (xy 119.38 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb0c7c02-b2c9-4bc4-a97f-19b1eac52127")
 	)
 	(hierarchical_label "SDMMC_DAT2"
 		(shape bidirectional)
@@ -2065,6 +2089,78 @@
 			(justify right)
 		)
 		(uuid "f6234aef-076c-43ba-af96-b9fa72cad9b9")
+	)
+	(symbol
+		(lib_id "2025-09-27_10-20-59:TPD1E1B04DPYT")
+		(at 119.38 132.08 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "108362c0-4a75-412f-ba55-dba4d093f8e5")
+		(property "Reference" "U12"
+			(at 121.666 137.922 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TPD1E1B04DPYT"
+			(at 125.73 153.6699 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "DPY2_TEX"
+			(at 119.38 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/gpn/tpd1e1b04"
+			(at 119.38 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 119.38 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8dcbbdbe-8a97-41c3-ade0-6400c8cf676e")
+		)
+		(pin "2"
+			(uuid "bf9d447b-c739-4e7d-bb1c-c99dc06bfb54")
+		)
+		(instances
+			(project "pcb_project"
+				(path "/98f80f66-4595-4d0f-90ca-59b2db6f447b/dc6b7bff-d1d4-46df-9320-1308e1eae973"
+					(reference "U12")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:+3V3")
@@ -2197,6 +2293,78 @@
 			(project ""
 				(path "/98f80f66-4595-4d0f-90ca-59b2db6f447b/dc6b7bff-d1d4-46df-9320-1308e1eae973"
 					(reference "R60")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "2025-09-27_10-20-59:TPD1E1B04DPYT")
+		(at 107.95 132.08 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "257ac81c-5da4-417c-a4cb-47a2eb430a40")
+		(property "Reference" "U13"
+			(at 110.236 137.922 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TPD1E1B04DPYT"
+			(at 114.3 153.6699 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "DPY2_TEX"
+			(at 107.95 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/gpn/tpd1e1b04"
+			(at 107.95 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 107.95 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4ebd0b2e-619f-4887-9d82-d8d2a26a24ca")
+		)
+		(pin "2"
+			(uuid "8bd776ac-f163-417c-9017-ee0da221d4a7")
+		)
+		(instances
+			(project "pcb_project"
+				(path "/98f80f66-4595-4d0f-90ca-59b2db6f447b/dc6b7bff-d1d4-46df-9320-1308e1eae973"
+					(reference "U13")
 					(unit 1)
 				)
 			)
@@ -2406,146 +2574,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:ESD9B3.3ST5G")
-		(at 149.86 109.22 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4b90fcb0-67e0-4628-89c6-0226d3418054")
-		(property "Reference" "D7"
-			(at 150.368 105.156 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "ESD9B3.3ST5G"
-			(at 152.4 110.4899 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-923"
-			(at 149.86 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/ESD9B-D.PDF"
-			(at 149.86 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "ESD protection diode, 3.3Vrwm, SOD-923"
-			(at 149.86 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "26cb0237-dad3-4348-a267-bd7796bbf953")
-		)
-		(pin "1"
-			(uuid "bda53554-6364-4f57-88b9-43513dd28b2c")
-		)
-		(instances
-			(project "pcb_project"
-				(path "/98f80f66-4595-4d0f-90ca-59b2db6f447b/dc6b7bff-d1d4-46df-9320-1308e1eae973"
-					(reference "D7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:ESD9B3.3ST5G")
-		(at 160.02 109.22 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4c5e26bc-cc0f-4949-a7c9-e8c36515e808")
-		(property "Reference" "D9"
-			(at 160.528 105.156 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "ESD9B3.3ST5G"
-			(at 162.56 110.4899 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-923"
-			(at 160.02 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/ESD9B-D.PDF"
-			(at 160.02 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "ESD protection diode, 3.3Vrwm, SOD-923"
-			(at 160.02 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "4c995212-2e98-4bc2-b1b3-74aaba6cd1ec")
-		)
-		(pin "1"
-			(uuid "eec19f3e-132f-4305-94cc-8c96173fbeaf")
-		)
-		(instances
-			(project "pcb_project"
-				(path "/98f80f66-4595-4d0f-90ca-59b2db6f447b/dc6b7bff-d1d4-46df-9320-1308e1eae973"
-					(reference "D9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 125.73 81.28 90)
 		(unit 1)
@@ -2680,75 +2708,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:ESD9B3.3ST5G")
-		(at 165.1 109.22 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5e381a50-60eb-43f6-9b63-11137cba8b8b")
-		(property "Reference" "D10"
-			(at 165.608 105.41 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "ESD9B3.3ST5G"
-			(at 166.116 113.538 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-923"
-			(at 165.1 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/ESD9B-D.PDF"
-			(at 165.1 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "ESD protection diode, 3.3Vrwm, SOD-923"
-			(at 165.1 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "973dc798-64e6-4574-b664-3186c65666a7")
-		)
-		(pin "1"
-			(uuid "a0299798-6754-4625-a2f1-3ce1474b3e87")
-		)
-		(instances
-			(project ""
-				(path "/98f80f66-4595-4d0f-90ca-59b2db6f447b/dc6b7bff-d1d4-46df-9320-1308e1eae973"
-					(reference "D10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 219.71 100.33 0)
 		(unit 1)
@@ -2809,6 +2768,78 @@
 			(project ""
 				(path "/98f80f66-4595-4d0f-90ca-59b2db6f447b/dc6b7bff-d1d4-46df-9320-1308e1eae973"
 					(reference "#PWR078")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "2025-09-27_10-20-59:TPD1E1B04DPYT")
+		(at 142.24 132.08 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "683adacd-26da-40b1-9862-eba7ad3fbc78")
+		(property "Reference" "U10"
+			(at 144.526 137.922 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TPD1E1B04DPYT"
+			(at 148.59 153.6699 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "DPY2_TEX"
+			(at 142.24 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/gpn/tpd1e1b04"
+			(at 142.24 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 142.24 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "75884c43-0a5a-409c-965a-133d8695da1d")
+		)
+		(pin "2"
+			(uuid "09e66632-b6b8-4aaa-a29b-ba1a5af0c4a9")
+		)
+		(instances
+			(project "pcb_project"
+				(path "/98f80f66-4595-4d0f-90ca-59b2db6f447b/dc6b7bff-d1d4-46df-9320-1308e1eae973"
+					(reference "U10")
 					(unit 1)
 				)
 			)
@@ -2876,76 +2907,6 @@
 			(project ""
 				(path "/98f80f66-4595-4d0f-90ca-59b2db6f447b/dc6b7bff-d1d4-46df-9320-1308e1eae973"
 					(reference "R53")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:ESD9B3.3ST5G")
-		(at 144.78 109.22 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7c67c16f-2273-44df-aca4-a787d5c1631c")
-		(property "Reference" "D6"
-			(at 145.288 105.156 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "ESD9B3.3ST5G"
-			(at 147.32 110.4899 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-923"
-			(at 144.78 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/ESD9B-D.PDF"
-			(at 144.78 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "ESD protection diode, 3.3Vrwm, SOD-923"
-			(at 144.78 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "28baf378-a215-428d-87e2-844d35c10b3b")
-		)
-		(pin "1"
-			(uuid "4fda37c4-f46f-45fd-ad04-97e7d4221573")
-		)
-		(instances
-			(project "pcb_project"
-				(path "/98f80f66-4595-4d0f-90ca-59b2db6f447b/dc6b7bff-d1d4-46df-9320-1308e1eae973"
-					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -3091,7 +3052,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 135.89 115.57 270)
+		(at 107.95 172.72 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3100,7 +3061,7 @@
 		(fields_autoplaced yes)
 		(uuid "9b7a551c-742d-45e8-8c73-30131086577a")
 		(property "Reference" "#PWR072"
-			(at 129.54 115.57 0)
+			(at 101.6 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3109,7 +3070,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 132.08 115.5699 90)
+			(at 104.14 172.7199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3118,7 +3079,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 135.89 115.57 0)
+			(at 107.95 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3127,7 +3088,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 135.89 115.57 0)
+			(at 107.95 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3136,7 +3097,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 135.89 115.57 0)
+			(at 107.95 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3359,76 +3320,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:ESD9B3.3ST5G")
-		(at 139.7 109.22 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "baa4c565-d60c-4bb3-9566-671722876d3f")
-		(property "Reference" "D5"
-			(at 140.208 105.156 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "ESD9B3.3ST5G"
-			(at 142.24 110.4899 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-923"
-			(at 139.7 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/ESD9B-D.PDF"
-			(at 139.7 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "ESD protection diode, 3.3Vrwm, SOD-923"
-			(at 139.7 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "10de76a2-3e21-4d76-946e-e2c4b0d81e02")
-		)
-		(pin "1"
-			(uuid "4dd2e49e-f760-41e3-ba16-69228f49374d")
-		)
-		(instances
-			(project "pcb_project"
-				(path "/98f80f66-4595-4d0f-90ca-59b2db6f447b/dc6b7bff-d1d4-46df-9320-1308e1eae973"
-					(reference "D5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 194.31 59.69 0)
 		(unit 1)
@@ -3492,6 +3383,78 @@
 			(project ""
 				(path "/98f80f66-4595-4d0f-90ca-59b2db6f447b/dc6b7bff-d1d4-46df-9320-1308e1eae973"
 					(reference "C71")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "2025-09-27_10-20-59:TPD1E1B04DPYT")
+		(at 130.81 132.08 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bcab6dc4-3900-4842-bbae-200efbdfadca")
+		(property "Reference" "U11"
+			(at 133.096 137.922 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TPD1E1B04DPYT"
+			(at 137.16 153.6699 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "DPY2_TEX"
+			(at 130.81 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/gpn/tpd1e1b04"
+			(at 130.81 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 130.81 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "72c64057-1b80-404d-a147-0a6bce857a76")
+		)
+		(pin "2"
+			(uuid "fd03856c-33e8-4d22-937e-f855d5dbcf9e")
+		)
+		(instances
+			(project "pcb_project"
+				(path "/98f80f66-4595-4d0f-90ca-59b2db6f447b/dc6b7bff-d1d4-46df-9320-1308e1eae973"
+					(reference "U11")
 					(unit 1)
 				)
 			)
@@ -3562,6 +3525,78 @@
 			(project "pcb_project"
 				(path "/98f80f66-4595-4d0f-90ca-59b2db6f447b/dc6b7bff-d1d4-46df-9320-1308e1eae973"
 					(reference "C72")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "2025-09-27_10-20-59:TPD1E1B04DPYT")
+		(at 153.67 132.08 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d3317198-5224-4a19-bc6f-e8239a12ebdf")
+		(property "Reference" "U6"
+			(at 155.956 137.922 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TPD1E1B04DPYT"
+			(at 160.02 153.6699 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "DPY2_TEX"
+			(at 153.67 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/gpn/tpd1e1b04"
+			(at 153.67 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 153.67 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "90d0c9b7-02e4-4e0a-b3ab-07534e6e4fea")
+		)
+		(pin "2"
+			(uuid "58bad5ee-9e68-4cd6-b6de-7cf84763060b")
+		)
+		(instances
+			(project "pcb_project"
+				(path "/98f80f66-4595-4d0f-90ca-59b2db6f447b/dc6b7bff-d1d4-46df-9320-1308e1eae973"
+					(reference "U6")
 					(unit 1)
 				)
 			)
@@ -3761,6 +3796,77 @@
 			(project ""
 				(path "/98f80f66-4595-4d0f-90ca-59b2db6f447b/dc6b7bff-d1d4-46df-9320-1308e1eae973"
 					(reference "#PWR076")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "2025-09-27_10-20-59:TPD1E1B04DPYT")
+		(at 165.1 132.08 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ec40909c-5382-42a4-893c-878d130b830d")
+		(property "Reference" "U5"
+			(at 167.894 137.922 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TPD1E1B04DPYT"
+			(at 171.45 153.6699 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "DPY2_TEX"
+			(at 165.1 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/gpn/tpd1e1b04"
+			(at 165.1 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 165.1 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "18728c9b-daaf-47be-b742-861568860042")
+		)
+		(pin "2"
+			(uuid "982d77b9-7982-4bbe-9251-42df76a45b3a")
+		)
+		(instances
+			(project ""
+				(path "/98f80f66-4595-4d0f-90ca-59b2db6f447b/dc6b7bff-d1d4-46df-9320-1308e1eae973"
+					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -3982,76 +4088,6 @@
 			(project "pcb_project"
 				(path "/98f80f66-4595-4d0f-90ca-59b2db6f447b/dc6b7bff-d1d4-46df-9320-1308e1eae973"
 					(reference "R62")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:ESD9B3.3ST5G")
-		(at 154.94 109.22 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f8ca6483-5e58-4cdb-bd3c-3a072f02472e")
-		(property "Reference" "D8"
-			(at 155.448 105.156 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "ESD9B3.3ST5G"
-			(at 157.48 110.4899 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-923"
-			(at 154.94 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/ESD9B-D.PDF"
-			(at 154.94 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "ESD protection diode, 3.3Vrwm, SOD-923"
-			(at 154.94 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "9d10dac1-7a0d-47e0-b5a8-e3a0479cf4da")
-		)
-		(pin "1"
-			(uuid "a6f0f5a4-f6ce-48d2-8be6-8403b9f7467d")
-		)
-		(instances
-			(project "pcb_project"
-				(path "/98f80f66-4595-4d0f-90ca-59b2db6f447b/dc6b7bff-d1d4-46df-9320-1308e1eae973"
-					(reference "D8")
 					(unit 1)
 				)
 			)
