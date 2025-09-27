@@ -2118,7 +2118,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "DPY2_TEX"
+		(property "Footprint" "Project_Footprints:DPY2_TEX"
 			(at 119.38 132.08 0)
 			(effects
 				(font
@@ -2326,7 +2326,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "DPY2_TEX"
+		(property "Footprint" "Project_Footprints:DPY2_TEX"
 			(at 107.95 132.08 0)
 			(effects
 				(font
@@ -2801,7 +2801,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "DPY2_TEX"
+		(property "Footprint" "Project_Footprints:DPY2_TEX"
 			(at 142.24 132.08 0)
 			(effects
 				(font
@@ -3416,7 +3416,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "DPY2_TEX"
+		(property "Footprint" "Project_Footprints:DPY2_TEX"
 			(at 130.81 132.08 0)
 			(effects
 				(font
@@ -3558,7 +3558,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "DPY2_TEX"
+		(property "Footprint" "Project_Footprints:DPY2_TEX"
 			(at 153.67 132.08 0)
 			(effects
 				(font
@@ -3828,7 +3828,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "DPY2_TEX"
+		(property "Footprint" "Project_Footprints:DPY2_TEX"
 			(at 165.1 132.08 0)
 			(effects
 				(font
