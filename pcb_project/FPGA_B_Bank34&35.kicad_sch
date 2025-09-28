@@ -5590,12 +5590,6 @@
 		(uuid "dc30d3d3-c7b0-4608-bc92-8ba90fa1b80e")
 	)
 	(junction
-		(at 204.47 34.29)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "dd15ba15-5465-4907-8918-6af43111954d")
-	)
-	(junction
 		(at 264.16 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5613,6 +5607,12 @@
 		(color 0 0 0 0)
 		(uuid "e9d9bcd9-f305-4e20-bf52-e33c9440903c")
 	)
+	(junction
+		(at 208.28 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f3251bdd-1c38-4824-8a13-066bb8e00993")
+	)
 	(no_connect
 		(at 196.85 62.23)
 		(uuid "08539519-15af-4926-9acd-74b967bbf9e3")
@@ -5620,6 +5620,10 @@
 	(no_connect
 		(at 196.85 59.69)
 		(uuid "17daa93c-135b-459a-97e4-28dae60d7359")
+	)
+	(no_connect
+		(at 196.85 80.01)
+		(uuid "1c20d59d-12c9-4ff4-88b4-24824f6770e9")
 	)
 	(no_connect
 		(at 95.25 54.61)
@@ -5662,10 +5666,6 @@
 		(uuid "62000375-d44e-4d8f-9553-44b010991f68")
 	)
 	(no_connect
-		(at 196.85 54.61)
-		(uuid "672f1c90-6d51-437c-9ba9-4caf4029825b")
-	)
-	(no_connect
 		(at 196.85 90.17)
 		(uuid "6fcaf9b5-ce32-4757-b023-f68891326af7")
 	)
@@ -5682,12 +5682,12 @@
 		(uuid "8180d015-c08f-4c92-ab0d-25ddb9d23f4e")
 	)
 	(no_connect
-		(at 95.25 36.83)
-		(uuid "87006664-9308-46a8-af42-e42ccbe51ee9")
+		(at 196.85 67.31)
+		(uuid "864a9244-d6b1-47eb-95f2-9896ce77c0f6")
 	)
 	(no_connect
-		(at 196.85 46.99)
-		(uuid "93ac0846-10a8-416d-ae21-cb6df6141e4b")
+		(at 95.25 36.83)
+		(uuid "87006664-9308-46a8-af42-e42ccbe51ee9")
 	)
 	(no_connect
 		(at 196.85 140.97)
@@ -5708,10 +5708,6 @@
 	(no_connect
 		(at 257.81 82.55)
 		(uuid "a1f27a4b-7ff3-43bf-b260-09d4bc151e79")
-	)
-	(no_connect
-		(at 196.85 49.53)
-		(uuid "a8a29d5b-87ec-45d6-a0f7-c8070f62ff51")
 	)
 	(no_connect
 		(at 196.85 128.27)
@@ -5772,6 +5768,10 @@
 	(no_connect
 		(at 95.25 44.45)
 		(uuid "ebf5e9cc-ab91-414f-9ea9-994a86828905")
+	)
+	(no_connect
+		(at 196.85 34.29)
+		(uuid "efceaf60-a998-42df-821f-d26c83feaf3a")
 	)
 	(no_connect
 		(at 224.79 82.55)
@@ -5837,17 +5837,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 34.29) (xy 204.47 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1b8d3201-b7e8-424d-be6f-6e1c76ee55de")
-	)
-	(wire
-		(pts
-			(xy 204.47 34.29) (xy 209.55 34.29)
+			(xy 208.28 72.39) (xy 209.55 72.39)
 		)
 		(stroke
 			(width 0)
@@ -5944,6 +5934,16 @@
 			(type default)
 		)
 		(uuid "633a7786-67b8-4095-9752-9ac3b9754a89")
+	)
+	(wire
+		(pts
+			(xy 196.85 72.39) (xy 208.28 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73972e16-ac59-41c2-8e4d-bbbf294dd97e")
 	)
 	(wire
 		(pts
@@ -6188,7 +6188,7 @@
 	)
 	(hierarchical_label "OSPI 2"
 		(shape input)
-		(at 196.85 85.09 0)
+		(at 196.85 49.53 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6210,7 +6210,7 @@
 	)
 	(hierarchical_label "OSPI 0"
 		(shape input)
-		(at 196.85 80.01 0)
+		(at 196.85 74.93 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6221,7 +6221,7 @@
 	)
 	(hierarchical_label "OSPI 6"
 		(shape input)
-		(at 196.85 82.55 0)
+		(at 196.85 69.85 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6232,7 +6232,7 @@
 	)
 	(hierarchical_label "OSPI 3"
 		(shape input)
-		(at 196.85 74.93 0)
+		(at 196.85 46.99 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6309,7 +6309,7 @@
 	)
 	(hierarchical_label "OSPI CS"
 		(shape input)
-		(at 209.55 34.29 0)
+		(at 209.55 72.39 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6342,7 +6342,7 @@
 	)
 	(hierarchical_label "OSPI 5"
 		(shape input)
-		(at 196.85 69.85 0)
+		(at 196.85 85.09 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6397,7 +6397,7 @@
 	)
 	(hierarchical_label "OSPI 7"
 		(shape input)
-		(at 196.85 67.31 0)
+		(at 196.85 77.47 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6452,7 +6452,7 @@
 	)
 	(hierarchical_label "OSPI 4"
 		(shape input)
-		(at 196.85 72.39 0)
+		(at 196.85 82.55 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6474,7 +6474,7 @@
 	)
 	(hierarchical_label "OSPI 1"
 		(shape input)
-		(at 196.85 77.47 0)
+		(at 196.85 54.61 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6696,7 +6696,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 204.47 30.48 0)
+		(at 208.28 68.58 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6704,7 +6704,7 @@
 		(dnp no)
 		(uuid "248c5fe6-3ccf-4856-bfde-7e3df466484a")
 		(property "Reference" "R66"
-			(at 202.184 30.48 90)
+			(at 210.566 68.58 90)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -6712,7 +6712,7 @@
 			)
 		)
 		(property "Value" "22k"
-			(at 199.644 30.48 90)
+			(at 208.28 68.58 90)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -6720,7 +6720,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 202.692 30.48 90)
+			(at 206.502 68.58 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6729,7 +6729,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 204.47 30.48 0)
+			(at 208.28 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6738,7 +6738,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 204.47 30.48 0)
+			(at 208.28 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8412,16 +8412,15 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 204.47 26.67 0)
+		(at 208.28 64.77 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "cf5f3474-3ca1-48c2-966f-eea79b47ce06")
 		(property "Reference" "#PWR091"
-			(at 204.47 30.48 0)
+			(at 208.28 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8430,7 +8429,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 207.01 25.3999 0)
+			(at 208.788 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8439,7 +8438,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 204.47 26.67 0)
+			(at 208.28 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8448,7 +8447,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 204.47 26.67 0)
+			(at 208.28 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8457,7 +8456,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 204.47 26.67 0)
+			(at 208.28 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
