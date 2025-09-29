@@ -5618,6 +5618,10 @@
 		(uuid "08539519-15af-4926-9acd-74b967bbf9e3")
 	)
 	(no_connect
+		(at 196.85 118.11)
+		(uuid "0914ae8a-2f27-4cfe-8fbc-8e2d42992b3f")
+	)
+	(no_connect
 		(at 196.85 59.69)
 		(uuid "17daa93c-135b-459a-97e4-28dae60d7359")
 	)
@@ -5636,6 +5640,10 @@
 	(no_connect
 		(at 196.85 36.83)
 		(uuid "2abd5172-1e3e-4ded-ba34-daacd4518a9f")
+	)
+	(no_connect
+		(at 196.85 125.73)
+		(uuid "3cb26bcd-bf57-4961-b575-6b03b3091a36")
 	)
 	(no_connect
 		(at 95.25 46.99)
@@ -5658,6 +5666,10 @@
 		(uuid "54e08389-8034-4aa2-9975-c39af4c550d8")
 	)
 	(no_connect
+		(at 196.85 100.33)
+		(uuid "56e0a7a2-d6ee-4015-8c8d-b314ed1f5b3e")
+	)
+	(no_connect
 		(at 196.85 57.15)
 		(uuid "5af5d97f-35bf-4750-b5d0-db02b16e4372")
 	)
@@ -5678,8 +5690,8 @@
 		(uuid "78a15263-6e96-4a26-8790-1d23df93a826")
 	)
 	(no_connect
-		(at 196.85 133.35)
-		(uuid "8180d015-c08f-4c92-ab0d-25ddb9d23f4e")
+		(at 196.85 120.65)
+		(uuid "818c876d-54e5-4c2e-a085-bb74ab7a11f7")
 	)
 	(no_connect
 		(at 196.85 67.31)
@@ -5688,10 +5700,6 @@
 	(no_connect
 		(at 95.25 36.83)
 		(uuid "87006664-9308-46a8-af42-e42ccbe51ee9")
-	)
-	(no_connect
-		(at 196.85 140.97)
-		(uuid "97710e0a-406a-45b0-b5b3-38e9a3f76d6a")
 	)
 	(no_connect
 		(at 196.85 130.81)
@@ -5710,16 +5718,8 @@
 		(uuid "a1f27a4b-7ff3-43bf-b260-09d4bc151e79")
 	)
 	(no_connect
-		(at 196.85 128.27)
-		(uuid "ab7edf50-4643-47ff-a54e-df3ced59c088")
-	)
-	(no_connect
 		(at 196.85 64.77)
 		(uuid "b1f68dfd-2e74-42c3-85dc-616ddf35594e")
-	)
-	(no_connect
-		(at 196.85 135.89)
-		(uuid "b252129f-6fe6-4678-993d-1622b7446922")
 	)
 	(no_connect
 		(at 95.25 72.39)
@@ -5736,6 +5736,10 @@
 	(no_connect
 		(at 95.25 80.01)
 		(uuid "c97b8118-041e-401d-8b14-0321c72aa2d3")
+	)
+	(no_connect
+		(at 196.85 115.57)
+		(uuid "cfccdb59-6344-4798-a12f-d4406507b7cc")
 	)
 	(no_connect
 		(at 95.25 49.53)
@@ -5760,10 +5764,6 @@
 	(no_connect
 		(at 95.25 67.31)
 		(uuid "e5c13cfc-0f31-42e3-825d-c408b7266d8a")
-	)
-	(no_connect
-		(at 196.85 138.43)
-		(uuid "eb223823-656b-4eae-9e58-64d0b28be08d")
 	)
 	(no_connect
 		(at 95.25 44.45)
@@ -5967,7 +5967,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 156.21) (xy 204.47 156.21)
+			(xy 196.85 153.67) (xy 204.47 153.67)
 		)
 		(stroke
 			(width 0)
@@ -6254,7 +6254,7 @@
 	)
 	(hierarchical_label "B2"
 		(shape output)
-		(at 196.85 148.59 0)
+		(at 196.85 156.21 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6287,7 +6287,7 @@
 	)
 	(hierarchical_label "G3"
 		(shape output)
-		(at 196.85 120.65 0)
+		(at 196.85 133.35 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6331,7 +6331,7 @@
 	)
 	(hierarchical_label "G0"
 		(shape output)
-		(at 196.85 113.03 0)
+		(at 196.85 128.27 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6353,7 +6353,7 @@
 	)
 	(hierarchical_label "B4"
 		(shape output)
-		(at 196.85 153.67 0)
+		(at 196.85 148.59 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6364,7 +6364,7 @@
 	)
 	(hierarchical_label "B1"
 		(shape output)
-		(at 196.85 146.05 0)
+		(at 196.85 143.51 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6375,7 +6375,7 @@
 	)
 	(hierarchical_label "G1"
 		(shape output)
-		(at 196.85 115.57 0)
+		(at 196.85 138.43 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6408,7 +6408,7 @@
 	)
 	(hierarchical_label "G5"
 		(shape output)
-		(at 196.85 125.73 0)
+		(at 196.85 113.03 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6419,7 +6419,7 @@
 	)
 	(hierarchical_label "R0"
 		(shape output)
-		(at 196.85 100.33 0)
+		(at 196.85 135.89 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6430,7 +6430,7 @@
 	)
 	(hierarchical_label "G2"
 		(shape output)
-		(at 196.85 118.11 0)
+		(at 196.85 140.97 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6441,7 +6441,7 @@
 	)
 	(hierarchical_label "HSYNC"
 		(shape output)
-		(at 212.09 156.21 0)
+		(at 212.09 153.67 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6463,7 +6463,7 @@
 	)
 	(hierarchical_label "B0"
 		(shape output)
-		(at 196.85 143.51 0)
+		(at 196.85 146.05 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7169,7 +7169,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 208.28 156.21 90)
+		(at 208.28 153.67 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7177,7 +7177,7 @@
 		(dnp no)
 		(uuid "747c5404-658b-46f8-96ad-8b574a1357a1")
 		(property "Reference" "R85"
-			(at 208.28 150.876 90)
+			(at 208.28 148.336 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7185,7 +7185,7 @@
 			)
 		)
 		(property "Value" "40"
-			(at 208.28 153.416 90)
+			(at 208.28 150.876 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7193,7 +7193,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 208.28 157.988 90)
+			(at 208.28 155.448 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7202,7 +7202,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 208.28 156.21 0)
+			(at 208.28 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7211,7 +7211,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 208.28 156.21 0)
+			(at 208.28 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
