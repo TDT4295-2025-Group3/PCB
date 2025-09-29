@@ -942,155 +942,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:FerriteBead"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "FB"
-				(at -3.81 0.635 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "FerriteBead"
-				(at 3.81 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at -1.778 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Ferrite bead"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "L ferrite bead inductor filter"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Inductor_* L_* *Ferrite*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "FerriteBead_0_1"
-				(polyline
-					(pts
-						(xy -2.7686 0.4064) (xy -1.7018 2.2606) (xy 2.7686 -0.3048) (xy 1.6764 -2.159) (xy -2.7686 0.4064)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 1.27) (xy 0 1.2954)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -1.27) (xy 0 -1.2192)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "FerriteBead_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:L"
 			(pin_numbers
 				(hide yes)
@@ -3878,7 +3729,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 62.23) (xy 215.9 62.23)
+			(xy 215.9 62.23) (xy 251.46 62.23)
 		)
 		(stroke
 			(width 0)
@@ -3935,16 +3786,6 @@
 			(type default)
 		)
 		(uuid "3615cd13-0321-48ea-b524-59c28ea42814")
-	)
-	(wire
-		(pts
-			(xy 217.17 118.11) (xy 224.79 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3619b885-b7a9-4f9b-820f-2311c668c7fc")
 	)
 	(wire
 		(pts
@@ -4868,16 +4709,6 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 118.11) (xy 251.46 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c44d6ab3-d2f3-41e7-ac2f-ee7cd8600f01")
-	)
-	(wire
-		(pts
 			(xy 113.03 69.85) (xy 120.65 69.85)
 		)
 		(stroke
@@ -4885,16 +4716,6 @@
 			(type default)
 		)
 		(uuid "c5f5a8b3-6c87-4547-b99b-499e441e7e9d")
-	)
-	(wire
-		(pts
-			(xy 236.22 62.23) (xy 251.46 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c763db2e-b7f2-4ac0-a0fe-c68749af2101")
 	)
 	(wire
 		(pts
@@ -4985,16 +4806,6 @@
 			(type default)
 		)
 		(uuid "dffbb360-d1c8-4747-a7dd-58653f26551d")
-	)
-	(wire
-		(pts
-			(xy 254 118.11) (xy 264.16 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e23c4feb-8646-4b61-82e9-56dd00808f3b")
 	)
 	(wire
 		(pts
@@ -5318,17 +5129,6 @@
 			(justify left)
 		)
 		(uuid "5c19458f-250e-4fdb-a0f5-854db1628fec")
-	)
-	(hierarchical_label "3.3VA"
-		(shape output)
-		(at 264.16 118.11 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "6c6ec53e-adcd-4f42-ae4b-daaca3a550d1")
 	)
 	(hierarchical_label "1V8"
 		(shape output)
@@ -6234,74 +6034,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:FerriteBead")
-		(at 232.41 62.23 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5559e0a2-56af-4491-926a-57b5af59c371")
-		(property "Reference" "FB3"
-			(at 232.4608 54.61 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "FerriteBead"
-			(at 232.4608 57.15 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
-			(at 232.41 60.452 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 232.41 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Ferrite bead"
-			(at 232.41 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "757b4319-ad34-4d6a-b53f-9920d36a6b61")
-		)
-		(pin "1"
-			(uuid "711980b7-9c60-4c31-ab8b-4b1a85952731")
-		)
-		(instances
-			(project "pcb_project"
-				(path "/98f80f66-4595-4d0f-90ca-59b2db6f447b/ce445763-774c-4caf-b911-9c6f9b75d87a"
-					(reference "FB3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "TPS54294PWPR:TPS54294PWPR")
 		(at 128.27 107.95 0)
 		(unit 1)
@@ -6461,117 +6193,6 @@
 			(project ""
 				(path "/98f80f66-4595-4d0f-90ca-59b2db6f447b/ce445763-774c-4caf-b911-9c6f9b75d87a"
 					(reference "IC2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "M20-9990246:M20-9990246")
-		(at 251.46 125.73 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "573497d3-e39f-4118-9fc6-c94b6ab125ad")
-		(property "Reference" "J8"
-			(at 257.81 125.0949 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "M20-9990246"
-			(at 257.81 127.6349 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Project_Footprints:HARWIN_M20-9990246"
-			(at 251.46 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 251.46 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 251.46 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "14"
-			(at 251.46 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 251.46 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "9.64mm"
-			(at 251.46 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Harwin"
-			(at 251.46 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "5a846dbc-410e-4a0a-88c1-902c69dfd96b")
-		)
-		(pin "1"
-			(uuid "d8fceaa0-bd3c-4df3-bd8b-7e8e9cbd6f4e")
-		)
-		(instances
-			(project ""
-				(path "/98f80f66-4595-4d0f-90ca-59b2db6f447b/ce445763-774c-4caf-b911-9c6f9b75d87a"
-					(reference "J8")
 					(unit 1)
 				)
 			)
@@ -7031,73 +6652,6 @@
 			(project ""
 				(path "/98f80f66-4595-4d0f-90ca-59b2db6f447b/ce445763-774c-4caf-b911-9c6f9b75d87a"
 					(reference "J5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:FerriteBead")
-		(at 228.6 118.11 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6de397e5-b2e1-4fb7-93cc-b1052607b60b")
-		(property "Reference" "FB2"
-			(at 228.6 113.538 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "FerriteBead"
-			(at 228.6 122.428 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
-			(at 228.6 119.888 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 228.6 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Ferrite bead"
-			(at 228.6 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "78fc077b-de01-42c4-bfbe-decbe110324e")
-		)
-		(pin "2"
-			(uuid "30bd26f4-e169-4626-953d-42d3e382e2bd")
-		)
-		(instances
-			(project ""
-				(path "/98f80f66-4595-4d0f-90ca-59b2db6f447b/ce445763-774c-4caf-b911-9c6f9b75d87a"
-					(reference "FB2")
 					(unit 1)
 				)
 			)
@@ -8908,73 +8462,6 @@
 			(project ""
 				(path "/98f80f66-4595-4d0f-90ca-59b2db6f447b/ce445763-774c-4caf-b911-9c6f9b75d87a"
 					(reference "C51")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 236.22 118.11 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "fafe1e1d-8677-4a05-b696-a80a99318739")
-		(property "Reference" "R52"
-			(at 236.22 115.824 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1"
-			(at 236.22 118.11 90)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 236.22 119.888 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 236.22 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 236.22 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "8a223fe8-30ea-42bb-b87b-a36c848ff6ae")
-		)
-		(pin "1"
-			(uuid "e9cc701e-e7aa-4e3f-a5b2-5946e1671b81")
-		)
-		(instances
-			(project ""
-				(path "/98f80f66-4595-4d0f-90ca-59b2db6f447b/ce445763-774c-4caf-b911-9c6f9b75d87a"
-					(reference "R52")
 					(unit 1)
 				)
 			)
