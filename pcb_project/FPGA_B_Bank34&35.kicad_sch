@@ -5690,10 +5690,6 @@
 		(uuid "78a15263-6e96-4a26-8790-1d23df93a826")
 	)
 	(no_connect
-		(at 196.85 120.65)
-		(uuid "818c876d-54e5-4c2e-a085-bb74ab7a11f7")
-	)
-	(no_connect
 		(at 196.85 67.31)
 		(uuid "864a9244-d6b1-47eb-95f2-9896ce77c0f6")
 	)
@@ -5780,6 +5776,10 @@
 	(no_connect
 		(at 95.25 41.91)
 		(uuid "f6aa11f3-5452-48a7-9033-c3bfe2740c7e")
+	)
+	(no_connect
+		(at 196.85 102.87)
+		(uuid "fc5251e6-97ae-431f-9f82-c36dc35a1a00")
 	)
 	(no_connect
 		(at 95.25 52.07)
@@ -6485,7 +6485,7 @@
 	)
 	(hierarchical_label "R1"
 		(shape output)
-		(at 196.85 102.87 0)
+		(at 196.85 120.65 0)
 		(effects
 			(font
 				(size 1.27 1.27)
