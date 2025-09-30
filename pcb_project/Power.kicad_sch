@@ -6059,7 +6059,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Project_Footprints:SOP65P640X120-15N"
+		(property "Footprint" "Project_Footprints:SOP65P640X120-17N"
 			(at 154.94 202.87 0)
 			(effects
 				(font
