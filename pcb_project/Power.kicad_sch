@@ -1104,367 +1104,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:L_Iron_Coupled"
-			(pin_names
-				(offset 0.254)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "L"
-				(at 0 4.445 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "L_Iron_Coupled"
-				(at 0 -4.445 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Coupled inductor with iron core"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "inductor choke coil reactor magnetic coupled"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Choke_* *Coil* Inductor_* L_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "L_Iron_Coupled_0_1"
-				(circle
-					(center -3.048 1.524)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center -3.048 -1.27)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 2.032) (xy -2.54 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 0.508) (xy 2.54 0.508)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 -2.032) (xy -2.54 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -1.524 2.032)
-					(mid -2.032 1.5262)
-					(end -2.54 2.032)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -2.54 -2.032)
-					(mid -2.032 -1.5262)
-					(end -1.524 -2.032)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -0.508 2.032)
-					(mid -1.016 1.5262)
-					(end -1.524 2.032)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -1.524 -2.032)
-					(mid -1.016 -1.5262)
-					(end -0.508 -2.032)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0.508 2.032)
-					(mid 0 1.5262)
-					(end -0.508 2.032)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -0.508 -2.032)
-					(mid 0 -1.5262)
-					(end 0.508 -2.032)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 1.524 2.032)
-					(mid 1.016 1.5262)
-					(end 0.508 2.032)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0.508 -2.032)
-					(mid 1.016 -1.5262)
-					(end 1.524 -2.032)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 2.54 2.032)
-					(mid 2.032 1.5262)
-					(end 1.524 2.032)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 1.524 -2.032)
-					(mid 2.032 -1.5262)
-					(end 2.54 -2.032)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy 2.54 2.032)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -0.508) (xy -2.54 -0.508)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -2.032) (xy 2.54 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "L_Iron_Coupled_1_1"
-				(pin passive line
-					(at -5.08 2.54 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 2.54)
-					(name "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 2.54 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -2.54 180)
-					(length 2.54)
-					(name "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:R"
 			(pin_numbers
 				(hide yes)
@@ -3076,6 +2715,12 @@
 		(uuid "f9ec1efb-cc33-4299-9e23-0ea2f257eba9")
 	)
 	(junction
+		(at 105.41 20.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0310c3c4-28be-4924-829b-5c18cec21885")
+	)
+	(junction
 		(at 128.27 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3226,18 +2871,6 @@
 		(uuid "694b1b7e-26d2-46af-be06-d9da0f384682")
 	)
 	(junction
-		(at 60.96 50.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6c4a2015-86e8-4bf4-9433-fcf0693f97bf")
-	)
-	(junction
-		(at 69.85 50.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "70446894-c28e-4aec-ae1d-d018aef1815e")
-	)
-	(junction
 		(at 115.57 144.78)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3358,12 +2991,6 @@
 		(uuid "b5ef85b2-b13e-4af0-bbf5-9b048df8c388")
 	)
 	(junction
-		(at 50.8 50.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b66e196b-fa96-48a3-bb02-a8f07589f65c")
-	)
-	(junction
 		(at 177.8 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3398,12 +3025,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d28ae686-16e7-4a47-844d-fbf792a5055f")
-	)
-	(junction
-		(at 60.96 35.56)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e44a5e4f-fa36-4fee-849c-b8909d45f179")
 	)
 	(junction
 		(at 185.42 144.78)
@@ -3619,23 +3240,13 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 35.56) (xy 60.96 35.56)
+			(xy 50.8 35.56) (xy 90.17 35.56)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "1d7e624c-ba93-4491-9091-cbcbb90a14f3")
-	)
-	(wire
-		(pts
-			(xy 60.96 35.56) (xy 69.85 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1f10f5d1-4cad-4614-af59-b7c48333f2cb")
 	)
 	(wire
 		(pts
@@ -3789,23 +3400,13 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 20.32) (xy 90.17 20.32)
+			(xy 215.9 20.32) (xy 105.41 20.32)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "36844522-5660-4c46-9981-025341dbd6f2")
-	)
-	(wire
-		(pts
-			(xy 69.85 50.8) (xy 60.96 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "37c0e118-e420-489c-9bd7-1734780bee1b")
 	)
 	(wire
 		(pts
@@ -3826,16 +3427,6 @@
 			(type default)
 		)
 		(uuid "39bca063-e7d0-45f8-acf9-3eb9daa206fd")
-	)
-	(wire
-		(pts
-			(xy 69.85 40.64) (xy 69.85 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3c2ebd7f-2da5-4194-92f3-24a6bc8ceeb8")
 	)
 	(wire
 		(pts
@@ -4039,16 +3630,6 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 35.56) (xy 60.96 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5de75dda-8d8c-411a-994b-7843da56f974")
-	)
-	(wire
-		(pts
 			(xy 113.03 48.26) (xy 113.03 35.56)
 		)
 		(stroke
@@ -4186,16 +3767,6 @@
 			(type default)
 		)
 		(uuid "6f8a935e-a971-426f-ad07-6a51b186ff96")
-	)
-	(wire
-		(pts
-			(xy 60.96 50.8) (xy 50.8 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "70b9edf8-9dc6-4ddf-b41b-73f5ab5bb1d4")
 	)
 	(wire
 		(pts
@@ -4339,16 +3910,6 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 50.8) (xy 69.85 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8da090df-c6f9-44e4-8554-d21a539f471b")
-	)
-	(wire
-		(pts
 			(xy 105.41 48.26) (xy 105.41 35.56)
 		)
 		(stroke
@@ -4449,16 +4010,6 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 46.99) (xy 60.96 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9a66fb7c-1952-4dbb-88f2-c9aa881a60b9")
-	)
-	(wire
-		(pts
 			(xy 107.95 144.78) (xy 115.57 144.78)
 		)
 		(stroke
@@ -4536,26 +4087,6 @@
 			(type default)
 		)
 		(uuid "a0702e1e-cd56-49b6-8d9b-4df7365cc4ed")
-	)
-	(wire
-		(pts
-			(xy 80.01 40.64) (xy 80.01 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a2561d76-fafd-4a00-b6ca-6aa9f6b64aac")
-	)
-	(wire
-		(pts
-			(xy 80.01 35.56) (xy 90.17 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a4bcdc6f-a3cb-4476-8b49-8ccb0581084d")
 	)
 	(wire
 		(pts
@@ -4756,6 +4287,16 @@
 			(type default)
 		)
 		(uuid "d18a812f-6f29-44fa-a506-dc2de3ef0c4a")
+	)
+	(wire
+		(pts
+			(xy 105.41 20.32) (xy 90.17 20.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d320f02d-3cd0-43c7-9d33-c7ab9d8d6dc5")
 	)
 	(wire
 		(pts
@@ -6887,80 +6428,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:L_Iron_Coupled")
-		(at 74.93 38.1 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "83defd6e-e0f8-4c44-bd57-0f1746f35be6")
-		(property "Reference" "L1"
-			(at 74.549 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "L_Iron_Coupled"
-			(at 74.549 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Inductor_SMD:L_CommonModeChoke_Coilcraft_0805USB"
-			(at 74.93 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 74.93 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Coupled inductor with iron core"
-			(at 74.93 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2f0a38c4-55f0-4bed-b777-a518c1918c58")
-		)
-		(pin "3"
-			(uuid "b199ff4e-d032-4c4a-b3ee-05a40ac76ed9")
-		)
-		(pin "2"
-			(uuid "723e20b3-1a97-4aa1-a7db-1a9e2f252f92")
-		)
-		(pin "4"
-			(uuid "5d02d528-5a9b-4469-b0ae-7429350e78be")
-		)
-		(instances
-			(project "pcb_project"
-				(path "/98f80f66-4595-4d0f-90ca-59b2db6f447b/ce445763-774c-4caf-b911-9c6f9b75d87a"
-					(reference "L1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 193.04 58.42 0)
 		(unit 1)
@@ -7574,6 +7041,72 @@
 			(project ""
 				(path "/98f80f66-4595-4d0f-90ca-59b2db6f447b/ce445763-774c-4caf-b911-9c6f9b75d87a"
 					(reference "R46")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 105.41 27.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c3f53e89-665e-4947-94d7-02c21e554541")
+		(property "Reference" "#PWR0136"
+			(at 105.41 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 105.41 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 105.41 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 105.41 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 105.41 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9c11ac01-ed38-46cb-8cf8-23510632b552")
+		)
+		(instances
+			(project ""
+				(path "/98f80f66-4595-4d0f-90ca-59b2db6f447b/ce445763-774c-4caf-b911-9c6f9b75d87a"
+					(reference "#PWR0136")
 					(unit 1)
 				)
 			)
@@ -8400,7 +7933,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 60.96 43.18 0)
+		(at 105.41 24.13 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8408,7 +7941,7 @@
 		(dnp no)
 		(uuid "f92b7c81-6360-4b8f-8e55-34e97accf886")
 		(property "Reference" "C51"
-			(at 61.976 40.894 0)
+			(at 106.426 21.844 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8417,7 +7950,7 @@
 			)
 		)
 		(property "Value" "47μF"
-			(at 61.722 45.466 0)
+			(at 106.172 26.416 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8426,7 +7959,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
-			(at 61.9252 46.99 0)
+			(at 106.3752 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8435,7 +7968,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 60.96 43.18 0)
+			(at 105.41 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8444,7 +7977,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 60.96 43.18 0)
+			(at 105.41 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
