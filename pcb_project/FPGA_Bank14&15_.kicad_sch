@@ -8561,7 +8561,7 @@
 		)
 		(uuid "1edc0e32-e9b6-4871-ba1e-2f1695419538")
 	)
-	(label "IO05"
+	(label "L12"
 		(at 186.69 104.14 180)
 		(effects
 			(font
@@ -10021,7 +10021,7 @@
 		)
 		(uuid "eb550e14-73b2-4f8d-ba8f-46d4d460a2e0")
 	)
-	(label "L12"
+	(label "IO05"
 		(at 186.69 109.22 180)
 		(effects
 			(font
