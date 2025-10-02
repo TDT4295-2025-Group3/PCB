@@ -529,6 +529,14 @@
       {
         "netclass": "Minimum",
         "pattern": "GND"
+      },
+      {
+        "netclass": "Minimum",
+        "pattern": "+1V0"
+      },
+      {
+        "netclass": "Minimum",
+        "pattern": "+1V8"
       }
     ]
   },
