@@ -6752,6 +6752,12 @@
 		(uuid "8f78a4f3-2828-4bc5-bd37-74910275be54")
 	)
 	(junction
+		(at 110.49 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "97c8bba8-3d7a-48ad-86f5-1fee1cafed2e")
+	)
+	(junction
 		(at 104.14 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7034,6 +7040,16 @@
 			(type default)
 		)
 		(uuid "122b5834-a74a-4b17-a51e-4f1359e5406a")
+	)
+	(wire
+		(pts
+			(xy 110.49 69.85) (xy 116.84 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1232e209-986c-4eb0-a312-9a9d1d03bfb4")
 	)
 	(wire
 		(pts
@@ -8247,7 +8263,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 69.85) (xy 116.84 69.85)
+			(xy 104.14 69.85) (xy 110.49 69.85)
 		)
 		(stroke
 			(width 0)
@@ -15840,6 +15856,7 @@
 	(symbol
 		(lib_id "Device:R")
 		(at 314.96 67.31 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15847,7 +15864,7 @@
 		(dnp no)
 		(uuid "ed03f389-844b-4672-91c0-cd519994dbcb")
 		(property "Reference" "R82"
-			(at 315.722 63.754 0)
+			(at 314.198 63.754 0)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -15856,7 +15873,7 @@
 			)
 		)
 		(property "Value" "47K"
-			(at 315.722 70.866 0)
+			(at 314.198 70.866 0)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -15865,7 +15882,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 313.182 67.31 90)
+			(at 316.738 67.31 90)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -12504,6 +12504,12 @@
 		(uuid "14190ca3-ba2f-4750-9e12-0a4c2ccbb378")
 	)
 	(junction
+		(at 207.01 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "16676250-18f8-4a0c-942e-d3c34b049226")
+	)
+	(junction
 		(at 267.97 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -12532,12 +12538,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "215e2067-dd06-43c7-b4cf-5dc43ef0e15e")
-	)
-	(junction
-		(at 207.01 99.06)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "26481a16-5134-4847-8b57-2f9ee1259c33")
 	)
 	(junction
 		(at 99.06 76.2)
@@ -12966,12 +12966,6 @@
 		(uuid "e9c99f12-ac89-4ff0-8607-1b848697f489")
 	)
 	(junction
-		(at 207.01 93.98)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ecedd507-90a5-4709-8966-6104479ba4ac")
-	)
-	(junction
 		(at 120.65 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -13133,6 +13127,16 @@
 	)
 	(wire
 		(pts
+			(xy 207.01 99.06) (xy 212.09 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f257953-c175-4b62-aa26-798af1970534")
+	)
+	(wire
+		(pts
 			(xy 147.32 171.45) (xy 147.32 172.72)
 		)
 		(stroke
@@ -13243,16 +13247,6 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 93.98) (xy 207.01 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1bcee657-f0e0-4f27-8916-0107ebb64ad4")
-	)
-	(wire
-		(pts
 			(xy 114.3 175.26) (xy 114.3 185.42)
 		)
 		(stroke
@@ -13330,16 +13324,6 @@
 			(type default)
 		)
 		(uuid "2b30bf23-ce00-4b54-ac85-eb71bb5b7016")
-	)
-	(wire
-		(pts
-			(xy 207.01 93.98) (xy 217.17 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2c0910df-f83d-4b60-9535-9019189ecdd6")
 	)
 	(wire
 		(pts
@@ -13873,16 +13857,6 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 99.06) (xy 212.09 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "98f48aef-c257-4aee-b0cf-e2ae8e8182c4")
-	)
-	(wire
-		(pts
 			(xy 107.95 58.42) (xy 115.57 58.42)
 		)
 		(stroke
@@ -14073,7 +14047,7 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 93.98) (xy 207.01 93.98)
+			(xy 205.74 93.98) (xy 217.17 93.98)
 		)
 		(stroke
 			(width 0)
@@ -17871,6 +17845,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+1V8")
+		(at 207.01 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5241f590-a430-46c4-9cc9-25aa075df6a0")
+		(property "Reference" "#PWR0137"
+			(at 207.01 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+1V8"
+			(at 207.01 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 207.01 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 207.01 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+1V8\""
+			(at 207.01 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a43f562c-8364-40dc-8e55-7b4354057c05")
+		)
+		(instances
+			(project "pcb_project"
+				(path "/98f80f66-4595-4d0f-90ca-59b2db6f447b/8bdc4eb6-105b-4ccb-b86f-5b5221dfef47"
+					(reference "#PWR0137")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:FerriteBead")
 		(at 201.93 93.98 90)
 		(unit 1)
@@ -19040,7 +19080,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 213.0552 106.68 0)
 			(effects
 				(font
