@@ -6878,7 +6878,7 @@
 		(uuid "fc837f56-e4f9-4681-bc25-9ba8967dd06c")
 	)
 	(no_connect
-		(at 186.69 93.98)
+		(at 172.72 93.98)
 		(uuid "108154fc-d663-4c49-b948-744390bd7ea9")
 	)
 	(no_connect
@@ -6898,7 +6898,7 @@
 		(uuid "3b1e72a2-f268-454e-a6dd-24cee7ef778b")
 	)
 	(no_connect
-		(at 186.69 96.52)
+		(at 172.72 96.52)
 		(uuid "4fd905b9-13b1-477c-8222-8c63b6c2fe25")
 	)
 	(no_connect
@@ -6914,7 +6914,7 @@
 		(uuid "517e8a89-91f6-4e51-be46-ecb8e6a5adf1")
 	)
 	(no_connect
-		(at 186.69 83.82)
+		(at 172.72 83.82)
 		(uuid "7458e291-bdb4-4386-a567-548821d22bd0")
 	)
 	(no_connect
@@ -8313,16 +8313,6 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 187.96) (xy 260.35 189.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f0028a61-6a5f-4286-a670-f3fa55aae837")
-	)
-	(wire
-		(pts
 			(xy 97.79 118.11) (xy 107.95 118.11)
 		)
 		(stroke
@@ -8382,7 +8372,7 @@
 		(uuid "fa7a5d36-9221-441f-934d-1fab7de25ee9")
 	)
 	(label "CS"
-		(at 260.35 114.3 0)
+		(at 260.35 152.4 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8392,7 +8382,7 @@
 		(uuid "00962d7d-8e02-4b4f-97cd-7d5b359ff4c2")
 	)
 	(label "A20"
-		(at 260.35 193.04 0)
+		(at 260.35 177.8 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8402,7 +8392,7 @@
 		(uuid "0264d7f0-381d-4f00-9154-066a2881568c")
 	)
 	(label "IO14"
-		(at 260.35 157.48 0)
+		(at 260.35 160.02 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8422,7 +8412,7 @@
 		(uuid "043fc1d5-3474-48c2-afde-119faa0e195a")
 	)
 	(label "IO07"
-		(at 186.69 127 180)
+		(at 186.69 111.76 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8442,7 +8432,7 @@
 		(uuid "09ba4d61-ddd1-4da4-a409-8ff0c928772a")
 	)
 	(label "A18"
-		(at 186.69 116.84 180)
+		(at 186.69 106.68 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8462,7 +8452,7 @@
 		(uuid "11c38f89-83ed-4d4a-95ad-e449c571c11b")
 	)
 	(label "UB"
-		(at 260.35 162.56 0)
+		(at 260.35 129.54 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8472,7 +8462,7 @@
 		(uuid "11ed0250-54ee-4095-b56e-af2126249606")
 	)
 	(label "IO07"
-		(at 260.35 96.52 0)
+		(at 260.35 86.36 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8482,7 +8472,7 @@
 		(uuid "123ca58a-bf56-49a5-a294-118950230af6")
 	)
 	(label "IO15"
-		(at 260.35 129.54 0)
+		(at 260.35 167.64 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8532,7 +8522,7 @@
 		(uuid "164642e3-5f6b-4d9e-ab92-52e856cd1e73")
 	)
 	(label "IO11"
-		(at 260.35 180.34 0)
+		(at 260.35 170.18 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8542,7 +8532,7 @@
 		(uuid "17f73bf2-d71c-4fff-9bcb-9dbf9bd87efa")
 	)
 	(label "A2"
-		(at 186.69 162.56 180)
+		(at 186.69 160.02 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8552,7 +8542,7 @@
 		(uuid "1a8dce5d-82c0-482e-90a6-52b544e96226")
 	)
 	(label "IO8"
-		(at 260.35 187.96 0)
+		(at 260.35 193.04 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8562,7 +8552,7 @@
 		(uuid "1c6376e9-570e-4b7c-a68f-977186d36846")
 	)
 	(label "LBIC4"
-		(at 186.69 134.62 180)
+		(at 186.69 165.1 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8572,7 +8562,7 @@
 		(uuid "1e09c6d9-2f6c-4c12-a2f3-98455d0a5c46")
 	)
 	(label "A3"
-		(at 260.35 124.46 0)
+		(at 260.35 116.84 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8582,7 +8572,7 @@
 		(uuid "1edc0e32-e9b6-4871-ba1e-2f1695419538")
 	)
 	(label "L12"
-		(at 186.69 104.14 180)
+		(at 167.64 119.38 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8612,7 +8602,7 @@
 		(uuid "21cc9856-c1bb-4417-b6cf-027e67de106a")
 	)
 	(label "IO05"
-		(at 260.35 86.36 0)
+		(at 260.35 99.06 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8622,7 +8612,7 @@
 		(uuid "21db0330-3841-4621-a494-5f27abbf31d9")
 	)
 	(label "A10"
-		(at 260.35 182.88 0)
+		(at 260.35 190.5 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8662,7 +8652,7 @@
 		(uuid "24a8344c-f4a7-4e4c-9d88-bdb96614d72a")
 	)
 	(label "A8"
-		(at 260.35 154.94 0)
+		(at 260.35 147.32 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8682,7 +8672,7 @@
 		(uuid "2518276e-15d2-4bd3-84b8-963a45e94583")
 	)
 	(label "A9"
-		(at 260.35 185.42 0)
+		(at 260.35 180.34 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8692,7 +8682,7 @@
 		(uuid "264ddadc-28bb-4355-a5cf-7aec92b8381f")
 	)
 	(label "IO12"
-		(at 186.69 172.72 180)
+		(at 186.69 170.18 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8702,12 +8692,12 @@
 		(uuid "26937bb9-ab9a-4cb4-9132-0520309c9e9e")
 	)
 	(label "A18"
-		(at 306.07 156.21 0)
+		(at 306.07 156.21 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "2836b3b2-339f-4c89-ab9f-00352b89b694")
 	)
@@ -8722,7 +8712,7 @@
 		(uuid "292e2e97-fca0-4881-808d-9b942bae3172")
 	)
 	(label "K16"
-		(at 186.69 91.44 180)
+		(at 172.72 91.44 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8732,7 +8722,7 @@
 		(uuid "2d54b92c-e630-46d9-83f4-9ef59f0b7ecb")
 	)
 	(label "A0"
-		(at 260.35 116.84 0)
+		(at 260.35 114.3 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8762,7 +8752,7 @@
 		(uuid "2f89add1-c514-4232-aa0e-48f8e2897315")
 	)
 	(label "IO04"
-		(at 186.69 106.68 180)
+		(at 186.69 119.38 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8792,7 +8782,7 @@
 		(uuid "33494e3a-3325-43c6-a71d-3c0e493cae30")
 	)
 	(label "IO04"
-		(at 260.35 101.6 0)
+		(at 260.35 149.86 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8802,7 +8792,7 @@
 		(uuid "349772f9-3e63-4b9f-b209-b9950faedc91")
 	)
 	(label "WEIC4"
-		(at 186.69 119.38 180)
+		(at 186.69 116.84 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8812,7 +8802,7 @@
 		(uuid "34a6e7c3-d623-4735-958e-d3718b37e4e8")
 	)
 	(label "A20"
-		(at 186.69 185.42 180)
+		(at 186.69 203.2 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8832,7 +8822,7 @@
 		(uuid "3d7c3e56-aeef-4424-b791-408f183a8eb9")
 	)
 	(label "A6"
-		(at 186.69 137.16 180)
+		(at 186.69 157.48 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8872,12 +8862,12 @@
 		(uuid "48285c7d-3b74-4cce-91b0-ede8bae7a731")
 	)
 	(label "A1"
-		(at 306.07 113.03 0)
+		(at 306.07 113.03 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "48950b3b-80b7-49e5-8142-a483d61815ff")
 	)
@@ -8892,7 +8882,7 @@
 		(uuid "4924ab24-d848-4413-9938-a79baf7d412d")
 	)
 	(label "UBIC4"
-		(at 186.69 175.26 180)
+		(at 186.69 193.04 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8912,7 +8902,7 @@
 		(uuid "4cb7f091-aaa6-435e-98f7-272cc0e387ae")
 	)
 	(label "IO13"
-		(at 260.35 167.64 0)
+		(at 260.35 165.1 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8922,7 +8912,7 @@
 		(uuid "4ecc1a1d-6723-4110-9b2e-d2f45f8ab14d")
 	)
 	(label "K15"
-		(at 186.69 88.9 180)
+		(at 172.72 88.9 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8932,7 +8922,7 @@
 		(uuid "4f6da924-15cd-49e7-8826-cb1d6e1b6389")
 	)
 	(label "A2"
-		(at 260.35 127 0)
+		(at 260.35 119.38 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8962,17 +8952,17 @@
 		(uuid "5638a4ec-a95d-4585-9d45-af6ea6215778")
 	)
 	(label "A3"
-		(at 306.07 107.95 0)
+		(at 306.07 107.95 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "57722ea9-311b-499f-860b-a729319ac6c5")
 	)
 	(label "IO15"
-		(at 186.69 180.34 180)
+		(at 186.69 149.86 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8982,12 +8972,12 @@
 		(uuid "5a502d32-84a4-42b9-9b36-91c6c00a40a6")
 	)
 	(label "A2"
-		(at 306.07 110.49 0)
+		(at 306.07 110.49 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "5ae981b5-ce19-47f6-acfb-3318f751981d")
 	)
@@ -9012,7 +9002,7 @@
 		(uuid "65574a7f-a744-44a6-b6be-80b7a389e9af")
 	)
 	(label "A19"
-		(at 260.35 149.86 0)
+		(at 260.35 91.44 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9022,7 +9012,7 @@
 		(uuid "65cede15-9008-4e02-ae23-1196f38197dc")
 	)
 	(label "A1"
-		(at 260.35 121.92 0)
+		(at 260.35 144.78 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9032,7 +9022,7 @@
 		(uuid "66301445-babb-4f6b-87f6-89f2b86322b5")
 	)
 	(label "CSIC4"
-		(at 186.69 142.24 180)
+		(at 186.69 132.08 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9082,27 +9072,27 @@
 		(uuid "6a887558-1a20-4a31-852b-1a920af954e5")
 	)
 	(label "A4"
-		(at 306.07 105.41 0)
+		(at 306.07 105.41 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "6b72b0a0-5f8f-4243-9296-86766adda283")
 	)
 	(label "A19"
-		(at 306.07 153.67 0)
+		(at 306.07 153.67 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "6e20699b-c2e9-444f-848a-14dfb010adb0")
 	)
 	(label "A3"
-		(at 186.69 154.94 180)
+		(at 186.69 162.56 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9122,7 +9112,7 @@
 		(uuid "73a3593e-640e-4472-84c1-c533b31ed0fe")
 	)
 	(label "J14"
-		(at 186.69 86.36 180)
+		(at 172.72 86.36 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9142,7 +9132,7 @@
 		(uuid "746f7191-9208-4dfd-a294-00d262653078")
 	)
 	(label "A4"
-		(at 260.35 152.4 0)
+		(at 260.35 121.92 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9202,7 +9192,7 @@
 		(uuid "7c976ac6-92e9-4044-a0dc-7d5c61b8f1d2")
 	)
 	(label "A10"
-		(at 186.69 205.74 180)
+		(at 186.69 200.66 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9212,7 +9202,7 @@
 		(uuid "7d9b61cb-5a29-49cd-a744-b8bf251e8ce2")
 	)
 	(label "IO11"
-		(at 186.69 190.5 180)
+		(at 186.69 187.96 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9222,7 +9212,7 @@
 		(uuid "7e2244d2-7c88-4753-a667-54e4965be6e1")
 	)
 	(label "A6"
-		(at 260.35 160.02 0)
+		(at 260.35 127 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9232,7 +9222,7 @@
 		(uuid "80d27585-b7be-47ad-bcbc-a70328c040d4")
 	)
 	(label "IO06"
-		(at 186.69 124.46 180)
+		(at 186.69 139.7 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9242,7 +9232,7 @@
 		(uuid "81f73c49-6725-4b80-a4b7-9ddd9d6f78c8")
 	)
 	(label "IO01"
-		(at 186.69 147.32 180)
+		(at 186.69 124.46 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9272,7 +9262,7 @@
 		(uuid "8c4e3245-3287-4c03-8d36-5317551462e6")
 	)
 	(label "A16"
-		(at 186.69 114.3 180)
+		(at 186.69 99.06 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9282,7 +9272,7 @@
 		(uuid "8d6814b3-3e86-44e6-b9b4-903a0bfed215")
 	)
 	(label "LB"
-		(at 260.35 119.38 0)
+		(at 260.35 157.48 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9292,7 +9282,7 @@
 		(uuid "901b0067-4f5b-4918-882b-90223511b31e")
 	)
 	(label "A7"
-		(at 260.35 177.8 0)
+		(at 260.35 124.46 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9312,7 +9302,7 @@
 		(uuid "90e0ad19-4a0c-4674-8fd1-e9deeefda96a")
 	)
 	(label "A11"
-		(at 260.35 190.5 0)
+		(at 260.35 200.66 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9322,7 +9312,7 @@
 		(uuid "91ca2966-e7be-4347-a111-b2b59199ed01")
 	)
 	(label "A4"
-		(at 186.69 157.48 180)
+		(at 186.69 147.32 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9362,7 +9352,7 @@
 		(uuid "9427f407-79b9-4212-a14c-fd58a81544f5")
 	)
 	(label "A19"
-		(at 186.69 121.92 180)
+		(at 186.69 101.6 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9372,7 +9362,7 @@
 		(uuid "96ca199e-e0ec-40a8-8cc7-53c90a7ae147")
 	)
 	(label "IO03"
-		(at 186.69 111.76 180)
+		(at 186.69 142.24 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9402,7 +9392,7 @@
 		(uuid "9af5e7db-0105-4863-b7ab-6f911cb51848")
 	)
 	(label "OEIC4"
-		(at 186.69 170.18 180)
+		(at 186.69 144.78 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9412,7 +9402,7 @@
 		(uuid "9b2c685f-bc7f-44e4-897c-a8db50f5aef9")
 	)
 	(label "IO02"
-		(at 186.69 139.7 180)
+		(at 186.69 127 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9432,17 +9422,17 @@
 		(uuid "9d434214-bb80-4745-afc7-8832ea22372c")
 	)
 	(label "A0"
-		(at 306.07 115.57 0)
+		(at 306.07 115.57 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "9f92e178-aaf0-45ea-b62a-bd57638539d7")
 	)
 	(label "A5"
-		(at 260.35 144.78 0)
+		(at 260.35 154.94 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9472,7 +9462,7 @@
 		(uuid "a7db5f3e-260e-4fff-aeeb-872b9470f8a2")
 	)
 	(label "IO00"
-		(at 260.35 134.62 0)
+		(at 260.35 104.14 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9502,12 +9492,12 @@
 		(uuid "ab43889a-fc3e-4df5-9bd6-57934fb27fcf")
 	)
 	(label "A15"
-		(at 306.07 163.83 0)
+		(at 306.07 163.83 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "ace299d1-8664-4d1f-a3fb-d200cf14b5a5")
 	)
@@ -9572,7 +9562,7 @@
 		(uuid "b3e6283f-e27c-4f2a-97c1-f719f5789d42")
 	)
 	(label "IO13"
-		(at 186.69 193.04 180)
+		(at 186.69 172.72 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9582,7 +9572,7 @@
 		(uuid "b55a4689-e067-4281-aae2-e3968d1d6ed5")
 	)
 	(label "IO02"
-		(at 260.35 99.06 0)
+		(at 260.35 134.62 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9682,7 +9672,7 @@
 		(uuid "bfc59ba1-309f-424f-9790-400160c0d718")
 	)
 	(label "A5"
-		(at 186.69 167.64 180)
+		(at 186.69 154.94 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9692,7 +9682,7 @@
 		(uuid "bfe0d52d-7d13-4639-9d13-71ab75d44454")
 	)
 	(label "IO10"
-		(at 260.35 165.1 0)
+		(at 260.35 187.96 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9712,7 +9702,7 @@
 		(uuid "c2c5ddf0-0153-422b-b951-73c0e42bcc7b")
 	)
 	(label "IO08"
-		(at 186.69 203.2 180)
+		(at 186.69 185.42 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9732,7 +9722,7 @@
 		(uuid "c3dc3426-d166-44cc-815c-e3d2f9e0a9cc")
 	)
 	(label "IO06"
-		(at 260.35 111.76 0)
+		(at 260.35 96.52 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9742,7 +9732,7 @@
 		(uuid "c4378f98-fc48-4395-a660-68ed31f45041")
 	)
 	(label "IO00"
-		(at 186.69 132.08 180)
+		(at 186.69 134.62 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9752,7 +9742,7 @@
 		(uuid "c51b0f65-b977-4306-8697-c14822b66b8c")
 	)
 	(label "A17"
-		(at 186.69 101.6 180)
+		(at 186.69 114.3 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9762,7 +9752,7 @@
 		(uuid "c52e3cc2-bafc-44ab-a03e-1ffaece47e01")
 	)
 	(label "IO9"
-		(at 260.35 170.18 0)
+		(at 260.35 185.42 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9782,7 +9772,7 @@
 		(uuid "c5e4f5d2-9348-435e-8741-725576af5d8a")
 	)
 	(label "A12"
-		(at 186.69 195.58 180)
+		(at 186.69 198.12 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9792,7 +9782,7 @@
 		(uuid "cc115948-7bb4-4135-a811-78e3a38c26d6")
 	)
 	(label "A8"
-		(at 186.69 149.86 180)
+		(at 186.69 167.64 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9812,7 +9802,7 @@
 		(uuid "ce830934-841a-43b7-82ad-c8b5da0a0712")
 	)
 	(label "A9"
-		(at 186.69 200.66 180)
+		(at 186.69 175.26 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9822,7 +9812,7 @@
 		(uuid "d0160257-ae9f-41e4-b1f7-537ab9391dce")
 	)
 	(label "IO14"
-		(at 186.69 165.1 180)
+		(at 186.69 190.5 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9842,7 +9832,7 @@
 		(uuid "d6427ede-dfba-4340-8bda-12c060715ff5")
 	)
 	(label "A18"
-		(at 260.35 91.44 0)
+		(at 260.35 111.76 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9852,7 +9842,7 @@
 		(uuid "d88d0591-45a2-4b4a-8e9f-200e294aa134")
 	)
 	(label "IO12"
-		(at 260.35 147.32 0)
+		(at 260.35 162.56 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9872,7 +9862,7 @@
 		(uuid "da4c50bb-33e5-4da7-b21b-fb2eb2c265a5")
 	)
 	(label "A12"
-		(at 260.35 198.12 0)
+		(at 260.35 182.88 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9912,7 +9902,7 @@
 		(uuid "de3078fe-2e09-4b71-8652-5269e9d1386b")
 	)
 	(label "IO03"
-		(at 260.35 104.14 0)
+		(at 260.35 101.6 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9922,7 +9912,7 @@
 		(uuid "de3644c3-0877-4204-9d5a-6d84e3367684")
 	)
 	(label "A11"
-		(at 186.69 198.12 180)
+		(at 186.69 205.74 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9942,7 +9932,7 @@
 		(uuid "e034762d-3a9b-4320-a1ed-fa1162a82078")
 	)
 	(label "A13"
-		(at 186.69 144.78 180)
+		(at 186.69 195.58 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9952,17 +9942,17 @@
 		(uuid "e1583fbc-6f85-4e53-ac77-3f40d2996a29")
 	)
 	(label "A16"
-		(at 306.07 161.29 0)
+		(at 306.07 161.29 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "e1d19b98-0f9b-44a4-ae8e-be51d12006f2")
 	)
 	(label "A1"
-		(at 186.69 160.02 180)
+		(at 186.69 137.16 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9982,7 +9972,7 @@
 		(uuid "e42c83c9-5d36-40b4-a387-d3e1862eb73a")
 	)
 	(label "A15"
-		(at 186.69 99.06 180)
+		(at 186.69 109.22 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10012,7 +10002,7 @@
 		(uuid "e90aabca-435e-4595-a5ee-285175a9e07a")
 	)
 	(label "IO09"
-		(at 186.69 187.96 180)
+		(at 186.69 180.34 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10042,7 +10032,7 @@
 		(uuid "eb550e14-73b2-4f8d-ba8f-46d4d460a2e0")
 	)
 	(label "IO05"
-		(at 186.69 109.22 180)
+		(at 186.69 121.92 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10062,12 +10052,12 @@
 		(uuid "eccfe78b-3921-4a66-92d1-7cdbb386c9d2")
 	)
 	(label "A17"
-		(at 306.07 158.75 0)
+		(at 306.07 158.75 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "ed0b00d9-1d67-4e0a-a623-66ce80f238c4")
 	)
@@ -10122,7 +10112,7 @@
 		(uuid "f5438b8a-6116-4404-bc38-cd6a88d5b6d1")
 	)
 	(label "A13"
-		(at 260.35 200.66 0)
+		(at 260.35 198.12 0)
 		(effects
 			(font
 				(size 1.27 1.27)
