@@ -5560,7 +5560,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LTST-C190KRKT:LEDC1608X35N"
+		(property "Footprint" "Project_Footprints:LEDC1608X35N"
 			(at 245.11 133.35 0)
 			(effects
 				(font
@@ -6453,7 +6453,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 243.332 119.38 90)
 			(effects
 				(font
@@ -6523,7 +6523,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 226.822 43.18 90)
 			(effects
 				(font
@@ -6593,7 +6593,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 230.632 109.22 90)
 			(effects
 				(font
@@ -6828,7 +6828,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LTST-C190KRKT:LEDC1608X35N"
+		(property "Footprint" "Project_Footprints:LEDC1608X35N"
 			(at 220.98 41.91 0)
 			(effects
 				(font
@@ -7010,7 +7010,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 226.568 121.92 90)
 			(effects
 				(font
@@ -7504,7 +7504,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 222.758 55.88 90)
 			(effects
 				(font
@@ -7803,7 +7803,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LTST-C190KRKT:LEDC1608X35N"
+		(property "Footprint" "Project_Footprints:LEDC1608X35N"
 			(at 241.3 31.75 0)
 			(effects
 				(font
@@ -8081,7 +8081,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 226.568 143.51 90)
 			(effects
 				(font
@@ -8151,7 +8151,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 226.822 21.59 90)
 			(effects
 				(font
@@ -8765,7 +8765,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LTST-C190KRKT:LEDC1608X35N"
+		(property "Footprint" "Project_Footprints:LEDC1608X35N"
 			(at 232.41 123.19 0)
 			(effects
 				(font
@@ -9465,7 +9465,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 239.522 45.72 90)
 			(effects
 				(font

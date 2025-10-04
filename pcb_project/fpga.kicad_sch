@@ -18051,7 +18051,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "LTST-C190GKT:LEDM1608X80"
+		(property "Footprint" "Project_Footprints:LEDM1608X80"
 			(at 176.53 128.27 0)
 			(effects
 				(font
@@ -21720,7 +21720,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "LTST-C190GKT:LEDM1608X80"
+		(property "Footprint" "Project_Footprints:LEDM1608X80"
 			(at 147.32 165.1 0)
 			(effects
 				(font
@@ -21759,10 +21759,10 @@
 			)
 		)
 		(pin "A"
-			(uuid "8d51a330-cb7a-4bd9-94a7-95c550b89e64")
+			(uuid "8d51a330-cb7a-4bd9-94a7-95c550b89e65")
 		)
 		(pin "C"
-			(uuid "4171cb0d-8247-4cd2-a9aa-210e5201909b")
+			(uuid "4171cb0d-8247-4cd2-a9aa-210e5201909c")
 		)
 		(instances
 			(project ""
