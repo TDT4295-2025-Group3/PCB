@@ -17,4 +17,6 @@
   (lib (name "M20-9990246")(type "KiCad")(uri "${KIPRJMOD}/lib/Project_Symbols/M20-9990246.kicad_sym")(options "")(descr ""))
   (lib (name "2025-09-27_10-20-59")(type "KiCad")(uri "${KIPRJMOD}/lib/Project_Symbols/2025-09-27_10-20-59.kicad_sym")(options "")(descr ""))
   (lib (name "USB1130-15-A_REVA")(type "KiCad")(uri "${KIPRJMOD}/lib/Project_Symbols/USB1130-15-A_REVA.kicad_sym")(options "")(descr ""))
+  (lib (name "LTST-C190KRKT")(type "KiCad")(uri "${KIPRJMOD}/lib/Project_Symbols/LTST-C190KRKT.kicad_sym")(options "")(descr ""))
+  (lib (name "LTST-C190GKT")(type "KiCad")(uri "${KIPRJMOD}/lib/Project_Symbols/LTST-C190GKT.kicad_sym")(options "")(descr ""))
 )
