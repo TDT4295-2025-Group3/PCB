@@ -6539,7 +6539,7 @@
 		(uuid "2728eb7e-c636-42b4-87ec-61f1bb3aab78")
 	)
 	(label "GPIO2"
-		(at 196.85 39.37 0)
+		(at 196.85 36.83 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6629,7 +6629,7 @@
 		(uuid "f4ba6953-1855-48be-9d87-3108cad90516")
 	)
 	(label "GPIO1"
-		(at 196.85 36.83 0)
+		(at 196.85 39.37 0)
 		(effects
 			(font
 				(size 1.27 1.27)
