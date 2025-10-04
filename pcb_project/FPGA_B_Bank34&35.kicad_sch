@@ -6280,7 +6280,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 153.67) (xy 204.47 153.67)
+			(xy 196.85 148.59) (xy 204.47 148.59)
 		)
 		(stroke
 			(width 0)
@@ -6706,7 +6706,7 @@
 	)
 	(hierarchical_label "R4"
 		(shape output)
-		(at 196.85 110.49 0)
+		(at 196.85 138.43 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6717,7 +6717,7 @@
 	)
 	(hierarchical_label "B2"
 		(shape output)
-		(at 196.85 156.21 0)
+		(at 196.85 107.95 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6728,7 +6728,7 @@
 	)
 	(hierarchical_label "R3"
 		(shape output)
-		(at 196.85 107.95 0)
+		(at 196.85 143.51 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6739,7 +6739,7 @@
 	)
 	(hierarchical_label "G4"
 		(shape output)
-		(at 196.85 123.19 0)
+		(at 196.85 135.89 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6761,7 +6761,7 @@
 	)
 	(hierarchical_label "B3"
 		(shape output)
-		(at 196.85 151.13 0)
+		(at 196.85 120.65 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6816,7 +6816,7 @@
 	)
 	(hierarchical_label "B4"
 		(shape output)
-		(at 196.85 148.59 0)
+		(at 196.85 113.03 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6827,7 +6827,7 @@
 	)
 	(hierarchical_label "B1"
 		(shape output)
-		(at 196.85 143.51 0)
+		(at 196.85 105.41 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6838,7 +6838,7 @@
 	)
 	(hierarchical_label "G1"
 		(shape output)
-		(at 196.85 138.43 0)
+		(at 196.85 146.05 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6849,7 +6849,7 @@
 	)
 	(hierarchical_label "R2"
 		(shape output)
-		(at 196.85 105.41 0)
+		(at 196.85 156.21 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6871,7 +6871,7 @@
 	)
 	(hierarchical_label "G5"
 		(shape output)
-		(at 196.85 113.03 0)
+		(at 196.85 123.19 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6882,7 +6882,7 @@
 	)
 	(hierarchical_label "R0"
 		(shape output)
-		(at 196.85 135.89 0)
+		(at 196.85 151.13 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6904,7 +6904,7 @@
 	)
 	(hierarchical_label "HSYNC"
 		(shape output)
-		(at 212.09 153.67 0)
+		(at 212.09 148.59 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6926,7 +6926,7 @@
 	)
 	(hierarchical_label "B0"
 		(shape output)
-		(at 196.85 146.05 0)
+		(at 196.85 110.49 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6948,7 +6948,7 @@
 	)
 	(hierarchical_label "R1"
 		(shape output)
-		(at 196.85 120.65 0)
+		(at 196.85 153.67 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7711,7 +7711,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 208.28 153.67 90)
+		(at 208.28 148.59 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7719,7 +7719,7 @@
 		(dnp no)
 		(uuid "747c5404-658b-46f8-96ad-8b574a1357a1")
 		(property "Reference" "R85"
-			(at 208.28 148.336 90)
+			(at 208.28 143.256 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7727,7 +7727,7 @@
 			)
 		)
 		(property "Value" "47"
-			(at 208.28 150.876 90)
+			(at 208.28 145.796 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7735,7 +7735,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 208.28 155.448 90)
+			(at 208.28 150.368 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7744,7 +7744,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 208.28 153.67 0)
+			(at 208.28 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7753,7 +7753,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 208.28 153.67 0)
+			(at 208.28 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
