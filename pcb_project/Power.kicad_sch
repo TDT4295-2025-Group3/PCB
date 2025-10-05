@@ -1228,168 +1228,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Diode:ESD9B5.0ST5G"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "ESD9B5.0ST5G"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Diode_SMD:D_SOD-923"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.onsemi.com/pub/Collateral/ESD9B-D.PDF"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "ESD protection diode, 5.0Vrwm, SOD-923"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "diode TVS ESD"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "D*SOD?923*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "ESD9B5.0ST5G_0_1"
-				(polyline
-					(pts
-						(xy -2.54 -1.27) (xy 0 0) (xy -2.54 1.27) (xy -2.54 -1.27)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.508 1.27) (xy 0 1.27) (xy 0 -1.27) (xy -0.508 -1.27)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 1.27) (xy 2.54 -1.27) (xy 0 0) (xy 2.54 1.27)
-					)
-					(stroke
-						(width 0.2032)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "ESD9B5.0ST5G_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "A1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "LTST-C190KRKT:LTST-C190KRKT"
 			(pin_names
 				(offset 1.016)
@@ -3324,12 +3162,6 @@
 		(uuid "40dd83f5-2502-4eb9-b11e-d42e514c72de")
 	)
 	(junction
-		(at 50.8 35.56)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "420b4437-934a-451a-bfae-a11037c0d6f4")
-	)
-	(junction
 		(at 166.37 118.11)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3394,12 +3226,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5dc4f911-c9e5-48fe-8bc2-7d8ddd780920")
-	)
-	(junction
-		(at 39.37 50.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "694b1b7e-26d2-46af-be06-d9da0f384682")
 	)
 	(junction
 		(at 115.57 144.78)
@@ -3821,7 +3647,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 35.56) (xy 90.17 35.56)
+			(xy 46.99 35.56) (xy 90.17 35.56)
 		)
 		(stroke
 			(width 0)
@@ -4011,16 +3837,6 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 46.99) (xy 50.8 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "40a91f61-8c73-4ac4-8e0e-04168f52228b")
-	)
-	(wire
-		(pts
 			(xy 193.04 48.26) (xy 204.47 48.26)
 		)
 		(stroke
@@ -4138,16 +3954,6 @@
 			(type default)
 		)
 		(uuid "4dab8e1e-3047-435c-a754-210b7c8b39d4")
-	)
-	(wire
-		(pts
-			(xy 50.8 35.56) (xy 50.8 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4f6f183d-6eb3-46d4-8c7b-c3ce781f502a")
 	)
 	(wire
 		(pts
@@ -4501,16 +4307,6 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 35.56) (xy 50.8 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8358530f-0d0c-4fbf-88a6-502ab2658100")
-	)
-	(wire
-		(pts
 			(xy 166.37 115.57) (xy 166.37 118.11)
 		)
 		(stroke
@@ -4728,16 +4524,6 @@
 			(type default)
 		)
 		(uuid "9d9b29af-7afd-4b50-912e-0a98475c6869")
-	)
-	(wire
-		(pts
-			(xy 39.37 50.8) (xy 50.8 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9f331fb9-02d5-4fb2-83c2-54b37656d512")
 	)
 	(wire
 		(pts
@@ -5567,84 +5353,6 @@
 			(project "pcb_project"
 				(path "/98f80f66-4595-4d0f-90ca-59b2db6f447b/ce445763-774c-4caf-b911-9c6f9b75d87a"
 					(reference "Q4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:ESD9B5.0ST5G")
-		(at 50.8 43.18 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "07170dab-1361-46fe-903b-4c6f7255877e")
-		(property "Reference" "D4"
-			(at 51.308 39.624 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "ESD_5V"
-			(at 51.308 46.99 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-923"
-			(at 50.8 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/ESD9B-D.PDF"
-			(at 50.8 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "ESD protection diode, 5.0Vrwm, SOD-923"
-			(at 50.8 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 50.8 43.18 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "f56c5809-e481-4040-9a72-df085d2ef35d")
-		)
-		(pin "1"
-			(uuid "e9d5b2d6-dbc6-4dcf-bd29-cebd0e9a46c6")
-		)
-		(instances
-			(project ""
-				(path "/98f80f66-4595-4d0f-90ca-59b2db6f447b/ce445763-774c-4caf-b911-9c6f9b75d87a"
-					(reference "D4")
 					(unit 1)
 				)
 			)
