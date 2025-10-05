@@ -25094,7 +25094,7 @@
 		(uuid "8ccd7e7b-2812-4db9-aaca-05be16ff5a4a")
 		(at 64.0334 81.4324 180)
 		(property "Reference" "D9"
-			(at -0.504033 -0.88826 0)
+			(at 2.159 -0.0254 0)
 			(layer "F.SilkS")
 			(uuid "7ed1d1e1-b3de-4f2f-8dae-77559e24d5d4")
 			(effects
@@ -28226,7 +28226,7 @@
 		(descr "Through hole straight pin header, 1x06, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x06 2.54mm single row")
 		(property "Reference" "J8"
-			(at -2.532432 0.069016 90)
+			(at 3.2004 10.1092 180)
 			(layer "F.SilkS")
 			(uuid "3876724b-6fbc-4e30-859a-63a309656449")
 			(effects
@@ -36158,7 +36158,7 @@
 		(uuid "bed9920a-a614-4a89-8ec5-bee7d92a7991")
 		(at 63.959 75.8698 180)
 		(property "Reference" "D10"
-			(at -0.504033 -0.88826 0)
+			(at 2.2878 0 0)
 			(layer "F.SilkS")
 			(uuid "036ad867-89d7-4eb6-a020-3e86ad422420")
 			(effects
@@ -68340,7 +68340,7 @@
 		)
 	)
 	(gr_text "FPGA\nRESET"
-		(at 60.0456 99.2378 0)
+		(at 59.436 87.8332 0)
 		(layer "F.SilkS")
 		(uuid "15eb20b4-c769-4d95-b732-e195a0db1b62")
 		(effects
@@ -68352,8 +68352,8 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "FPGA GPIO"
-		(at 95.9696 68.9948 0)
+	(gr_text "FPGA\nGPIO"
+		(at 96.7486 68.9948 0)
 		(layer "F.SilkS")
 		(uuid "2ae9320c-6a81-494a-ba34-4506cc2b807d")
 		(effects
@@ -69417,8 +69417,8 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "FPGA\nINIT"
-		(at 65.5828 81.534 0)
+	(gr_text "FPGA INIT"
+		(at 66.1416 82.0674 0)
 		(layer "F.SilkS")
 		(uuid "92e0b2e3-3d75-4b49-b7f4-0b11c84d4b68")
 		(effects
@@ -69469,8 +69469,8 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "FPGA \nDONE"
-		(at 65.532 75.5904 0)
+	(gr_text "FPGA DONE"
+		(at 66.0146 76.4286 0)
 		(layer "F.SilkS")
 		(uuid "b3e9f0f0-33b9-4a9d-ba79-7812082194a5")
 		(effects
@@ -69707,7 +69707,7 @@
 		)
 	)
 	(gr_text "FPGA\nDEBUG"
-		(at 70.993 68.2244 0)
+		(at 59.0042 72.771 0)
 		(layer "F.SilkS")
 		(uuid "e5860b61-d727-4cd5-9fe6-bab9afbdfa72")
 		(effects
@@ -69716,7 +69716,7 @@
 				(thickness 0.2)
 				(bold yes)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 	)
 	(gr_text "BARTOSZ SZATKOWSKI"
