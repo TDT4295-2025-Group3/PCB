@@ -19,4 +19,5 @@
   (lib (name "USB1130-15-A_REVA")(type "KiCad")(uri "${KIPRJMOD}/lib/Project_Symbols/USB1130-15-A_REVA.kicad_sym")(options "")(descr ""))
   (lib (name "LTST-C190KRKT")(type "KiCad")(uri "${KIPRJMOD}/lib/Project_Symbols/LTST-C190KRKT.kicad_sym")(options "")(descr ""))
   (lib (name "LTST-C190GKT")(type "KiCad")(uri "${KIPRJMOD}/lib/Project_Symbols/LTST-C190GKT.kicad_sym")(options "")(descr ""))
+  (lib (name "MMBT3904LT1G")(type "KiCad")(uri "${KIPRJMOD}/lib/Project_Symbols/MMBT3904LT1G.kicad_sym")(options "")(descr ""))
 )
