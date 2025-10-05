@@ -6878,7 +6878,7 @@
 		(uuid "fc837f56-e4f9-4681-bc25-9ba8967dd06c")
 	)
 	(no_connect
-		(at 172.72 93.98)
+		(at 186.69 93.98)
 		(uuid "108154fc-d663-4c49-b948-744390bd7ea9")
 	)
 	(no_connect
@@ -6898,7 +6898,7 @@
 		(uuid "3b1e72a2-f268-454e-a6dd-24cee7ef778b")
 	)
 	(no_connect
-		(at 172.72 96.52)
+		(at 186.69 96.52)
 		(uuid "4fd905b9-13b1-477c-8222-8c63b6c2fe25")
 	)
 	(no_connect
@@ -6914,7 +6914,7 @@
 		(uuid "517e8a89-91f6-4e51-be46-ecb8e6a5adf1")
 	)
 	(no_connect
-		(at 172.72 83.82)
+		(at 186.69 83.82)
 		(uuid "7458e291-bdb4-4386-a567-548821d22bd0")
 	)
 	(no_connect
@@ -8371,7 +8371,7 @@
 		)
 		(uuid "fa7a5d36-9221-441f-934d-1fab7de25ee9")
 	)
-	(label "CS"
+	(label "CSIC3"
 		(at 260.35 152.4 0)
 		(effects
 			(font
@@ -8381,7 +8381,7 @@
 		)
 		(uuid "00962d7d-8e02-4b4f-97cd-7d5b359ff4c2")
 	)
-	(label "A20"
+	(label "A20IC3"
 		(at 260.35 177.8 0)
 		(effects
 			(font
@@ -8391,7 +8391,7 @@
 		)
 		(uuid "0264d7f0-381d-4f00-9154-066a2881568c")
 	)
-	(label "IO14"
+	(label "IO14IC3"
 		(at 260.35 160.02 0)
 		(effects
 			(font
@@ -8401,7 +8401,7 @@
 		)
 		(uuid "042117b1-1c12-4eda-98a2-e5f9c72778ba")
 	)
-	(label "IO8"
+	(label "IO8IC3"
 		(at 336.55 146.05 0)
 		(effects
 			(font
@@ -8451,7 +8451,7 @@
 		)
 		(uuid "11c38f89-83ed-4d4a-95ad-e449c571c11b")
 	)
-	(label "UB"
+	(label "UBIC3"
 		(at 260.35 129.54 0)
 		(effects
 			(font
@@ -8461,7 +8461,7 @@
 		)
 		(uuid "11ed0250-54ee-4095-b56e-af2126249606")
 	)
-	(label "IO07"
+	(label "IO07IC3"
 		(at 260.35 86.36 0)
 		(effects
 			(font
@@ -8471,7 +8471,7 @@
 		)
 		(uuid "123ca58a-bf56-49a5-a294-118950230af6")
 	)
-	(label "IO15"
+	(label "IO15IC3"
 		(at 260.35 167.64 0)
 		(effects
 			(font
@@ -8491,7 +8491,7 @@
 		)
 		(uuid "1412d168-4e01-451d-97b7-ffceecf36496")
 	)
-	(label "A9"
+	(label "A9IC3"
 		(at 336.55 151.13 0)
 		(effects
 			(font
@@ -8521,7 +8521,7 @@
 		)
 		(uuid "164642e3-5f6b-4d9e-ab92-52e856cd1e73")
 	)
-	(label "IO11"
+	(label "IO11IC3"
 		(at 260.35 170.18 0)
 		(effects
 			(font
@@ -8541,7 +8541,7 @@
 		)
 		(uuid "1a8dce5d-82c0-482e-90a6-52b544e96226")
 	)
-	(label "IO8"
+	(label "IO8IC3"
 		(at 260.35 193.04 0)
 		(effects
 			(font
@@ -8561,7 +8561,7 @@
 		)
 		(uuid "1e09c6d9-2f6c-4c12-a2f3-98455d0a5c46")
 	)
-	(label "A3"
+	(label "A3IC3"
 		(at 260.35 116.84 0)
 		(effects
 			(font
@@ -8581,7 +8581,7 @@
 		)
 		(uuid "201365c3-c34f-4ba1-b143-0cb87e18996f")
 	)
-	(label "UB"
+	(label "UBIC3"
 		(at 358.14 118.11 0)
 		(effects
 			(font
@@ -8601,7 +8601,7 @@
 		)
 		(uuid "21cc9856-c1bb-4417-b6cf-027e67de106a")
 	)
-	(label "IO05"
+	(label "IO05IC3"
 		(at 260.35 99.06 0)
 		(effects
 			(font
@@ -8611,7 +8611,7 @@
 		)
 		(uuid "21db0330-3841-4621-a494-5f27abbf31d9")
 	)
-	(label "A10"
+	(label "A10IC3"
 		(at 260.35 190.5 0)
 		(effects
 			(font
@@ -8631,7 +8631,7 @@
 		)
 		(uuid "23289b57-e45c-4d44-8d9c-4f6677a7ef69")
 	)
-	(label "A16"
+	(label "A16IC3"
 		(at 260.35 88.9 0)
 		(effects
 			(font
@@ -8641,17 +8641,17 @@
 		)
 		(uuid "241149dc-296e-45b7-9c26-1e2d01679889")
 	)
-	(label "IO05"
-		(at 306.07 140.97 0)
+	(label "IO05IC3"
+		(at 306.07 140.97 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "24a8344c-f4a7-4e4c-9d88-bdb96614d72a")
 	)
-	(label "A8"
+	(label "A8IC3"
 		(at 260.35 147.32 0)
 		(effects
 			(font
@@ -8661,7 +8661,7 @@
 		)
 		(uuid "24b32acc-cb50-4fd3-999e-b51af2a4cb60")
 	)
-	(label "IO15"
+	(label "IO15IC3"
 		(at 336.55 123.19 0)
 		(effects
 			(font
@@ -8671,7 +8671,7 @@
 		)
 		(uuid "2518276e-15d2-4bd3-84b8-963a45e94583")
 	)
-	(label "A9"
+	(label "A9IC3"
 		(at 260.35 180.34 0)
 		(effects
 			(font
@@ -8691,7 +8691,7 @@
 		)
 		(uuid "26937bb9-ab9a-4cb4-9132-0520309c9e9e")
 	)
-	(label "A18"
+	(label "A18IC3"
 		(at 306.07 156.21 180)
 		(effects
 			(font
@@ -8712,7 +8712,7 @@
 		(uuid "292e2e97-fca0-4881-808d-9b942bae3172")
 	)
 	(label "K16"
-		(at 172.72 91.44 180)
+		(at 186.69 91.44 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8721,7 +8721,7 @@
 		)
 		(uuid "2d54b92c-e630-46d9-83f4-9ef59f0b7ecb")
 	)
-	(label "A0"
+	(label "A0IC3"
 		(at 260.35 114.3 0)
 		(effects
 			(font
@@ -8731,7 +8731,7 @@
 		)
 		(uuid "2e59cf7e-fdba-45d5-af21-197e07e0d609")
 	)
-	(label "A17"
+	(label "A17IC3"
 		(at 260.35 109.22 0)
 		(effects
 			(font
@@ -8741,7 +8741,7 @@
 		)
 		(uuid "2e8bd198-2cdc-41b6-afb9-09458bd90e66")
 	)
-	(label "A20"
+	(label "A20IC3"
 		(at 336.55 148.59 0)
 		(effects
 			(font
@@ -8781,7 +8781,7 @@
 		)
 		(uuid "33494e3a-3325-43c6-a71d-3c0e493cae30")
 	)
-	(label "IO04"
+	(label "IO04IC3"
 		(at 260.35 149.86 0)
 		(effects
 			(font
@@ -8851,17 +8851,17 @@
 		)
 		(uuid "46949d67-8127-4528-81b2-9a7009564953")
 	)
-	(label "IO02"
-		(at 306.07 128.27 0)
+	(label "IO02IC3"
+		(at 306.07 128.27 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "48285c7d-3b74-4cce-91b0-ede8bae7a731")
 	)
-	(label "A1"
+	(label "A1IC3"
 		(at 306.07 113.03 180)
 		(effects
 			(font
@@ -8871,13 +8871,13 @@
 		)
 		(uuid "48950b3b-80b7-49e5-8142-a483d61815ff")
 	)
-	(label "IO03"
-		(at 306.07 130.81 0)
+	(label "IO03IC3"
+		(at 306.07 130.81 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "4924ab24-d848-4413-9938-a79baf7d412d")
 	)
@@ -8891,17 +8891,17 @@
 		)
 		(uuid "4b287532-6fc9-40f8-8e9e-434a8e1fee60")
 	)
-	(label "IO01"
-		(at 306.07 125.73 0)
+	(label "IO01IC3"
+		(at 306.07 125.73 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "4cb7f091-aaa6-435e-98f7-272cc0e387ae")
 	)
-	(label "IO13"
+	(label "IO13IC3"
 		(at 260.35 165.1 0)
 		(effects
 			(font
@@ -8912,7 +8912,7 @@
 		(uuid "4ecc1a1d-6723-4110-9b2e-d2f45f8ab14d")
 	)
 	(label "K15"
-		(at 172.72 88.9 180)
+		(at 186.69 88.9 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8921,7 +8921,7 @@
 		)
 		(uuid "4f6da924-15cd-49e7-8826-cb1d6e1b6389")
 	)
-	(label "A2"
+	(label "A2IC3"
 		(at 260.35 119.38 0)
 		(effects
 			(font
@@ -8951,7 +8951,7 @@
 		)
 		(uuid "5638a4ec-a95d-4585-9d45-af6ea6215778")
 	)
-	(label "A3"
+	(label "A3IC3"
 		(at 306.07 107.95 180)
 		(effects
 			(font
@@ -8971,7 +8971,7 @@
 		)
 		(uuid "5a502d32-84a4-42b9-9b36-91c6c00a40a6")
 	)
-	(label "A2"
+	(label "A2IC3"
 		(at 306.07 110.49 180)
 		(effects
 			(font
@@ -8981,7 +8981,7 @@
 		)
 		(uuid "5ae981b5-ce19-47f6-acfb-3318f751981d")
 	)
-	(label "IO14"
+	(label "IO14IC3"
 		(at 336.55 125.73 0)
 		(effects
 			(font
@@ -9001,7 +9001,7 @@
 		)
 		(uuid "65574a7f-a744-44a6-b6be-80b7a389e9af")
 	)
-	(label "A19"
+	(label "A19IC3"
 		(at 260.35 91.44 0)
 		(effects
 			(font
@@ -9011,7 +9011,7 @@
 		)
 		(uuid "65cede15-9008-4e02-ae23-1196f38197dc")
 	)
-	(label "A1"
+	(label "A1IC3"
 		(at 260.35 144.78 0)
 		(effects
 			(font
@@ -9041,7 +9041,7 @@
 		)
 		(uuid "683142ec-3808-44c5-9b13-ef6aa236fa61")
 	)
-	(label "CS"
+	(label "CSIC3"
 		(at 287.02 120.65 0)
 		(effects
 			(font
@@ -9051,7 +9051,7 @@
 		)
 		(uuid "6893ce94-a852-4fab-85be-f63a8004f14d")
 	)
-	(label "IO10"
+	(label "IO10IC3"
 		(at 336.55 140.97 0)
 		(effects
 			(font
@@ -9061,7 +9061,7 @@
 		)
 		(uuid "69e2541b-56c2-4b26-9a9a-d6da0a53b8d7")
 	)
-	(label "OE"
+	(label "OEIC3"
 		(at 260.35 132.08 0)
 		(effects
 			(font
@@ -9071,7 +9071,7 @@
 		)
 		(uuid "6a887558-1a20-4a31-852b-1a920af954e5")
 	)
-	(label "A4"
+	(label "A4IC3"
 		(at 306.07 105.41 180)
 		(effects
 			(font
@@ -9081,7 +9081,7 @@
 		)
 		(uuid "6b72b0a0-5f8f-4243-9296-86766adda283")
 	)
-	(label "A19"
+	(label "A19IC3"
 		(at 306.07 153.67 180)
 		(effects
 			(font
@@ -9112,7 +9112,7 @@
 		(uuid "73a3593e-640e-4472-84c1-c533b31ed0fe")
 	)
 	(label "J14"
-		(at 172.72 86.36 180)
+		(at 186.69 86.36 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9121,7 +9121,7 @@
 		)
 		(uuid "740a388d-d094-44b2-ac98-aa3e6e1925a7")
 	)
-	(label "A14"
+	(label "A14IC3"
 		(at 260.35 195.58 0)
 		(effects
 			(font
@@ -9131,7 +9131,7 @@
 		)
 		(uuid "746f7191-9208-4dfd-a294-00d262653078")
 	)
-	(label "A4"
+	(label "A4IC3"
 		(at 260.35 121.92 0)
 		(effects
 			(font
@@ -9141,7 +9141,7 @@
 		)
 		(uuid "74e8b02c-e178-40f3-91e1-10afeb30bb17")
 	)
-	(label "A11"
+	(label "A11IC3"
 		(at 336.55 156.21 0)
 		(effects
 			(font
@@ -9151,7 +9151,7 @@
 		)
 		(uuid "75ed70d8-d96c-4f4c-aea6-7ace7746cd66")
 	)
-	(label "A7"
+	(label "A7IC3"
 		(at 336.55 110.49 0)
 		(effects
 			(font
@@ -9211,7 +9211,7 @@
 		)
 		(uuid "7e2244d2-7c88-4753-a667-54e4965be6e1")
 	)
-	(label "A6"
+	(label "A6IC3"
 		(at 260.35 127 0)
 		(effects
 			(font
@@ -9271,7 +9271,7 @@
 		)
 		(uuid "8d6814b3-3e86-44e6-b9b4-903a0bfed215")
 	)
-	(label "LB"
+	(label "LBIC3"
 		(at 260.35 157.48 0)
 		(effects
 			(font
@@ -9281,7 +9281,7 @@
 		)
 		(uuid "901b0067-4f5b-4918-882b-90223511b31e")
 	)
-	(label "A7"
+	(label "A7IC3"
 		(at 260.35 124.46 0)
 		(effects
 			(font
@@ -9301,7 +9301,7 @@
 		)
 		(uuid "90e0ad19-4a0c-4674-8fd1-e9deeefda96a")
 	)
-	(label "A11"
+	(label "A11IC3"
 		(at 260.35 200.66 0)
 		(effects
 			(font
@@ -9321,7 +9321,7 @@
 		)
 		(uuid "92e2e32d-b182-4534-af2e-f1fbe1910ae4")
 	)
-	(label "WE"
+	(label "WEIC3"
 		(at 293.37 148.59 0)
 		(effects
 			(font
@@ -9341,7 +9341,7 @@
 		)
 		(uuid "938cf7b5-82dd-4750-89b8-73be8917474b")
 	)
-	(label "A6"
+	(label "A6IC3"
 		(at 336.55 107.95 0)
 		(effects
 			(font
@@ -9421,7 +9421,7 @@
 		)
 		(uuid "9d434214-bb80-4745-afc7-8832ea22372c")
 	)
-	(label "A0"
+	(label "A0IC3"
 		(at 306.07 115.57 180)
 		(effects
 			(font
@@ -9431,7 +9431,7 @@
 		)
 		(uuid "9f92e178-aaf0-45ea-b62a-bd57638539d7")
 	)
-	(label "A5"
+	(label "A5IC3"
 		(at 260.35 154.94 0)
 		(effects
 			(font
@@ -9461,7 +9461,7 @@
 		)
 		(uuid "a7db5f3e-260e-4fff-aeeb-872b9470f8a2")
 	)
-	(label "IO00"
+	(label "IO00IC3"
 		(at 260.35 104.14 0)
 		(effects
 			(font
@@ -9471,7 +9471,7 @@
 		)
 		(uuid "a92a3aa4-2ed1-4315-8f64-999bdc930f52")
 	)
-	(label "IO13"
+	(label "IO13IC3"
 		(at 336.55 128.27 0)
 		(effects
 			(font
@@ -9491,7 +9491,7 @@
 		)
 		(uuid "ab43889a-fc3e-4df5-9bd6-57934fb27fcf")
 	)
-	(label "A15"
+	(label "A15IC3"
 		(at 306.07 163.83 180)
 		(effects
 			(font
@@ -9501,13 +9501,13 @@
 		)
 		(uuid "ace299d1-8664-4d1f-a3fb-d200cf14b5a5")
 	)
-	(label "IO06"
-		(at 306.07 143.51 0)
+	(label "IO06IC3"
+		(at 306.07 143.51 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "acf1d547-17f7-43f9-b9b9-8a02f0325451")
 	)
@@ -9521,7 +9521,7 @@
 		)
 		(uuid "af0d127e-2880-4262-9267-4f0d48c83cec")
 	)
-	(label "A13"
+	(label "A13IC3"
 		(at 336.55 161.29 0)
 		(effects
 			(font
@@ -9541,7 +9541,7 @@
 		)
 		(uuid "b1bf72f3-ef16-4503-b850-5fe35222f134")
 	)
-	(label "IO11"
+	(label "IO11IC3"
 		(at 336.55 138.43 0)
 		(effects
 			(font
@@ -9551,7 +9551,7 @@
 		)
 		(uuid "b2e3de13-f066-444c-bc88-938cdfbf0f4d")
 	)
-	(label "A12"
+	(label "A12IC3"
 		(at 336.55 158.75 0)
 		(effects
 			(font
@@ -9571,7 +9571,7 @@
 		)
 		(uuid "b55a4689-e067-4281-aae2-e3968d1d6ed5")
 	)
-	(label "IO02"
+	(label "IO02IC3"
 		(at 260.35 134.62 0)
 		(effects
 			(font
@@ -9611,7 +9611,7 @@
 		)
 		(uuid "b9af8e92-23a3-41fe-9ff0-ea12dfcfcd9d")
 	)
-	(label "A10"
+	(label "A10IC3"
 		(at 336.55 153.67 0)
 		(effects
 			(font
@@ -9621,7 +9621,7 @@
 		)
 		(uuid "ba274949-03e8-4784-9685-19c4eb56c48c")
 	)
-	(label "IO01"
+	(label "IO01IC3"
 		(at 260.35 106.68 0)
 		(effects
 			(font
@@ -9631,13 +9631,13 @@
 		)
 		(uuid "ba2c9d10-25ed-4205-acca-b6ea10017682")
 	)
-	(label "IO04"
-		(at 306.07 138.43 0)
+	(label "IO04IC3"
+		(at 306.07 138.43 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "ba59bb99-3ae8-42c2-9a3d-dc40ea8473d6")
 	)
@@ -9681,7 +9681,7 @@
 		)
 		(uuid "bfe0d52d-7d13-4639-9d13-71ab75d44454")
 	)
-	(label "IO10"
+	(label "IO10IC3"
 		(at 260.35 187.96 0)
 		(effects
 			(font
@@ -9691,7 +9691,7 @@
 		)
 		(uuid "c186a17e-253e-4580-a44e-07c756dd709c")
 	)
-	(label "A8"
+	(label "A8IC3"
 		(at 336.55 113.03 0)
 		(effects
 			(font
@@ -9711,7 +9711,7 @@
 		)
 		(uuid "c3642f5d-ea8a-4c6d-9c3e-eacbc16646c5")
 	)
-	(label "A15"
+	(label "A15IC3"
 		(at 260.35 83.82 0)
 		(effects
 			(font
@@ -9721,7 +9721,7 @@
 		)
 		(uuid "c3dc3426-d166-44cc-815c-e3d2f9e0a9cc")
 	)
-	(label "IO06"
+	(label "IO06IC3"
 		(at 260.35 96.52 0)
 		(effects
 			(font
@@ -9751,7 +9751,7 @@
 		)
 		(uuid "c52e3cc2-bafc-44ab-a03e-1ffaece47e01")
 	)
-	(label "IO9"
+	(label "IO9IC3"
 		(at 260.35 185.42 0)
 		(effects
 			(font
@@ -9761,7 +9761,7 @@
 		)
 		(uuid "c5abcfa0-2817-4a5c-a391-0dc357444ee0")
 	)
-	(label "A5"
+	(label "A5IC3"
 		(at 336.55 105.41 0)
 		(effects
 			(font
@@ -9791,7 +9791,7 @@
 		)
 		(uuid "cd9f50ef-c719-4487-a46c-cda8f20c62f5")
 	)
-	(label "A14"
+	(label "A14IC3"
 		(at 336.55 163.83 0)
 		(effects
 			(font
@@ -9831,7 +9831,7 @@
 		)
 		(uuid "d6427ede-dfba-4340-8bda-12c060715ff5")
 	)
-	(label "A18"
+	(label "A18IC3"
 		(at 260.35 111.76 0)
 		(effects
 			(font
@@ -9841,7 +9841,7 @@
 		)
 		(uuid "d88d0591-45a2-4b4a-8e9f-200e294aa134")
 	)
-	(label "IO12"
+	(label "IO12IC3"
 		(at 260.35 162.56 0)
 		(effects
 			(font
@@ -9861,7 +9861,7 @@
 		)
 		(uuid "da4c50bb-33e5-4da7-b21b-fb2eb2c265a5")
 	)
-	(label "A12"
+	(label "A12IC3"
 		(at 260.35 182.88 0)
 		(effects
 			(font
@@ -9871,7 +9871,7 @@
 		)
 		(uuid "dbe15df7-8a84-4b7c-a951-702ed84fc15c")
 	)
-	(label "IO12"
+	(label "IO12IC3"
 		(at 336.55 130.81 0)
 		(effects
 			(font
@@ -9881,13 +9881,13 @@
 		)
 		(uuid "dc056388-2d6b-46fe-8504-71f46c2d24a9")
 	)
-	(label "IO07"
-		(at 306.07 146.05 0)
+	(label "IO07IC3"
+		(at 306.07 146.05 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "dd1ec5c4-ab6f-404d-817a-389effaf4f00")
 	)
@@ -9901,7 +9901,7 @@
 		)
 		(uuid "de3078fe-2e09-4b71-8652-5269e9d1386b")
 	)
-	(label "IO03"
+	(label "IO03IC3"
 		(at 260.35 101.6 0)
 		(effects
 			(font
@@ -9941,7 +9941,7 @@
 		)
 		(uuid "e1583fbc-6f85-4e53-ac77-3f40d2996a29")
 	)
-	(label "A16"
+	(label "A16IC3"
 		(at 306.07 161.29 180)
 		(effects
 			(font
@@ -9961,13 +9961,13 @@
 		)
 		(uuid "e3f7f58e-5220-46b5-a021-22ca8561109f")
 	)
-	(label "IO00"
-		(at 306.07 123.19 0)
+	(label "IO00IC3"
+		(at 306.07 123.19 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "e42c83c9-5d36-40b4-a387-d3e1862eb73a")
 	)
@@ -10021,7 +10021,7 @@
 		)
 		(uuid "eafbe033-359f-4a3f-ab2d-9760664200f3")
 	)
-	(label "OE"
+	(label "OEIC3"
 		(at 359.41 115.57 0)
 		(effects
 			(font
@@ -10051,7 +10051,7 @@
 		)
 		(uuid "eccfe78b-3921-4a66-92d1-7cdbb386c9d2")
 	)
-	(label "A17"
+	(label "A17IC3"
 		(at 306.07 158.75 180)
 		(effects
 			(font
@@ -10061,7 +10061,7 @@
 		)
 		(uuid "ed0b00d9-1d67-4e0a-a623-66ce80f238c4")
 	)
-	(label "IO9"
+	(label "IO9IC3"
 		(at 336.55 143.51 0)
 		(effects
 			(font
@@ -10101,7 +10101,7 @@
 		)
 		(uuid "f245bb49-00f9-4a8d-ac3b-d4af82f114ff")
 	)
-	(label "LB"
+	(label "LBIC3"
 		(at 356.87 120.65 0)
 		(effects
 			(font
@@ -10111,7 +10111,7 @@
 		)
 		(uuid "f5438b8a-6116-4404-bc38-cd6a88d5b6d1")
 	)
-	(label "A13"
+	(label "A13IC3"
 		(at 260.35 198.12 0)
 		(effects
 			(font
@@ -10131,7 +10131,7 @@
 		)
 		(uuid "f96f7e9a-68c7-4d3c-808c-2cb94bf5faac")
 	)
-	(label "WE"
+	(label "WEIC3"
 		(at 260.35 93.98 0)
 		(effects
 			(font
@@ -10549,6 +10549,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Pins" ""
+			(at 149.86 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "e53cd440-2ad7-482f-84e2-9098fc9a69f5")
 		)
@@ -10678,6 +10687,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 91.44 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 91.44 73.66 0)
 			(effects
 				(font
@@ -10888,6 +10906,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Pins" ""
+			(at 116.84 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "42315e8c-897d-4b0b-8282-554353ed70b9")
 		)
@@ -11089,6 +11116,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Pins" ""
+			(at 114.3 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f0f38d69-adb3-4575-9eb5-cf67fac77625")
 		)
@@ -11223,6 +11259,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Pins" ""
+			(at 232.41 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "b9c42065-a922-4ec4-b260-daf68c6f2141")
 		)
@@ -11292,6 +11337,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Pins" ""
+			(at 142.24 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1659fe20-dd6b-4863-abce-6bfaeda4565c")
 		)
@@ -11352,6 +11406,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 73.66 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 73.66 170.18 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11494,6 +11557,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Pins" ""
+			(at 110.49 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "77b6c328-d7f4-4c83-ac18-2130011c8e1d")
 		)
@@ -11555,6 +11627,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 309.88 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 309.88 67.31 0)
 			(effects
 				(font
@@ -11632,6 +11713,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Pins" ""
+			(at 325.12 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "105c901f-5653-42ea-8218-21fd3f3a8870")
 		)
@@ -11692,6 +11782,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 73.66 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 73.66 165.1 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11760,6 +11859,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 104.14 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 104.14 73.66 0)
 			(effects
 				(font
@@ -12035,6 +12143,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Pins" ""
+			(at 123.19 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9608aeec-572a-4632-950b-85e0ab0a7718")
 		)
@@ -12096,6 +12213,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 304.8 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 304.8 67.31 0)
 			(effects
 				(font
@@ -12302,6 +12428,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Pins" ""
+			(at 73.66 185.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "df387ecb-00e4-4f13-aaef-17753a1f7428")
 		)
@@ -12371,6 +12506,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Pins" ""
+			(at 223.52 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "b9c42065-a922-4ec4-b260-daf68c6f2142")
 		)
@@ -12432,6 +12576,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 119.38 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 119.38 245.11 0)
 			(effects
 				(font
@@ -12623,6 +12776,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 306.07 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -12900,6 +13062,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Pins" ""
+			(at 97.79 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9608aeec-572a-4632-950b-85e0ab0a7719")
 		)
@@ -12969,6 +13140,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Pins" ""
+			(at 195.58 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9a6943d6-baf0-4d6a-bbad-0d86508f5a29")
 		)
@@ -13030,6 +13210,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 107.95 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 107.95 121.92 0)
 			(effects
 				(font
@@ -13305,6 +13494,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Pins" ""
+			(at 320.04 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "837c4d27-0de5-44c1-8a53-d1424630bf6a")
 		)
@@ -13365,6 +13563,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 73.66 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 73.66 175.26 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13508,6 +13715,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Pins" ""
+			(at 240.03 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e2c71151-3e3e-4e35-8fcc-d110a00baacb")
 		)
@@ -13569,6 +13785,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 133.35 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 133.35 124.46 0)
 			(effects
 				(font
@@ -13768,6 +13993,15 @@
 			)
 		)
 		(property "Description" "Artix 7 T 100 XC7A100T-FTG256"
+			(at 237.49 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 237.49 134.62 0)
 			(effects
 				(font
@@ -14722,6 +14956,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Pins" ""
+			(at 114.3 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "43"
 			(uuid "7f535da0-23b2-4d35-9ea3-7bfffa489737")
 		)
@@ -14929,6 +15172,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Pins" ""
+			(at 156.21 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "f89c5426-62a1-4e9b-b91b-39c1bc4a5ec7")
 		)
@@ -15016,6 +15268,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Pins" ""
+			(at 129.54 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9608aeec-572a-4632-950b-85e0ab0a771a")
 		)
@@ -15077,6 +15338,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 125.73 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 125.73 121.92 0)
 			(effects
 				(font
@@ -15152,6 +15422,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Pins" ""
+			(at 73.66 180.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "df387ecb-00e4-4f13-aaef-17753a1f742a")
 		)
@@ -15213,6 +15492,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 148.59 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 148.59 73.66 0)
 			(effects
 				(font
@@ -15555,6 +15843,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Pins" ""
+			(at 161.29 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "343294e2-423d-4704-95b8-78e41bfe1db7")
 		)
@@ -15616,6 +15913,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 140.97 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 140.97 243.84 0)
 			(effects
 				(font
@@ -15693,6 +15999,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Pins" ""
+			(at 154.94 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1203e4f2-e1fc-45ed-b278-d10dbec138f8")
 		)
@@ -15754,6 +16069,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 135.89 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 135.89 73.66 0)
 			(effects
 				(font
@@ -15898,6 +16222,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Pins" ""
+			(at 314.96 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "aa09e51c-74b9-49fa-aa95-059fe62ef1a0")
 		)
@@ -15967,6 +16300,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Pins" ""
+			(at 157.48 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9c00cc2d-1ff6-4e08-be1c-c3036e3bf671")
 		)
@@ -16028,6 +16370,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 167.64 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 167.64 73.66 0)
 			(effects
 				(font

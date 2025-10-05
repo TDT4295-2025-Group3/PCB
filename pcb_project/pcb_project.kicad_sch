@@ -3088,6 +3088,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Pins" ""
+			(at 137.16 148.59 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "37f7f054-890a-4a9f-a305-79570d4b1982")
 		)
@@ -3222,6 +3231,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Pins" ""
+			(at 132.08 180.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4f405e80-6c0c-4ea9-b1de-3a4c3bc4dd8c")
 		)
@@ -3282,6 +3300,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 134.62 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 134.62 180.34 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3356,6 +3383,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Pins" ""
+			(at 127 156.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "936ac933-40a0-4cfa-88cf-d7457b181475")
 		)
@@ -3416,6 +3452,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 139.7 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 139.7 180.34 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3490,6 +3535,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Pins" ""
+			(at 127 161.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c1118cce-25f0-4d1b-b772-c72f9b4afa1c")
 		)
@@ -3549,6 +3603,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 127 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 127 130.81 0)
 			(effects
 				(font
@@ -3617,6 +3680,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 149.86 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 149.86 180.34 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3693,6 +3765,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Pins" ""
+			(at 118.11 180.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "8b4dcab5-1633-4661-9d5f-170ff20ba4d4")
 		)
@@ -3760,6 +3841,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Pins" ""
+			(at 144.78 148.59 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ce16030c-9821-4bab-8e8f-c73f63602482")
 		)
@@ -3819,6 +3909,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 127 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 127 143.51 0)
 			(effects
 				(font
@@ -3894,6 +3993,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Pins" ""
+			(at 144.78 180.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4cccf2bf-09d9-47aa-a93f-7b932f803f72")
 		)
@@ -3953,6 +4061,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 123.19 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 123.19 180.34 0)
 			(effects
 				(font
@@ -4163,6 +4280,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Pins" ""
+			(at 137.16 189.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "8"
 			(uuid "3221007a-d7cb-4cca-a186-f6772ee4299d")
 		)
@@ -4247,6 +4373,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 147.32 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 147.32 148.59 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4380,6 +4515,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 127 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 127 137.16 0)
 			(effects
 				(font
@@ -4522,6 +4666,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Pins" ""
+			(at 127 171.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "11367cb3-c0c5-4258-bdbb-5aea8135e6d0")
 		)
@@ -4655,6 +4808,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Pins" ""
+			(at 142.24 180.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1157cf22-cebb-4e05-9a49-22bca60179fa")
 		)
@@ -4715,6 +4877,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 127 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 127 166.37 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4856,6 +5027,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Pins" ""
+			(at 147.32 180.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d7ab9590-3cc7-45ac-8de9-62edb5544c87")
 		)
@@ -4981,6 +5161,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 127 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 127 124.46 0)
 			(effects
 				(font
@@ -5122,6 +5311,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Pins" ""
+			(at 137.16 180.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f1a93993-c0ac-44cf-a5be-fd28e0ed2790")
 		)
@@ -5182,6 +5380,15 @@
 		)
 		(property "Description" "Resistor"
 			(at 139.7 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 139.7 148.59 90)
 			(effects
 				(font
 					(size 1.27 1.27)
